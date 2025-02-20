@@ -1,21 +1,76 @@
-# Bash Parameter Expansion
+Bash parameter expansion is a powerful feature in shell scripting that allows for dynamic manipulation of variables and strings. This knowledge base entry provides an in-depth guide to Bash parameter expansion, covering syntax, default values, string substitutions, slicing, and transformation.
 
-## Description
-Bash paremeter expansion 101...
+## Technical Content
+### Parameter Expansion Syntax
+The syntax for parameter expansion is as follows:
 
-## Content
-Bash paremeter expansion 101
+| Option | Description |
+| --- | --- |
+| `${parameter}` | Expands to the value of `parameter` |
+| `${parameter:-default_value}` | Expands to the value of `parameter` if set, otherwise expands to `default_value` |
+| `${parameter:=default_value}` | Expands to the value of `parameter` if set, otherwise sets `parameter` to `default_value` and expands to it |
+| `${parameter:?error_message}` | Expands to the value of `parameter` if set, otherwise prints `error_message` to stderr and exits the shell |
 
-## Category Information
+### Default Values
+The following table lists default values for parameters:
 
-- Main Category: programming_languages
-- Sub Category: shell_scripting
-- Item Name: bash_parameter_expansion
+| Parameter | Default Value |
+| --- | --- |
+| `parameter` | Empty string if not set |
+| `parameter:-default_value` | `default_value` if `parameter` is not set |
+| `parameter:=default_value` | Sets `parameter` to `default_value` and expands to it if `parameter` is not set |
 
+Substrings can be used to manipulate parameter values. For example, `${parameter:offset:length}` expands to a substring of `parameter`, starting at `offset` and with a maximum length of `length`.
+
+### String Substitutions
+String substitutions allow for replacing placeholders in strings with actual values. The following example demonstrates how to use string substitutions:
+```bash
+name="John"
+echo "Hello, $name!"  # Output: Hello, John!
+```
+In this example, the placeholder `$name` is replaced with the actual value of the `name` variable.
+
+### String Slicing
+String slicing allows for extracting substrings from strings. The following example demonstrates how to use string slicing:
+```bash
+string="Hello World"
+echo "${string:6}"  # Output: World
+```
+In this example, the substring starting at offset 6 is extracted from the `string` variable.
+
+### String Transformation
+Bash provides various string transformation techniques, including concatenation, substitution, and insertion. The following examples demonstrate each technique:
+```bash
+# Concatenation
+string1="Hello"
+string2="World"
+echo "$string1 $string2"  # Output: Hello World
+
+# Substitution
+string="Hello World"
+echo "${string/World/Bash}"  # Output: Hello Bash
+
+# Insertion
+string="Hello World"
+echo "Bash ${string}"  # Output: Bash Hello World
+```
+In these examples, the `string1` and `string2` variables are concatenated, the `World` substring is substituted with `Bash`, and the string `Bash` is inserted before the value of the `string` variable.
+
+## Key Takeaways and Best Practices
+
+* Use parameter expansion to dynamically manipulate variables and strings in Bash scripts.
+* Understand the syntax and options available for parameter expansion, including default values, substrings, and string substitutions.
+* Use string slicing to extract substrings from strings.
+* Use string transformation techniques, such as concatenation, substitution, and insertion, to manipulate strings.
+
+## References
+* [Bash Documentation](https://www.gnu.org/software/bash/manual/html_node/index.html)
+* [Shell Scripting Tutorial](https://www.tutorialspoint.com/unix/shell_scripting.htm)
 ## Source
 
 - Original Tweet: [https://twitter.com/i/web/status/1875561282302357530](https://twitter.com/i/web/status/1875561282302357530)
-- Date: 2025-02-20 15:36:34
+- Date: 2025-02-20 15:58:14
+
 
 ## Media
 
@@ -50,5 +105,4 @@ Bash paremeter expansion 101
 
 In summary, the image offers a thorough introduction to Bash parameter expansion, covering essential concepts such as syntax, default values, string substitutions, slicing, and transformation. By following along with the examples and code snippets, users can gain a solid understanding of how to effectively utilize these features in their Bash scripts.
 
-
-*Last updated: 2025-02-20 15:36:34*
+*Last updated: 2025-02-20 15:58:14*
