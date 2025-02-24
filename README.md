@@ -1,72 +1,105 @@
-# Welcome to the Technical Knowledge Base
-The technical knowledge base is a comprehensive repository of technical information, covering a wide range of topics and categories. With over 30 categories and subcategories, and more than 50 items, this knowledge base is an invaluable resource for anyone looking to expand their technical expertise.
+# Introduction
+Welcome to our comprehensive knowledge base, covering a wide range of topics from system design and networking to hardware and software development. This database is designed to provide you with a one-stop resource for exploring various technical subjects in depth.
 
-## Overview
-* Total Items: 50+
-* Categories: 30+
-* Subcategories: 100+
+# Overview
+Our knowledge base currently encompasses **34 categories** and **subcategories**, totaling **63 items**. These resources are meticulously organized to facilitate easy navigation and access to the information you need.
 
-## Quick Navigation
-* [System Design](#system-design)
-	+ [API Design](#api-design)
-	+ [Microservices](#microservices)
-	+ [Scalability](#scalability)
-	+ [Architecture Patterns](#architecture-patterns)
-	+ [Distributed Systems](#distributed-systems)
-* [Web Development](#web-development)
-	+ [APIs](#apis)
-	+ [Realtime Web Applications](#realtime-web-applications)
-* [Networking](#networking)
-	+ [DNS](#dns)
-	+ [Load Balancing](#load-balancing)
-	+ [Network Protocols](#network-protocols)
-* [Hardware and Peripherals](#hardware-and-peripherals)
-	+ [Location Tracking Devices](#location-tracking-devices)
-* [Database](#database)
-	+ [Scaling](#scaling)
+# Quick Navigation
+For your convenience, here is a quick link to all our categories and subcategories:
+- [System Design](#system-design)
+  - [API Design](#api-design)
+  - [Microservices](#microservices)
+  - [Scalability](#scalability)
+  - [Architecture Patterns](#architecture-patterns)
+  - [Distributed Systems](#distributed-systems)
+  - [Networking](#networking)
+- [Development](#development)
+- [Hardware and Peripherals](#hardware-and-peripherals)
+- [Software Development](#software-development)
 
-## Recent Updates
-The following items have been recently updated:
-1. [API Gateway Functions](system_design/api_design/api_gateway_functions.md)
-2. [DNS Record Types](system_design/networking/dns_record_types.md)
-3. [Load Balancing Algorithms](system_design/load_balancing/load_balancing_algorithms.md)
-4. [Microservices Architecture Design](system_design/microservices/microservices_architecture_design.md)
-5. [Publish Subscribe Pattern (Pub Sub)](system_design/distributed_systems/publish_subscribe_pattern_pub_sub.md)
-
-## Detailed Categories
-### System Design
 <a name="system-design"></a>
+# System Design
+System design encompasses the planning and organization of systems across various scales and complexities. It includes:
+
 | Item | Description |
 | --- | --- |
-| [API Design](system_design/api_design/api_basics.md) | Understanding Application Programming Interfaces |
-| [Microservices](system_design/microservices/microservices_architecture_design.md) | Designing Fine Grained Systems |
-| [Scalability](system_design/scalability/database_scaling_guide.md) | Introduction to Database Scaling |
-| [Architecture Patterns](system_design/architecture_patterns/resiliency_patterns_for_system_design.md) | Essential patterns for building robust systems |
-| [Distributed Systems](system_design/distributed_systems/publish_subscribe_pattern_pub_sub.md) | Pub/Sub pattern for distributed systems |
+| [API Basics](path/to/api-basics) | Understanding Application Programming Interfaces |
+| [Microservices Architecture](path/to/microservices-architecture) | Designing Fine Grained Systems |
+| [Database Scaling Guide](path/to/database-scaling-guide) | Introduction to Database Scaling |
+| [OSI vs TCP/IP Models](path/to/osi-vs-tcp-ip-models) | Understanding Network Architecture |
+| [Resiliency Patterns](path/to/resiliency-patterns) | For System Design |
+| [Load Balancing Algorithms](path/to/load-balancing-algorithms) | A Comprehensive Overview |
 
-### Web Development
-<a name="web-development"></a>
+<a name="api-design"></a>
+## API Design
+API design is crucial for enabling different applications to communicate with each other. Key topics include:
+
 | Item | Description |
 | --- | --- |
-| [APIs](web_development/apis/api_basics.md) | Understanding Application Programming Interfaces |
-| [Realtime Web Applications](web_development/realtime_web_applications/building_realtime_web_applications.md) | Introduction to building realtime web applications |
+| [REST API Architectural Constraints](path/to/rest-api-architectural-constraints) | The six constraints that define a RESTful API |
+| [API Pagination Techniques](path/to/api-pagination-techniques) | Common methods for paginating data in APIs |
+| [API Gateway Functions](path/to/api-gateway-functions) | Primary functions of an API gateway |
 
-### Networking
+<a name="microservices"></a>
+## Microservices
+Microservices architecture is about structuring applications as collections of small, independent services. This includes:
+
+| Item | Description |
+| --- | --- |
+| [Designing Fine Grained Systems](path/to/designing-fine-grained-systems) | Best practices for microservices architecture |
+
+<a name="scalability"></a>
+## Scalability
+Scalability refers to the ability of a system to handle increased load without compromising performance. Topics include:
+
+| Item | Description |
+| --- | --- |
+| [Database Scaling](path/to/database-scaling) | Strategies for scaling databases |
+
+<a name="architecture-patterns"></a>
+## Architecture Patterns
+Architecture patterns provide proven solutions to common problems in software architecture, including:
+
+| Item | Description |
+| --- | --- |
+| [Resiliency Patterns](path/to/resiliency-patterns) | Essential patterns for building robust systems |
+
+<a name="distributed-systems"></a>
+## Distributed Systems
+Distributed systems are designed to distribute workload across multiple computers, enhancing performance and reliability. This includes:
+
+| Item | Description |
+| --- | --- |
+| [Publish Subscribe Pattern](path/to/publish-subscribe-pattern) | Pub/Sub pattern for distributed communication |
+
 <a name="networking"></a>
+## Networking
+Networking fundamentals cover protocols, architectures, and technologies that enable data communication over networks. Key topics are:
+
 | Item | Description |
 | --- | --- |
-| [DNS](system_design/networking/dns_record_types.md) | DNS record types and their uses |
-| [Load Balancing](system_design/load_balancing/load_balancing_algorithms.md) | Load balancing algorithms for distributed systems |
-| [Network Protocols](system_design/networking/network_protocols_overview.md) | Overview of popular network protocols |
+| [DNS Record Types](path/to/dns-record-types) | Common DNS record types |
+| [Address Resolution Protocol (ARP)](path/to/address-resolution-protocol-arp) | How ARP resolves IP to MAC addresses |
+| [NAT Explained](path/to/nat-explained) | Understanding Network Address Translation |
 
-### Hardware and Peripherals
+<a name="development"></a>
+# Development
+Development resources cover software development principles, practices, and tools. This includes topics on coding best practices, version control systems, and agile methodologies.
+
 <a name="hardware-and-peripherals"></a>
-| Item | Description |
-| --- | --- |
-| [Location Tracking Devices](hardware_and_peripherals/location_tracking_devices/airtag_functionality.md) | AirTag functionality and setup |
+# Hardware and Peripherals
+This category delves into the world of computer hardware and peripherals, including topics on CPU architecture, memory technologies, input/output devices, and networking hardware.
 
-### Database
-<a name="database"></a>
-| Item | Description |
-| --- | --- |
-| [Scaling](system_design/scalability/database_scaling_guide.md) | Introduction to database scaling |
+<a name="software-development"></a>
+# Software Development
+Software development encompasses a broad range of topics from programming languages to software engineering methodologies. It includes discussions on web development frameworks, mobile app development, and database management systems.
+
+# Recent Updates
+Here are the **5 most recently updated items** in our knowledge base:
+1. [System Design Questions](path/to/system-design-questions)
+2. [API Architectural Styles Comparison](path/to/api-architectural-styles-comparison)
+3. [DNS Basics](path/to/dns-basics)
+4. [Introduction to Microservices](path/to/introduction-to-microservices)
+5. [Network Protocols Overview](path/to/network-protocols-overview)
+
+We hope this comprehensive resource aids in your exploration and understanding of various technical topics. Please check back regularly for updates and new additions!
