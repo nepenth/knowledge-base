@@ -1,90 +1,68 @@
-# Welcome to Our Knowledge Base
-Our comprehensive knowledge base is designed to provide you with a wide range of information across various categories. With a total of over 50 items spread across 10 categories and numerous subcategories, you're sure to find what you're looking for.
+📚 Welcome to the Technical Knowledge Base
+This is a comprehensive collection of technical articles, guides, and tutorials covering various aspects of system design, networking, and software development.
 
-## Overview
-- **Total Items:** Over 50
-- **Categories:** 10
-- **Subcategories:** Numerous
+## 📊 Overview
+Our knowledge base currently contains:
+- 34 total items
+- 6 main categories: System Design, Networking, Development, Database, Security, and Cloud Computing
+- 23 subcategories
+- 15 media files
 
-## Quick Navigation
-To quickly find what you need, navigate through our categories:
-1. [System Design](#system-design)
-2. [Web Development](#web-development)
-3. [Hardware and Peripherals](#hardware-and-peripherals)
-4. [API Design](#api-design)
-5. [Networking](#networking)
-6. [Database](#database)
-7. [Microservices Architecture](#microservices-architecture)
-8. [Load Balancing](#load-balancing)
-9. [Distributed Systems](#distributed-systems)
-10. [Security](#security)
+---
+## 🧭 Quick Navigation
+- [System Design](#system-design)
+  - [Architecture Patterns](#architecture-patterns)
+  - [Scalability](#scalability)
+  - [Load Balancing](#load-balancing)
+- [Networking](#networking)
+  - [Protocols](#protocols)
+  - [Address Resolution](#address-resolution)
+- [Development](#development)
+  - [API Design](#api-design)
+  - [Database Development](#database-development)
 
-## Recent Updates
-Here are the 5 most recently updated items in our knowledge base:
-1. **API Pagination Techniques** - Updated with new methods for efficient data retrieval.
-2. **System Design Questions** - Expanded to include more examples and case studies.
-3. **DNS Crash Course** - Revised with clearer explanations of DNS resolution processes.
-4. **Microservices Architecture** - Added more details on service discovery and communication.
-5. **REST API Architectural Constraints** - Included examples of how each constraint applies to real-world scenarios.
+---
+## 🔔 Recent Updates
+| **Item** | **Description** | **Source URL** |
+| --- | --- | --- |
+| API Gateway Functions | Overview of API gateway functions | https://twitter.com/user/status/1873768521823601153 |
+| Rest Api Architectural Constraints | Description of REST API architectural constraints | https://twitter.com/user/status/1869403892007710750 |
+| Pub/Sub Pattern | Explanation of the Pub/Sub pattern |  |
+| Network Protocols Overview | Comprehensive overview of network protocols | https://twitter.com/user/status/1875600551146352755 |
+| Osi Vs Tcpip Models | Comparison of OSI and TCP/IP models |  |
 
-## Detailed Categories
-Below, you'll find detailed tables for each category and subcategory, listing every single item in our knowledge base.
+---
+## 📋 Detailed Categories
+<a name="system-design"></a>
+### System Design
+<details>
+<summary>Architecture Patterns</summary>
+| **Item** | **Description** | **Source URL** |
+| --- | --- | --- |
+| Osi Vs Tcpip Models | Comparison of OSI and TCP/IP models |  |
+| Resiliency Patterns For System Design | Overview of resiliency patterns | https://twitter.com/user/status/1883731027442778402 |
+</details>
+<details>
+<summary>Scalability</summary>
+| **Item** | **Description** | **Source URL** |
+| --- | --- | --- |
+| Database Scaling Guide | Introduction to database scaling |  |
+</details>
 
-### <a name="system-design"></a>System Design
-| Item | Description |
-| --- | --- |
-| [System Design Questions](path/to/system-design-questions) | Overview of system design questions with examples. |
-| [DNS Crash Course](path/to/dns-crash-course) | Comprehensive introduction to DNS resolution processes. |
-| [Microservices Architecture](path/to/microservices-architecture) | Guide to designing microservices-based systems. |
-| [REST API Architectural Constraints](path/to/rest-api-architectural-constraints) | Explanation of the six constraints for building RESTful APIs. |
+<a name="networking"></a>
+### Networking
+<details>
+<summary>Protocols</summary>
+| **Item** | **Description** | **Source URL** |
+| --- | --- | --- |
+| Network Protocols Overview | Comprehensive overview of network protocols | https://twitter.com/user/status/1875600551146352755 |
+</details>
+<details>
+<summary>Address Resolution</summary>
+| **Item** | **Description** | **Source URL** |
+| --- | --- | --- |
+| Address Resolution Protocol (Arp) Flow | Explanation of ARP protocol flow | https://twitter.com/user/status/1875630944713085212 |
+</details>
 
-### <a name="web-development"></a>Web Development
-| Item | Description |
-| --- | --- |
-| [API Pagination Techniques](path/to/api-pagination-techniques) | Methods for paginating API responses efficiently. |
-| [Realtime Web Patterns](path/to/realtime-web-patterns) | Building scalable and efficient real-time web applications. |
-
-### <a name="hardware-and-peripherals"></a>Hardware and Peripherals
-| Item | Description |
-| --- | --- |
-| [Airtag Functionality](path/to/airtag-functionality) | Setting up and using AirTag for location tracking. |
-
-### <a name="api-design"></a>API Design
-| Item | Description |
-| --- | --- |
-| [API Architectural Styles Comparison](path/to/api-architectural-styles-comparison) | Comparing different API design styles. |
-| [API Gateway Functions](path/to/api-gateway-functions) | Primary functions of an API gateway. |
-
-### <a name="networking"></a>Networking
-| Item | Description |
-| --- | --- |
-| [OSI vs. TCP/IP Models](path/to/osi-vs-tcpip-models) | Introduction to OSI and TCP/IP network models. |
-| [Address Resolution Protocol (ARP) Flow](path/to/arp-flow) | Steps involved in the ARP protocol flow. |
-| [NAT Explained](path/to/nat-explained) | Understanding Network Address Translation. |
-
-### <a name="database"></a>Database
-| Item | Description |
-| --- | --- |
-| [Database Scaling Guide](path/to/database-scaling-guide) | Introduction to scaling databases for growing traffic. |
-
-### <a name="microservices-architecture"></a>Microservices Architecture
-| Item | Description |
-| --- | --- |
-| [Microservices Architecture Overview](path/to/microservices-architecture-overview) | Components and design of microservices architecture. |
-
-### <a name="load-balancing"></a>Load Balancing
-| Item | Description |
-| --- | --- |
-| [Load Balancing Algorithms](path/to/load-balancing-algorithms) | Importance and types of load balancing algorithms. |
-
-### <a name="distributed-systems"></a>Distributed Systems
-| Item | Description |
-| --- | --- |
-| [Pub/Sub Pattern](path/to/pub-sub-pattern) | Overview of the Publish/Subscribe pattern in distributed systems. |
-
-### <a name="security"></a>Security
-| Item | Description |
-| --- | --- |
-| [Security Considerations](path/to/security-considerations) | Key security considerations for system design. |
-
-We hope this comprehensive knowledge base meets your needs and provides valuable insights into a wide array of topics. Whether you're looking to deepen your understanding of system design, explore the latest in web development, or anything in between, we've got you covered. Happy learning!
+---
+🌟 We encourage you to explore our knowledge base further and discover the wealth of information available at your fingertips. Happy learning! 📚
