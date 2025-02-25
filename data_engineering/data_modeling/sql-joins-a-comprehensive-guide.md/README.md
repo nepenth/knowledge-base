@@ -53,7 +53,7 @@ By mastering the different types of SQL joins and following best practices, you 
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The infographic presents a comprehensive guide to database joins, illustrating various types of joins through diagrams and accompanying text explanations.
 
 **Overview**

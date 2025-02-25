@@ -46,11 +46,11 @@ By embracing the UI-TARS model release, developers and researchers can unlock ne
 ## Media
 
 ### Media 1
-![media_0](./media_0.mp4)
+![media_0](./image_1.jpg)
 **Description:** Video file: media_0.mp4
 
 ### Media 2
-![media_1](./media_1.jpg)
+![media_1](./image_2.jpg)
 **Description:** This infographic presents a comprehensive comparison of various SOTA (State-of-the-art) models across three categories: UI-TARS-72B, GPT-4o, and Claude. The top section lists 13 models, while the middle left section displays a bar chart illustrating the relative improvement of each model in relation to UI-TARS-72B.
 
 The bottom right corner features a line graph comparing the performance of these three models across five categories: Visual Web Bench, MM2Web-Average, ScreenSpot-Pro, ScreenQA-Short, and GPT-4o. The data is presented as a percentage of improvement over UI-TARS-72B. Notably, UI-TARS-72B consistently outperforms the other two models in all five categories.
@@ -58,7 +58,7 @@ The bottom right corner features a line graph comparing the performance of these
 The infographic's background is white, with black text used throughout. The use of distinct colors for each model (blue for UI-TARS-72B and orange for Claude) facilitates easy comparison between the three models.
 
 ### Media 3
-![media_2](./media_2.jpg)
+![media_2](./image_1.jpg)
 **Description:** The image presents a concise overview of UI-TARS, an end-to-end GUI agent model based on VLM architecture. The key points are:
 
 • **UI-TARS**

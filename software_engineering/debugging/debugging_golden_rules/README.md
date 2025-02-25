@@ -60,7 +60,7 @@ Many logging frameworks, such as [Serilog](https://serilog.net/), support the fe
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The image presents a code snippet with annotations highlighting its benefits, accompanied by a title that reads "Bad logs are just noise. Good logs lead you to a fix." The purpose of the image is to illustrate the importance of well-structured logging in software development.
 
 * A code snippet:

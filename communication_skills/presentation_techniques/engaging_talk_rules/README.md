@@ -46,7 +46,7 @@ The infographic titled "5 Rules to Keep People Engaged During Your Talk" serves 
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The infographic presents a visually appealing guide titled "5 Rules to Keep People Engaged During Your Talk," designed to captivate audiences through engaging content. The title is prominently displayed at the top of the image, followed by five rules that provide actionable advice for effective communication.
 
 **Rule 1: The Rule of Abstraction**

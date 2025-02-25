@@ -126,7 +126,7 @@ By mastering these functional interfaces, developers can write more concise, rea
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The image presents a table with three columns: "Interface", "Method", and "Description". The table is divided into two sections, each containing five rows of data.
 
 **Section 1:**

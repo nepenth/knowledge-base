@@ -38,7 +38,7 @@ Note: The references provided are Request for Comments (RFCs) documents that out
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The infographic, titled "How NAT Works," provides a comprehensive overview of Network Address Translation (NAT) technology. The title is prominently displayed at the top center of the image.
 
 **Key Components:**

@@ -45,7 +45,7 @@ By mastering system logging tools and techniques, administrators can improve the
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The image displays a screenshot of a terminal window with a list of commands and their corresponding outputs. The purpose of the image is to showcase various system monitoring tools and their functions.
 
 Here are the key features of the image:

@@ -46,7 +46,7 @@ When working with Crawl4AI, keep the following best practices in mind:
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The image shows a screenshot of the GitHub page for Crawl4AI, an open-source web crawler. The title at the top reads "Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper."
 
 * A logo:

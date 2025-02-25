@@ -40,7 +40,7 @@ By understanding and implementing Agentic RAG effectively, AI engineers can deve
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The infographic, titled "Agentic RAG," illustrates a flowchart for querying information from an intelligent system. The chart consists of four stages:
 
 1. **Chat Interface**: This is where users interact with the system by submitting queries.

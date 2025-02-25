@@ -36,7 +36,7 @@ By following these guidelines and leveraging the capabilities of Ingestr, users 
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The image is a screenshot of the Ingestr website, which appears to be a command-line app for ingesting data from various sources into a database.
 
 * The top of the page has the word "ingestr" in large red text.

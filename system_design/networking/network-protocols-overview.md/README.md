@@ -73,7 +73,7 @@ The following tools and technologies are mentioned in this entry:
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The infographic, titled "8 Popular Network Protocols," presents a comprehensive overview of eight fundamental network protocols that facilitate communication between devices over the internet. The title is displayed prominently at the top of the page.
 
 **Protocols Covered:**

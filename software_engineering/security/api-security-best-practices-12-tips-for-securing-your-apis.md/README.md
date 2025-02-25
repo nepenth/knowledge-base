@@ -60,7 +60,7 @@ Input validation helps prevent attacks like SQL injection, cross-site scripting 
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The infographic, titled "12 Tips for API Security," presents a comprehensive guide to securing APIs. The title is prominently displayed at the top of the image, with the ByteByteGo logo situated in the upper right-hand corner.
 
 The infographic is divided into 12 rectangular boxes, each containing a distinct tip for API security. These tips are organized in three rows of four boxes and include:

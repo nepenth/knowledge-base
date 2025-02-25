@@ -8,7 +8,7 @@ To install the agent-twitter-client, follow these steps:
 3. Once installed, launch the application to begin the setup process.
 
 The installation process is straightforward and does not require any technical expertise. The following screenshot illustrates the installation process:
-![Installation Screenshot](https://example.com/installation-screenshot.png)
+![Installation Screenshot](media_0.jpg)
 
 ##### Setup and Configuration
 After installing the agent-twitter-client, configure the application by following these steps:

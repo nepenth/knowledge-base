@@ -54,7 +54,7 @@ For a visual representation of how to read a balance sheet, refer to the infogra
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The infographic, titled "How to Read a Balance Sheet," is designed for individuals seeking to understand balance sheets and their components. The title is prominently displayed at the top of the graphic in large blue text.
 
 **Overview**

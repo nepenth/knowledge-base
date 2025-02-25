@@ -31,11 +31,11 @@ UI-TARS represents a significant advancement in the field of artificial intellig
 ## Media
 
 ### Media 1
-![media_0](./media_0.mp4)
+![media_0](./image_1.jpg)
 **Description:** Video file: media_0.mp4
 
 ### Media 2
-![media_1](./media_1.jpg)
+![media_1](./image_1.jpg)
 **Description:** The image presents a concise overview of UI-TARS, an end-to-end GUI agent model based on VLM architecture. The key points are as follows:
 
 • **Title**: "UI-TARS" is prominently displayed at the top center of the image in large white text.

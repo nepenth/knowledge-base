@@ -183,7 +183,7 @@ The following tools and technologies are mentioned in this entry:
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The infographic presents a comprehensive guide to software development principles and best practices, organized into 18 distinct sections. Each section is represented by a different color and features a unique icon or graphic, accompanied by concise text that summarizes key concepts.
 
 **Key Principles:**

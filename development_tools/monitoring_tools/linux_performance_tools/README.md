@@ -69,7 +69,7 @@ Security tools help protect the system from threats:
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The image presents a comprehensive overview of Linux Performance Observability Tools, showcasing various tools and their relationships within the Linux system. The diagram is divided into sections, each representing different components or categories of tools.
 
 *   **Operating System**

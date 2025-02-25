@@ -36,7 +36,7 @@ This technical knowledge base entry does not reference any specific tools or tec
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The image presents a comprehensive job interview cheat sheet, comprising 12 distinct sections that provide valuable guidance for candidates preparing to ace their interviews.
 
 **Overview**

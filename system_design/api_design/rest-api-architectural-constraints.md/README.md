@@ -40,7 +40,7 @@ The infographic "REST Architectural Constraints" provides a visual representatio
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** This infographic, titled "REST Architectural Constraints," illustrates the benefits of using RESTful web services to build scalable and efficient systems.
 
 The top half of the graphic is a table listing various constraints associated with REST architecture, including Client-Server, Stateless, Cacheable, Uniform Interface, Layered System, and Code on Demand. Each constraint is accompanied by a brief description in a green column, followed by a key benefit listed in a pink column.

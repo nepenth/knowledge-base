@@ -12,7 +12,7 @@ The DNS resolution process involves several key steps:
 7. **Webpage Access**: The user's device uses the retrieved IP address to access the requested webpage.
 
 The following infographic illustrates this process:
-![How DNS works](https://example.com/dns-infographic.png "Infographic: How DNS works")
+![How DNS works](media_0.jpg)
 
 ### Example Walkthrough
 Suppose a user enters the URL `http://example.com` in their browser. The request is sent to a DNS server, which checks its cache for the IP address associated with `example.com`. If the cache does not contain the required information, the DNS server sends a request to another DNS server, which may be closer to the user's location or have more recent data. This process continues until the authoritative name server for `example.com` responds with the IP address of the requested webpage.

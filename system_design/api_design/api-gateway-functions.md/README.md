@@ -61,7 +61,7 @@ By understanding the diverse range of functions performed by an API gateway, dev
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The infographic, titled "What does API Gateway do?", provides a comprehensive overview of the role and functions of an Application Programming Interface (API) gateway. The title is prominently displayed at the top left corner, accompanied by a green vertical bar.
 
 **Key Components:**

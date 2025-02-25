@@ -96,7 +96,7 @@ For further information on load balancing algorithms and their implementation, r
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The infographic showcases a comprehensive collection of six Load Balancing Algorithms, each presented in a distinct section with its own unique features and characteristics.
 
 **Algorithm Overview:**

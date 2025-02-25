@@ -32,7 +32,7 @@ By leveraging Sparrow's capabilities, developers and data analysts can significa
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The image displays a screenshot of the Sparrow website, which is a Python library for data processing with ML, LLM, and Vision LLM.
 
 * The title "Sparrow" is displayed at the top left corner of the page.

@@ -39,7 +39,7 @@ For a visual representation of how AirTag works, refer to the infographic titled
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** The infographic, titled "How AirTag Works?", provides a comprehensive overview of the functionality of Apple's AirTag device. The title is prominently displayed at the top left corner, accompanied by the ByteByteGo logo.
 
 **Key Features:**

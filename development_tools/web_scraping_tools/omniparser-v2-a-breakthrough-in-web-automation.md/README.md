@@ -35,7 +35,7 @@ By leveraging OmniParser V2, developers can create sophisticated web automation 
 ## Media
 
 ### Media 1
-![media_0](./media_0.jpg)
+![media_0](./image_1.jpg)
 **Description:** This screenshot depicts a webpage introducing OmniParser, an open-source screen parsing tool for GUI testing automation. The page features a bold title at the top, "OmniParser: Screen Parsing Tool for Pure Vision Based GUI Agent," accompanied by a small graphic of a computer monitor with lines and symbols.
 
 The main content is divided into two sections: "News" and "Install." The News section presents eight bullet points detailing OmniParser's latest updates, including a watchable video. Below this section, the Install section outlines the steps to begin using OmniParser. The page also includes links for license information, blog posts, project pages, models, and space demonstrations.
