@@ -1,55 +1,74 @@
-Load balancing algorithms are designed to distribute incoming network traffic efficiently across multiple servers to improve responsiveness, reliability, and scalability of applications. This entry provides an in-depth look at six key load balancing algorithms, including their operational logic, advantages, and use cases.
+Load balancing is a critical component of system design, ensuring efficient distribution of incoming requests across multiple servers to prevent overload and improve responsiveness. This entry provides an in-depth examination of six key load balancing algorithms, including their features, characteristics, and use cases.
 
 ## Technical Content
-The following sections delve into the details of each algorithm, highlighting their unique features and characteristics.
+The following sections delve into the details of each algorithm, exploring their strengths, weaknesses, and applications.
 
-### Round Robin Algorithm
-The Round Robin algorithm directs incoming requests to the next available server in a rotational sequence. This approach ensures that each server receives an equal number of requests, promoting fair distribution of workload.
+### 1. Round Robin Algorithm
+The Round Robin algorithm directs incoming requests to the next available server in a rotation. This approach ensures that each server receives an equal number of requests, promoting fairness and preventing any single server from becoming overwhelmed.
 
-* **Example:** In a scenario with three servers (A, B, C), the first request goes to server A, the second request to server B, and the third request to server C. The cycle then repeats, with the fourth request going back to server A.
-* **Advantages:** Simple to implement, promotes equal workload distribution.
+* **Example:** Suppose we have three servers (A, B, and C) and five incoming requests. The Round Robin algorithm would distribute these requests as follows:
+	1. Request 1 -> Server A
+	2. Request 2 -> Server B
+	3. Request 3 -> Server C
+	4. Request 4 -> Server A
+	5. Request 5 -> Server B
 
-### Sticky Round Robin Algorithm
-The Sticky Round Robin algorithm modifies the basic Round Robin approach by consistently routing requests from the same client to the same server. This is achieved through session persistence, where the load balancer assigns a client to a specific server for the duration of their session.
+### 2. Sticky Round Robin Algorithm
+The Sticky Round Robin algorithm modifies the traditional Round Robin approach by consistently routing requests from the same client to the same server.
 
-* **Example:** A user accessing an e-commerce website is always directed to the same server (e.g., server A) throughout their browsing session, ensuring that their cart contents and other session-specific data are preserved.
-* **Advantages:** Improves user experience by maintaining session consistency.
+* **Example:** Building on the previous example, suppose Client X sends three requests. The Sticky Round Robin algorithm would direct these requests as follows:
+	1. Request 1 (Client X) -> Server A
+	2. Request 2 (Client X) -> Server A
+	3. Request 3 (Client X) -> Server A
 
-### Weighted Round Robin Algorithm
-The Weighted Round Robin algorithm assigns weights to each server based on their processing capacity or other relevant factors. Servers with higher weights receive a greater number of requests, allowing for more efficient utilization of resources.
+### 3. Weighted Round Robin Algorithm
+The Weighted Round Robin algorithm assigns weights to each server, determining the number of requests it receives. Servers with higher weights receive more requests than those with lower weights.
 
-* **Example:** In a setup with two servers (A and B), where server A has twice the processing power of server B, server A is assigned a weight of 2 and server B a weight of 1. For every request sent to server B, two requests are sent to server A.
-* **Advantages:** Allows for flexible allocation of resources based on server capabilities.
+* **Example:** Suppose we have three servers (A, B, and C) with weights 2, 3, and 1, respectively. The Weighted Round Robin algorithm would distribute five incoming requests as follows:
+	1. Request 1 -> Server A
+	2. Request 2 -> Server A
+	3. Request 3 -> Server B
+	4. Request 4 -> Server B
+	5. Request 5 -> Server C
 
-### IP/URL Hash Algorithm
-The IP/URL Hash algorithm maps each incoming request to a specific server based on the client's IP address or URL. This approach helps in distributing the load while ensuring that requests from the same source are directed to the same server, similar to session persistence but without the need for tracking sessions.
+### 4. IP/URL Hash Algorithm
+The IP/URL Hash algorithm maps each incoming request to a specific server based on its IP address or URL.
 
-* **Example:** A user from a specific IP address is always routed to server A, regardless of the number of requests they make.
-* **Advantages:** Simplifies the management of persistent connections without requiring complex session tracking mechanisms.
+* **Example:** Suppose we have two servers (A and B) and two clients with IP addresses 192.168.1.100 and 192.168.1.200. The IP/URL Hash algorithm would direct requests as follows:
+	1. Request (192.168.1.100) -> Server A
+	2. Request (192.168.1.200) -> Server B
 
-### Least Connections Algorithm
-The Least Connections algorithm directs incoming requests to the server with the fewest active connections. This strategy ensures that no single server becomes overwhelmed, promoting efficient resource utilization and preventing bottlenecks.
+### 5. Least Connections Algorithm
+The Least Connections algorithm directs requests to servers with the fewest active connections, ensuring efficient resource utilization.
 
-* **Example:** If server A has 5 active connections and server B has 3, new requests are sent to server B until it reaches a similar load as server A.
-* **Advantages:** Dynamically adjusts the load distribution based on real-time server workload.
+* **Example:** Suppose we have three servers (A, B, and C) with 5, 3, and 2 active connections, respectively. The Least Connections algorithm would direct an incoming request as follows:
+	1. Request -> Server C
 
-### Least Time Algorithm
-The Least Time algorithm prioritizes servers based on their response times. Requests are directed to the fastest available server, ensuring that users experience minimal latency and optimal performance.
+### 6. Least Time Algorithm
+The Least Time algorithm prioritizes servers based on their response times, directing requests to the fastest available server.
 
-* **Example:** In a scenario where server A responds in 50ms and server B in 100ms, new requests are sent to server A until its response time increases.
-* **Advantages:** Optimizes user experience by minimizing wait times for responses.
+* **Example:** Suppose we have three servers (A, B, and C) with average response times of 100ms, 50ms, and 200ms, respectively. The Least Time algorithm would direct an incoming request as follows:
+	1. Request -> Server B
 
 ## Key Takeaways and Best Practices
-- **Choose the Right Algorithm:** Select a load balancing algorithm that aligns with your application's specific needs. For instance, use Round Robin for simple, stateless applications, and Sticky Round Robin for applications requiring session persistence.
-- **Monitor Performance:** Continuously monitor server performance and adjust the load balancing strategy as needed to ensure optimal resource utilization and user experience.
-- **Consider Hybrid Approaches:** In some cases, combining elements of different algorithms (e.g., using Weighted Round Robin with IP/URL Hash) can provide a more tailored solution to complex load balancing challenges.
+When selecting a load balancing algorithm, consider the following factors:
+
+* **Traffic patterns:** Choose an algorithm that aligns with your expected traffic patterns.
+* **Server resources:** Consider the available resources (e.g., CPU, memory) when selecting an algorithm.
+* **Response time:** Opt for algorithms that prioritize response time, such as Least Time or IP/URL Hash.
 
 ## References
-The concepts and descriptions provided in this entry are based on standard practices and theories in network engineering and system design. For further reading and implementation details, refer to documentation from leading load balancer manufacturers and open-source projects such as HAProxy, NGINX, and Apache HTTP Server.
+For a visual representation of these algorithms, refer to the infographic showcasing the six Load Balancing Algorithms. This resource provides a comprehensive collection of each algorithm, presented in a distinct section with its unique features and characteristics.
+
+The following tools and technologies are mentioned in this entry:
+
+* **Load balancers:** Hardware or software components responsible for distributing incoming requests across multiple servers.
+* **Servers:** Computing resources that process and respond to incoming requests.
+* **Clients:** Endpoints (e.g., web browsers, mobile apps) that initiate requests to the load balancer.
 ## Source
 
 - Original Tweet: [https://twitter.com/i/web/status/1878489954265035149](https://twitter.com/i/web/status/1878489954265035149)
-- Date: 2025-02-25 16:49:17
+- Date: 2025-02-26 00:42:01
 
 
 ## Media
@@ -76,4 +95,4 @@ The concepts and descriptions provided in this entry are based on standard pract
 
 The infographic employs a clean design aesthetic, utilizing white backgrounds with green borders surrounding each section. This layout effectively organizes and presents the information, making it easy for viewers to follow along and comprehend the algorithms' operations.
 
-*Last updated: 2025-02-25 16:49:17*
+*Last updated: 2025-02-26 00:42:01*
