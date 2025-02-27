@@ -1,65 +1,7 @@
-Network protocols are the backbone of modern computing and communication systems, facilitating data exchange between devices over the internet. This entry provides a comprehensive overview of eight fundamental network protocols, including HTTP, HTTP/3 (QUIC), HTTPS, WebSockets, TCP, UDP, SMTP, and FTP.
+Network protocols are the backbone of communication over the internet, enabling devices to exchange information seamlessly. Understanding these protocols is crucial for designing, implementing, and troubleshooting network systems. This entry provides an overview of eight popular network protocols, including how they work and their use cases.
 
 ### Description
-The infographic "8 Popular Network Protocols" presents a concise and easy-to-understand format for explaining each protocol's operation. The explanations are divided into three columns: **Protocol**, **How Does It Work?**, and **Use Cases**. Each protocol is represented by a distinct color scheme, making it easier to visualize the complex concepts.
-
-### Technical Content
-#### Protocols Covered
-
-1. **HTTP (Hypertext Transfer Protocol)**: A request-response protocol used for transferring data over the internet.
-	* **How Does It Work?**: Clients send requests to servers, which respond with the requested resources.
-	* **Use Cases**: Web browsing, RESTful APIs.
-2. **HTTP/3 (QUIC)**: A transport layer protocol designed to improve performance and security in HTTP communication.
-	* **How Does It Work?**: Uses UDP as the underlying transport protocol, reducing latency and improving multiplexing.
-	* **Use Cases**: High-performance web applications, real-time communication systems.
-3. **HTTPS (Hypertext Transfer Protocol Secure)**: An extension of HTTP that adds an extra layer of security using SSL/TLS encryption.
-	* **How Does It Work?**: Encrypts data in transit, protecting against eavesdropping and tampering attacks.
-	* **Use Cases**: Secure web browsing, online transactions, sensitive data exchange.
-4. **WebSockets**: A protocol that enables bidirectional, real-time communication between clients and servers over the web.
-	* **How Does It Work?**: Establishes a persistent connection, allowing for efficient, low-latency communication.
-	* **Use Cases**: Real-time web applications, live updates, collaborative editing.
-5. **TCP (Transmission Control Protocol)**: A transport layer protocol that ensures reliable, ordered delivery of data packets.
-	* **How Does It Work?**: Uses sequence numbers and acknowledgments to guarantee packet delivery.
-	* **Use Cases**: File transfers, email, remote access.
-6. **UDP (User Datagram Protocol)**: A transport layer protocol that prioritizes speed over reliability, suitable for applications that require low latency.
-	* **How Does It Work?**: Sends data packets without guarantees of delivery or order.
-	* **Use Cases**: Online gaming, video streaming, VoIP.
-7. **SMTP (Simple Mail Transfer Protocol)**: A protocol used for sending and receiving email messages between mail servers.
-	* **How Does It Work?**: Relays email messages between servers, using a store-and-forward approach.
-	* **Use Cases**: Email communication, mailing lists, automated notifications.
-8. **FTP (File Transfer Protocol)**: A protocol designed for transferring files over the internet.
-	* **How Does It Work?**: Establishes a connection, allowing clients to upload or download files from servers.
-	* **Use Cases**: File sharing, website updates, data backups.
-
-### Key Takeaways and Best Practices
-* Understand the strengths and weaknesses of each protocol to choose the best one for your application's needs.
-* Use secure protocols like HTTPS and WebSockets to protect sensitive data and ensure confidentiality.
-* Consider performance requirements when selecting between TCP and UDP.
-* Implement error handling and recovery mechanisms to handle packet loss or corruption.
-
-### References
-* [RFC 7230: HTTP/1.1](https://tools.ietf.org/html/rfc7230)
-* [RFC 9000: QUIC Transport Protocol](https://tools.ietf.org/html/rfc9000)
-* [RFC 5246: TLS Protocol](https://tools.ietf.org/html/rfc5246)
-* [RFC 6455: WebSocket Protocol](https://tools.ietf.org/html/rfc6455)
-* [RFC 793: TCP](https://tools.ietf.org/html/rfc793)
-* [RFC 768: UDP](https://tools.ietf.org/html/rfc768)
-* [RFC 5321: SMTP](https://tools.ietf.org/html/rfc5321)
-* [RFC 959: FTP](https://tools.ietf.org/html/rfc959)
-## Source
-
-- Original Tweet: [https://twitter.com/i/web/status/1875600551146352755](https://twitter.com/i/web/status/1875600551146352755)
-- Date: 2025-02-26 00:32:20
-
-
-## Media
-
-### Media 1
-![media_0](./media_0.jpg)
-**Description:** The infographic, titled "8 Popular Network Protocols," presents a comprehensive overview of eight fundamental network protocols that facilitate communication between devices over the internet. The title is displayed prominently at the top of the page.
-
-**Protocols Covered:**
-
+The following eight network protocols are covered in this entry:
 1. **HTTP (Hypertext Transfer Protocol)**
 2. **HTTP/3 (QUIC)**
 3. **HTTPS (Hypertext Transfer Protocol Secure)**
@@ -69,20 +11,60 @@ The infographic "8 Popular Network Protocols" presents a concise and easy-to-und
 7. **SMTP (Simple Mail Transfer Protocol)**
 8. **FTP (File Transfer Protocol)**
 
-**How Each Protocol Works:**
+Each protocol plays a unique role in facilitating communication between devices over the internet.
 
-Each protocol is explained in a concise and easy-to-understand format, using simple graphics to illustrate its operation. The explanations are divided into three columns:
+### Technical Content
+#### 1. HTTP (Hypertext Transfer Protocol)
+* **Protocol:** HTTP is a request-response protocol used for transferring data over the web.
+* **How Does It Work?:** A client (usually a web browser) sends an HTTP request to a server, which then responds with the requested resources.
+* **Use Cases:** Web browsing, RESTful APIs.
 
-* **Protocol:** A brief description of the protocol.
-* **How Does It Work?**: A simplified explanation of how each protocol functions.
-* **Use Cases:** Examples of real-world applications for each protocol.
+#### 2. HTTP/3 (QUIC)
+* **Protocol:** HTTP/3 is the third major version of HTTP, built on top of QUIC (Quick UDP Internet Connections), aiming to improve performance and security.
+* **How Does It Work?:** It uses UDP instead of TCP for transport, allowing for faster connection establishment and improved multiplexing capabilities.
+* **Use Cases:** Future-proof web browsing, applications requiring low latency.
 
-**Visual Representation:**
+#### 3. HTTPS (Hypertext Transfer Protocol Secure)
+* **Protocol:** HTTPS is an extension of HTTP that adds a security layer through encryption, ensuring data privacy and integrity.
+* **How Does It Work?:** It uses SSL/TLS certificates to encrypt data between the client and server.
+* **Use Cases:** Secure web browsing, e-commerce transactions.
 
-The infographic features a visually appealing design, with each protocol represented by a distinct color scheme. The use of simple graphics and illustrations makes it easy to understand the complex concepts underlying each protocol.
+#### 4. WebSockets
+* **Protocol:** WebSockets provide a persistent, low-latency communication channel between a client (usually a web browser) and a server over the web.
+* **How Does It Work?:** After an initial HTTP handshake, the connection is upgraded to a WebSocket connection, allowing for bidirectional real-time communication.
+* **Use Cases:** Live updates, gaming, chat applications.
 
-**Conclusion:**
+#### 5. TCP (Transmission Control Protocol)
+* **Protocol:** TCP is a transport-layer protocol that ensures reliable, ordered delivery of data between devices over IP networks.
+* **How Does It Work?:** It establishes connections through a three-way handshake and uses sequence numbers to ensure data is delivered in the correct order.
+* **Use Cases:** File transfers, email, web browsing.
 
-In conclusion, this infographic provides a clear and concise introduction to eight essential network protocols. By understanding how these protocols work and their various applications, individuals can better appreciate the complexities of modern computing and communication systems.
+#### 6. UDP (User Datagram Protocol)
+* **Protocol:** UDP is a transport-layer protocol that provides best-effort delivery of datagrams over IP networks, prioritizing speed over reliability.
+* **How Does It Work?:** It sends data as individual, standalone packets without establishing a connection first.
+* **Use Cases:** Streaming media, online gaming, DNS lookups.
 
-*Last updated: 2025-02-26 00:32:20*
+#### 7. SMTP (Simple Mail Transfer Protocol)
+* **Protocol:** SMTP is an application-layer protocol used for sending and receiving email messages between email servers and clients.
+* **How Does It Work?:** Messages are relayed through SMTP servers, which use DNS to resolve mail server addresses.
+* **Use Cases:** Email services.
+
+#### 8. FTP (File Transfer Protocol)
+* **Protocol:** FTP is a standard network protocol used for the transfer of files between a local computer and a remote server over the internet.
+* **How Does It Work?:** It establishes two connections: one for control (commands) and one for data transfer.
+* **Use Cases:** File sharing, web site management.
+
+### Key Takeaways and Best Practices
+- **Understand Protocol Purposes:** Each protocol has specific use cases. Understanding these can help in designing more efficient network systems.
+- **Security Considerations:** Always opt for secure protocols (like HTTPS) when data privacy is a concern.
+- **Performance Optimization:** Choose protocols based on the performance requirements of your application, considering factors like latency and reliability.
+
+### References
+- [HTTP/3 Specification](https://datatracker.ietf.org/doc/draft-ietf-quic-http/)
+- [RFC 9114 - HTTP/3](https://www.rfc-editor.org/rfc/rfc9114)
+- [QUIC Protocol Overview](https://cloud.google.com/blog/products/infrastructure-cloud-networking/announcing-quic-support-google-cloud)
+
+By grasping the fundamentals of these eight popular network protocols, developers and network administrators can build more robust, efficient, and secure communication systems over the internet.
+
+---
+**Source**: [Original Tweet](https://twitter.com/i/web/status/1875600551146352755)
