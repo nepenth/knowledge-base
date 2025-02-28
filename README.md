@@ -3,11 +3,11 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 
 ---
 ## 📊 Overview
-- **Total Items**: 223
+- **Total Items**: 224
 - **Main Categories**: 14
 - **Subcategories**: 48
 - **Media Files**: 110
-- **Last Updated**: 2025-02-27 17:25:22
+- **Last Updated**: 2025-02-28 14:27:33
 
 ---
 ## 🧭 Quick Navigation
@@ -78,18 +78,18 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 ## 🔔 Recent Updates
 | **Item** | **Category** | **Last Updated** | **Source** |
 |----------|--------------|------------------|------------|
+| [Kubernetes Deployment Manifest File Structure Explained](devops/orchestration/kubernetes-deployment-manifest-file-structure-explained) | Devops/Orchestration | 2025-02-27 | [N/A](N/A) |
+| [Contract Compliance Workflow Building An Agentic Workflow For Ensuring Contract Compliance](artificial_intelligence/nlp/contract-compliance-workflow-building-an-agentic-workflow-for-ensuring-contract-compliance) | Artificial_Intelligence/Nlp | 2025-02-27 | [N/A](N/A) |
+| [Code Pattern Matching For Ai Best Practices For Effective Interaction](artificial_intelligence/nlp/code-pattern-matching-for-ai-best-practices-for-effective-interaction) | Artificial_Intelligence/Nlp | 2025-02-27 | [N/A](N/A) |
 | [Network Address Translation (Nat) Explained](system_design/networking/network-address-translation-(nat)-explained) | System_Design/Networking | 2025-02-27 | [N/A](N/A) |
 | [Ui Tars Pioneering Automated Gui Interaction With Native Agents](artificial_intelligence/machine_learning/ui-tars-pioneering-automated-gui-interaction-with-native-agents) | Artificial_Intelligence/Machine_Learning | 2025-02-27 | [N/A](N/A) |
-| [Effective Logging 7 Rules Of Thumb For Software Engineers](software_engineering/debugging/effective-logging-7-rules-of-thumb-for-software-engineers) | Software_Engineering/Debugging | 2025-02-27 | [N/A](N/A) |
-| [Omniparser V2 A Revolutionary Open Source Screenshot Parser For Web Automation](development_tools/web_scraping_tools/omniparser-v2-a-revolutionary-open-source-screenshot-parser-for-web-automation) | Development_Tools/Web_Scraping_Tools | 2025-02-27 | [N/A](N/A) |
-| [Clean Code Principles Best Practices For Software Development](software_engineering/code_quality/clean-code-principles-best-practices-for-software-development) | Software_Engineering/Code_Quality | 2025-02-27 | [N/A](N/A) |
 
 ---
 ## 📋 Categories
 
 ### Artificial Intelligence <a name="artificial-intelligence"></a>
 *Subcategories: machine learning, nlp*
-*Items: 28*
+*Items: 29*
 
 <details><summary>Machine Learning</summary>
 
@@ -127,9 +127,10 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 | [Building An Ai Copilot With Context Understanding For Large Codebases](artificial_intelligence/nlp/building-an-ai-copilot-with-context-understanding-for-large-codebases) | #### Technical Content To build an effective AI Copilot with context understanding, follow these steps: |
 | [Building An Ai Copilot With Contextual Understanding Of Large Codebases](artificial_intelligence/nlp/building-an-ai-copilot-with-contextual-understanding-of-large-codebases) | #### Technical Content To overcome the limitations of traditional LLMs, we can employ a multi-step approach: |
 | [Code Pattern Matching For Ai Best Practices](artificial_intelligence/nlp/code-pattern-matching-for-ai-best-practices) | #### Technical Content When interacting with LLMs, it's essential to understand that these models don't read code in the classical sense. Instead, they match patterns within the provided context. F... |
-| [Code Pattern Matching For Ai Best Practices For Effective Interaction](artificial_intelligence/nlp/code-pattern-matching-for-ai-best-practices-for-effective-interaction) | #### Technical Content Large language models (LLMs) are designed to process and understand vast amounts of data, including code. However, LLMs do not truly "read" code in the way humans do; instead... |
+| [Code Pattern Matching For Ai Best Practices For Effective Interaction](artificial_intelligence/nlp/code-pattern-matching-for-ai-best-practices-for-effective-interaction) | #### Detailed Technical Content LLMs are designed to match patterns in the input data they receive. When it comes to code, these models do not read or understand the code in the way a human develop... |
 | [Code_Pattern_Matching](artificial_intelligence/nlp/code_pattern_matching) | #### Technical Content The contract compliance workflow consists of the following stages: |
 | [Contract Compliance Workflow A Technical Guide](artificial_intelligence/nlp/contract-compliance-workflow-a-technical-guide) | #### Introduction to Contract Compliance Workflow The contract compliance workflow is designed to interleave parsing/extraction, retrieval, and report generation to solve end-to-end tasks. This pro... |
+| [Contract Compliance Workflow Building An Agentic Workflow For Ensuring Contract Compliance](artificial_intelligence/nlp/contract-compliance-workflow-building-an-agentic-workflow-for-ensuring-contract-compliance) | ## Technical Content The contract compliance workflow involves several core components: |
 | [Contract Compliance Workflow Ensuring Adherence To Guidelines](artificial_intelligence/nlp/contract-compliance-workflow-ensuring-adherence-to-guidelines) | The contract compliance workflow is a structured approach to reviewing vendor contracts and ensuring they adhere to relevant guidelines, such as GDPR. This workflow involves extracting key informat... |
 | [Contract Compliance Workflow Tutorial](artificial_intelligence/nlp/contract-compliance-workflow-tutorial) | #### Technical Content The contract compliance workflow involves several core components: \* \*\*Extraction\*\*: The first step in the contract review process is extraction. This involves identifyi... |
 | [Optimizing Code Pattern Matching For Large Language Models](artificial_intelligence/nlp/optimizing-code-pattern-matching-for-large-language-models) | ## Technical Content Large Language Models (LLMs) are powerful tools for natural language processing and code analysis. However, they do not read code in the classical sense but instead match patte... |
@@ -450,7 +451,7 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 | **Item** | **Description** |
 |----------|-----------------|
 | [Kubernetes Deployment Manifest File Structure](devops/orchestration/kubernetes-deployment-manifest-file-structure) | ## Technical Content ### Key Sections The following sections are crucial in defining a Kubernetes deployment: |
-| [Kubernetes Deployment Manifest File Structure Explained](devops/orchestration/kubernetes-deployment-manifest-file-structure-explained) | #### Technical Content A Kubernetes deployment YAML file is composed of several key sections that define the desired state of the application. The following breakdown explains each section in detail: |
+| [Kubernetes Deployment Manifest File Structure Explained](devops/orchestration/kubernetes-deployment-manifest-file-structure-explained) | #### Detailed Technical Content A Kubernetes deployment YAML file typically consists of several key sections that define the deployment's behavior, configuration, and organization. The following is... |
 | [Kubernetes_Deployment](devops/orchestration/kubernetes_deployment) | #### Technical Content A Kubernetes deployment YAML file is composed of several key sections that define the deployment's configuration and behavior. The following sections provide a detailed break... |
 </details>
 
