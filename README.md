@@ -3,11 +3,11 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 
 ---
 ## 📊 Overview
-- **Total Items**: 224
+- **Total Items**: 232
 - **Main Categories**: 14
 - **Subcategories**: 48
-- **Media Files**: 110
-- **Last Updated**: 2025-02-28 14:27:33
+- **Media Files**: 123
+- **Last Updated**: 2025-02-28 15:56:44
 
 ---
 ## 🧭 Quick Navigation
@@ -78,18 +78,18 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 ## 🔔 Recent Updates
 | **Item** | **Category** | **Last Updated** | **Source** |
 |----------|--------------|------------------|------------|
-| [Kubernetes Deployment Manifest File Structure Explained](devops/orchestration/kubernetes-deployment-manifest-file-structure-explained) | Devops/Orchestration | 2025-02-27 | [N/A](N/A) |
-| [Contract Compliance Workflow Building An Agentic Workflow For Ensuring Contract Compliance](artificial_intelligence/nlp/contract-compliance-workflow-building-an-agentic-workflow-for-ensuring-contract-compliance) | Artificial_Intelligence/Nlp | 2025-02-27 | [N/A](N/A) |
-| [Code Pattern Matching For Ai Best Practices For Effective Interaction](artificial_intelligence/nlp/code-pattern-matching-for-ai-best-practices-for-effective-interaction) | Artificial_Intelligence/Nlp | 2025-02-27 | [N/A](N/A) |
-| [Network Address Translation (Nat) Explained](system_design/networking/network-address-translation-(nat)-explained) | System_Design/Networking | 2025-02-27 | [N/A](N/A) |
-| [Ui Tars Pioneering Automated Gui Interaction With Native Agents](artificial_intelligence/machine_learning/ui-tars-pioneering-automated-gui-interaction-with-native-agents) | Artificial_Intelligence/Machine_Learning | 2025-02-27 | [N/A](N/A) |
+| [Introduction To Ui Tars Pioneering Automated Gui Interaction With Native Agents](artificial_intelligence/machine_learning/introduction-to-ui-tars-pioneering-automated-gui-interaction-with-native-agents) | Artificial_Intelligence/Machine_Learning | 2025-02-28 | [N/A](N/A) |
+| [Alert Manager Open Source Aiops And Alert Management Platform](devops/monitoring/alert-manager-open-source-aiops-and-alert-management-platform) | Devops/Monitoring | 2025-02-28 | [N/A](N/A) |
+| [Web Crawler And Scraper For Ai Data Crwl4Ai Overview](development_tools/web_scraping_tools/web-crawler-and-scraper-for-ai-data-crwl4ai-overview) | Development_Tools/Web_Scraping_Tools | 2025-02-28 | [N/A](N/A) |
+| [Sparrow An Open Source Solution For Data Extraction And Processing Using Machine Learning](artificial_intelligence/machine_learning/sparrow-an-open-source-solution-for-data-extraction-and-processing-using-machine-learning) | Artificial_Intelligence/Machine_Learning | 2025-02-28 | [N/A](N/A) |
+| [Sql Joins Guide](data_engineering/data_modeling/sql-joins-guide) | Data_Engineering/Data_Modeling | 2025-02-28 | [N/A](N/A) |
 
 ---
 ## 📋 Categories
 
 ### Artificial Intelligence <a name="artificial-intelligence"></a>
 *Subcategories: machine learning, nlp*
-*Items: 29*
+*Items: 32*
 
 <details><summary>Machine Learning</summary>
 
@@ -103,13 +103,16 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 | [Company_Insider_Ai_Uncovering](artificial_intelligence/machine_learning/company_insider_ai_uncovering) | #### Technical Content The Company Insider AI is built using a combination of natural language processing (NLP) and machine learning techniques. It utilizes web scraping and API integration to coll... |
 | [Deep Research Repository A Community Driven Implementation Of Openais Deep Research Agent](artificial_intelligence/machine_learning/deep-research-repository-a-community-driven-implementation-of-openais-deep-research-agent) | #### Technical Content The repository, accessible at https://github.com/dzhng/deep-research, provides a community-driven implementation of the Deep Research agent. The agent is designed to facilita... |
 | [Deep Research Repository A Viral Github Project](artificial_intelligence/machine_learning/deep-research-repository-a-viral-github-project) | #### Technical Content The Deep Research repository, located at \[https://github.com/dzhng/deep-research\](https://github.com/dzhng/deep-research), showcases a user's personal implementation of Ope... |
+| [Deep Research Repository An Open Source Implementation Of Openais Research Agent](artificial_intelligence/machine_learning/deep-research-repository-an-open-source-implementation-of-openais-research-agent) | ## Technical Content The Deep Research repository provides a flexible and adjustable research agent that can be tweaked to change its behavior in terms of breadth and depth. This is achieved throug... |
 | [Deep_Research_Repo](artificial_intelligence/machine_learning/deep_research_repo) | #### Technical Content Sparrow's architecture is built around several key components: - \*\*Optical Character Recognition (OCR)\*\*: This module enables the extraction of text from images and scann... |
 | [Deep_Research_Repository_A](artificial_intelligence/machine_learning/deep_research_repository_a) | ## Technical Content The Deep Research agent is designed to facilitate in-depth research and analysis. The implementation provided in the repository enables users to adjust the breadth and depth of... |
-| [Sparrow An Open Source Solution For Data Extraction And Processing Using Machine Learning](artificial_intelligence/machine_learning/sparrow-an-open-source-solution-for-data-extraction-and-processing-using-machine-learning) | #### Technical Content Sparrow leverages the power of machine learning to automate the process of data extraction from various sources. Its architecture includes several key components: - \*\*OCR M... |
+| [Introduction To Ui Tars Pioneering Automated Gui Interaction With Native Agents](artificial_intelligence/machine_learning/introduction-to-ui-tars-pioneering-automated-gui-interaction-with-native-agents) | ## Technical Content UI-TARS represents a significant advancement in the field of human-computer interaction by leveraging artificial intelligence to automate interactions with graphical user inter... |
+| [Sparrow An Open Source Solution For Data Extraction And Processing Using Machine Learning](artificial_intelligence/machine_learning/sparrow-an-open-source-solution-for-data-extraction-and-processing-using-machine-learning) | #### Technical Content Sparrow leverages the power of machine learning to automate the process of data extraction from unstructured or semi-structured sources such as documents and images. This is ... |
 | [Sparrow Open Source Machine Learning Solution For Data Extraction And Processing](artificial_intelligence/machine_learning/sparrow-open-source-machine-learning-solution-for-data-extraction-and-processing) | #### Technical Content Sparrow is built as a Python library, leveraging the power of machine learning and deep learning techniques to process and analyze data from diverse sources. Its architecture... |
 | [Ui Tars Model Release Open Sourcing Of Sota Gui Agent Models](artificial_intelligence/machine_learning/ui-tars-model-release-open-sourcing-of-sota-gui-agent-models) | #### Technical Content UI-TARS is defined as an end-to-end GUI agent model that solely perceives screenshots as input and performs human-like interactions. The key features of UI-TARS include: \* \... |
 | [Ui Tars Model Release Open Sourcing Of Sota Models For End To End Gui Agents](artificial_intelligence/machine_learning/ui-tars-model-release-open-sourcing-of-sota-models-for-end-to-end-gui-agents) | #### Technical Content UI-TARS is designed to perceive screenshots as input and perform human-like interactions, such as keyboard and mouse operations. The model's architecture is based on VLM, whi... |
 | [Ui Tars Model Release Open Sourcing State Of The Art Gui Agent Models](artificial_intelligence/machine_learning/ui-tars-model-release-open-sourcing-state-of-the-art-gui-agent-models) | #### Technical Content UI-TARS is an end-to-end GUI agent model based on VLM architecture. It perceives screenshots as input and performs human-like interactions, such as keyboard and mouse operati... |
+| [Ui Tars Model Release Open Sourcing State Of The Art Models For End To End Human Computer Interaction](artificial_intelligence/machine_learning/ui-tars-model-release-open-sourcing-state-of-the-art-models-for-end-to-end-human-computer-interaction) | #### Detailed Technical Content UI-TARS is built on top of the Unified Modeling Language (UML), simulating human-like interactions with software systems. This approach enables the model to understa... |
 | [Ui Tars Pioneering Automated Gui Interaction With Native Agents](artificial_intelligence/machine_learning/ui-tars-pioneering-automated-gui-interaction-with-native-agents) | ## Technical Overview UI-TARS operates by perceiving screenshots as input and then executing keyboard and mouse operations to interact with the GUI. This is made possible through its foundation in ... |
 | [Ui_Tars_Model_Release_Open](artificial_intelligence/machine_learning/ui_tars_model_release_open) | #### Technical Content The UI-TARS model is designed to perceive screenshots as input and perform human-like interactions, such as keyboard and mouse operations. This is made possible by the VLM ar... |
 | [Ui_Tars_Pioneering_Automated](artificial_intelligence/machine_learning/ui_tars_pioneering_automated) | ## Technical Overview UI-TARS represents a significant advancement in the field of artificial intelligence and machine learning, particularly in the realm of graphical user interface (GUI) interact... |
@@ -238,7 +241,7 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 | [Sql Joins A Comprehensive Guide](data_engineering/data_modeling/sql-joins-a-comprehensive-guide) | #### Introduction to SQL Joins In a relational database, data is typically normalized and stored in separate tables. These tables are designed to be as independent as possible, with relationships e... |
 | [Sql Joins A Comprehensive Guide.Md](data_engineering/data_modeling/sql-joins-a-comprehensive-guide.md) | ## Introduction to SQL Joins In a relational database, data is typically normalized and stored in separate tables. These tables are designed to be as independent as possible, with relationships bet... |
 | [Sql Joins Cheat Sheet](data_engineering/data_modeling/sql-joins-cheat-sheet) | #### Technical Content SQL joins are used to combine rows from two or more tables based on a related column between them. The infographic highlights eight distinct SQL join types: |
-| [Sql Joins Guide](data_engineering/data_modeling/sql-joins-guide) | #### Introduction to SQL Joins In a relational database, data is typically normalized and stored in separate tables to minimize redundancy and improve data integrity. However, this normalization ca... |
+| [Sql Joins Guide](data_engineering/data_modeling/sql-joins-guide) | #### Technical Content In a relational database, data is typically normalized into separate tables, each with its own set of columns and rows. To retrieve data that spans multiple tables, you need ... |
 | [Sql_Joins_Cheat_Sheet](data_engineering/data_modeling/sql_joins_cheat_sheet) | #### Technical Content SQL joins are used to combine rows from two or more tables based on a related column between them. The resulting table contains columns from both tables, allowing for more co... |
 </details>
 
@@ -256,7 +259,7 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 
 ### Development Tools <a name="development-tools"></a>
 *Subcategories: data integration, debugging tools, ide tools, installation guides, monitoring tools, shell scripting, version control, web scraping tools*
-*Items: 35*
+*Items: 39*
 
 <details><summary>Data Integration</summary>
 
@@ -274,11 +277,12 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 
 | **Item** | **Description** |
 |----------|-----------------|
-| [Azimutt Database Schema Explorer And Analyzer](development_tools/debugging_tools/azimutt-database-schema-explorer-and-analyzer) | #### Technical Content Azimutt provides a comprehensive platform for database exploration and analysis. The tool's main features include: |
+| [Azimutt Database Schema Explorer And Analyzer](development_tools/debugging_tools/azimutt-database-schema-explorer-and-analyzer) | #### Technical Content Azimutt offers a range of features that make it an essential tool for developers and database administrators. Some of its key features include: |
 | [Data_Anonymizer](development_tools/debugging_tools/data_anonymizer) | #### Technical Content Azimutt provides a comprehensive platform for database exploration and analysis. The tool allows users to create a visual representation of their database schema, including t... |
 | [Database Schema Explorer And Analyzer Azimutt](development_tools/debugging_tools/database-schema-explorer-and-analyzer-azimutt) | #### Technical Content Azimutt offers a range of features that enable users to effectively manage their database schema. Some of the key features include: \* \*\*Database Schema Visualization\*\*: ... |
 | [Neosync A Comprehensive Data Anonymization Tool For Development And Compliance](development_tools/debugging_tools/neosync-a-comprehensive-data-anonymization-tool-for-development-and-compliance) | #### Technical Overview Neosync operates by taking input from production environments ("Prod"), applying anonymization techniques to protect sensitive data, generating synthetic data that mimics re... |
 | [Neosync A Data Anonymizer For Secure Testing And Compliance](development_tools/debugging_tools/neosync-a-data-anonymizer-for-secure-testing-and-compliance) | #### Technical Overview Neosync operates through a series of steps that can be summarized as follows: 1. \*\*Input (Prod)\*\*: The process begins with the input of production data, which may contai... |
+| [Neosync An Open Source Data Anonymizer For Synthetic Data Generation And Environment Syncing](development_tools/debugging_tools/neosync-an-open-source-data-anonymizer-for-synthetic-data-generation-and-environment-syncing) | #### Technical Overview Neosync operates as an open-source solution, providing developers with a flexible and customizable way to manage sensitive data. Its primary functionalities include: - \*\*D... |
 | [Neosync Open Source Data Anonymization Tool For Development And Compliance.Md](development_tools/debugging_tools/neosync-open-source-data-anonymization-tool-for-development-and-compliance.md) | #### Technical Overview Neosync operates by taking in production data (referred to as "Prod" input) and processing it through an anonymization step. This critical phase transforms PII into de-ident... |
 </details>
 
@@ -292,6 +296,7 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 | [Deepseek Integration In Vscode Using Codegpt](development_tools/ide_tools/deepseek-integration-in-vscode-using-codegpt) | #### Technical Content To connect DeepSeek R1 in VSCode with CodeGPT, follow these steps: |
 | [Hoarder A Self Hostable Bookmark And Note Manager](development_tools/ide_tools/hoarder-a-self-hostable-bookmark-and-note-manager) | #### Technical Overview The Hoarder app allows users to create and manage their own virtual storage space for digital content, including bookmarks, notes, and other types of data. The app's interfa... |
 | [Hoarder A Self Hostable Bookmark And Note Manager.Md](development_tools/ide_tools/hoarder-a-self-hostable-bookmark-and-note-manager.md) | #### Technical Overview Hoarder is built with the goal of providing users with a flexible and customizable platform for storing and retrieving digital information. The app allows users to create th... |
+| [Note Manager A Self Hostable Bookmark And Note Management Tool](development_tools/ide_tools/note-manager-a-self-hostable-bookmark-and-note-management-tool) | #### Technical Content Hboard's architecture is designed to be modular and scalable, allowing users to customize the application according to their needs. The tool provides a user-friendly interfac... |
 | [Open Source Ai Powered Logo Generator](development_tools/ide_tools/open-source-ai-powered-logo-generator) | ## Technical Content ### Overview The logo generator uses artificial intelligence to generate custom logos based on user input. The website features a dark gray background with white text that read... |
 | [Open_Source_Logo_Generator](development_tools/ide_tools/open_source_logo_generator) | #### Technical Content The logo generator is built using open-source technologies and is designed to be self-hosted, giving users full control over their logo creation process. The tool uses artifi... |
 | [Setting Up Deepseek R1 In Vscode With Codegpt](development_tools/ide_tools/setting-up-deepseek-r1-in-vscode-with-codegpt) | #### Technical Content To connect DeepSeek R1 in VSCode with CodeGPT, follow these steps: |
@@ -349,9 +354,11 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 | [Omniparser V2 A Breakthrough In Web Automation](development_tools/web_scraping_tools/omniparser-v2-a-breakthrough-in-web-automation) | #### Technical Overview OmniParser V2 boasts a 60% increase in speed compared to its predecessor, making it an indispensable asset for developers and testers alike. One of the most compelling featu... |
 | [Omniparser V2 A Breakthrough In Web Automation.Md](development_tools/web_scraping_tools/omniparser-v2-a-breakthrough-in-web-automation.md) | #### Technical Content OmniParser V2 is engineered to parse screenshots from web applications, allowing for the automation of GUI interactions based on visual inputs rather than traditional API cal... |
 | [Omniparser V2 A Revolutionary Open Source Screenshot Parser For Web Automation](development_tools/web_scraping_tools/omniparser-v2-a-revolutionary-open-source-screenshot-parser-for-web-automation) | #### Technical Content OmniParser V2 is engineered to work seamlessly with various LLMs, including DeepSeek R1, GPT-4o/o1, and Qwen 2.5VL, empowering developers to create sophisticated web automati... |
+| [Omniparser V2 A Revolutionary Screenshot Parser For Web Automation](development_tools/web_scraping_tools/omniparser-v2-a-revolutionary-screenshot-parser-for-web-automation) | #### Technical Overview OmniParser V2 enables seamless interaction between LLMS and web applications, facilitating the automation of complex tasks. By leveraging the capabilities of popular LLMs su... |
 | [Web Crawler And Scraper For Ai Data](development_tools/web_scraping_tools/web-crawler-and-scraper-for-ai-data) | #### Technical Content Crawl4AI is an open-source web crawler and scraper that enables the extraction of relevant data from the internet for use in AI applications. The following are key features a... |
 | [Web Crawler And Scraper For Ai Data Crawl4Ai](development_tools/web_scraping_tools/web-crawler-and-scraper-for-ai-data-crawl4ai) | #### Technical Content Crawl4AI is built with the goal of simplifying the process of gathering large datasets for training and testing AI models. The tool is capable of handling various aspects of ... |
 | [Web Crawler And Scraper For Ai Data Crawl4Ai.Md](development_tools/web_scraping_tools/web-crawler-and-scraper-for-ai-data-crawl4ai.md) | ## Technical Content Crawl4AI is built to be Large Language Model (LLM) friendly, allowing for seamless integration with various AI frameworks. The crawler is capable of handling large volumes of d... |
+| [Web Crawler And Scraper For Ai Data Crwl4Ai Overview](development_tools/web_scraping_tools/web-crawler-and-scraper-for-ai-data-crwl4ai-overview) | ## Technical Content ### Introduction to Crwl4AI Crwl4AI is built with compatibility in mind, ensuring seamless integration with various language models. The platform's open-source nature allows de... |
 | [Web Scraping With Firecraw A Comprehensive Guide](development_tools/web_scraping_tools/web-scraping-with-firecraw-a-comprehensive-guide) | ## Technical Content Firecraw is designed to handle complex web scraping tasks with ease. Some of its key features include: |
 | [Web Scraping With Firecraw An Open Source Framework For Llm Ready Data](development_tools/web_scraping_tools/web-scraping-with-firecraw-an-open-source-framework-for-llm-ready-data) | ## Technical Overview Firecraw is designed to handle complex web scraping tasks with ease. Some of its key features include: |
 | [Web_Scraper_Tool](development_tools/web_scraping_tools/web_scraper_tool) | ## Technical Content Firecraw takes a URL as input, crawls the website, and converts the data into a clean markdown or structured format. The framework offers several features that make it a game-c... |
@@ -360,7 +367,7 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 
 ### Devops <a name="devops"></a>
 *Subcategories: ci cd, ci cd, infrastructure as code, containerization, monitoring, cloud platforms, cloud platforms, containerization, infrastructure as code, logging, monitoring, orchestration*
-*Items: 29*
+*Items: 30*
 
 <details><summary>Ci Cd</summary>
 
@@ -402,10 +409,11 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 | [Better Dockerfiles Improving Containerization For Devops Teams](devops/containerization/better-dockerfiles-improving-containerization-for-devops-teams) | #### The Challenge of Writing Good Dockerfiles Application developers typically lack the motivation and relevant skills to write optimal Dockerfiles. They are primarily focused on developing the ap... |
 | [Better Dockerfiles Optimizing Container Images For Production Ready Deployment](devops/containerization/better-dockerfiles-optimizing-container-images-for-production-ready-deployment) | ## Introduction to Dockerfiles Dockerfiles are text files that contain instructions for building Docker images. They provide a way to package an application and its dependencies into a single conta... |
 | [Better Dockerfiles Optimizing Container Images For Production Ready Environments](devops/containerization/better-dockerfiles-optimizing-container-images-for-production-ready-environments) | ## Introduction to Dockerfiles Dockerfiles are text files that contain instructions for building Docker images. They provide a way to package an application and its dependencies into a single conta... |
+| [Better Dockerfiles Overcoming The Challenges Of Container Image Creation](devops/containerization/better-dockerfiles-overcoming-the-challenges-of-container-image-creation) | ## Technical Content Containerization has become a crucial aspect of modern software development, allowing for efficient deployment and management of applications. However, the process of creating ... |
 | [Dockerfile Anatomy Understanding The Components Of A Docker Container](devops/containerization/dockerfile-anatomy-understanding-the-components-of-a-docker-container) | #### Technical Content A Dockerfile typically consists of several stages, each represented by a specific instruction. These instructions are executed in sequence, resulting in the creation of a Doc... |
 | [Dockerfile Anatomy Understanding The Components Of A Docker Container.Md](devops/containerization/dockerfile-anatomy-understanding-the-components-of-a-docker-container.md) | #### Technical Content A Dockerfile typically consists of several stages, each represented by a specific instruction. The following are the primary components involved in building a Docker container: |
 | [Dockerfile_Anatomy](devops/containerization/dockerfile_anatomy) | #### Introduction Dockerfiles are a critical component of containerization, serving as a blueprint for creating container images. A well-structured Dockerfile ensures that the resulting container i... |
-| [Understanding Dockerfile Anatomy](devops/containerization/understanding-dockerfile-anatomy) | #### Technical Content The Dockerfile consists of several stages, each represented by a specific instruction. These instructions are executed in sequence to create a Docker image. |
+| [Understanding Dockerfile Anatomy](devops/containerization/understanding-dockerfile-anatomy) | #### Technical Content The Dockerfile anatomy can be broken down into several sections, each serving a specific purpose. The following is a detailed explanation of these sections: |
 </details>
 
 <details><summary>Infrastructure As Code</summary>
@@ -437,9 +445,9 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 | **Item** | **Description** |
 |----------|-----------------|
 | [Alert Management With Open Source Aiops Platform](devops/monitoring/alert-management-with-open-source-aiops-platform) | #### Technical Content The open-source AIOps and alert management platform is built with the goal of providing clarity and understanding through its intuitive interface. Key features include: - \*\... |
-| [Alert Manager Open Source Aiops And Alert Management Platform](devops/monitoring/alert-manager-open-source-aiops-and-alert-management-platform) | #### Technical Content The Alert Manager platform is built on open-source principles, enabling IT teams and organizations to leverage its capabilities while also contributing to its growth and cust... |
+| [Alert Manager Open Source Aiops And Alert Management Platform](devops/monitoring/alert-manager-open-source-aiops-and-alert-management-platform) | #### Technical Content The Alert Manager platform offers a range of features that make it an indispensable tool for DevOps and monitoring teams. Some of the key functionalities include: |
 | [Observability_Fundamentals](devops/monitoring/observability_fundamentals) | #### Technical Content The Alert Manager platform offers several key features that make it an indispensable tool for DevOps and monitoring tasks: - \*\*Single-Pane-of-Glass Alert Management\*\*: Th... |
-| [The Foundation Of Observability](devops/monitoring/the-foundation-of-observability) | #### Observability Fundamentals Observability is the ability to measure and understand the internal state of a system by analyzing its outputs. The three pillars of observability are: |
+| [The Foundation Of Observability](devops/monitoring/the-foundation-of-observability) | ### Description Observability is a critical aspect of modern software development, enabling teams to understand the behavior and performance of their systems. At its core, observability involves co... |
 | [The Foundation Of Observability Logging, Tracing, And Metrics](devops/monitoring/the-foundation-of-observability-logging,-tracing,-and-metrics) | ## Technical Content ### Logging Logging refers to the process of recording events that occur within an application or system. It is a crucial aspect of observability as it facilitates debugging, t... |
 | [The Foundation Of Observability Logging, Tracing, And Metrics.Md](devops/monitoring/the-foundation-of-observability-logging,-tracing,-and-metrics.md) | #### Observability Fundamentals Observability is essential for monitoring system behavior, debugging issues, and optimizing performance. The three pillars of observability are: |
 </details>
