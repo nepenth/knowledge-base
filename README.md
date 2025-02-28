@@ -3,11 +3,11 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 
 ---
 ## 📊 Overview
-- **Total Items**: 232
+- **Total Items**: 233
 - **Main Categories**: 14
 - **Subcategories**: 48
-- **Media Files**: 123
-- **Last Updated**: 2025-02-28 15:56:44
+- **Media Files**: 125
+- **Last Updated**: 2025-02-28 17:04:01
 
 ---
 ## 🧭 Quick Navigation
@@ -78,18 +78,18 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 ## 🔔 Recent Updates
 | **Item** | **Category** | **Last Updated** | **Source** |
 |----------|--------------|------------------|------------|
+| [Structured Outputs Sample Apps Repository](development_tools/version_control/structured-outputs-sample-apps-repository) | Development_Tools/Version_Control | 2025-02-28 | [N/A](N/A) |
+| [Company Insider Ai A Comprehensive Guide](artificial_intelligence/machine_learning/company-insider-ai-a-comprehensive-guide) | Artificial_Intelligence/Machine_Learning | 2025-02-28 | [N/A](N/A) |
 | [Introduction To Ui Tars Pioneering Automated Gui Interaction With Native Agents](artificial_intelligence/machine_learning/introduction-to-ui-tars-pioneering-automated-gui-interaction-with-native-agents) | Artificial_Intelligence/Machine_Learning | 2025-02-28 | [N/A](N/A) |
 | [Alert Manager Open Source Aiops And Alert Management Platform](devops/monitoring/alert-manager-open-source-aiops-and-alert-management-platform) | Devops/Monitoring | 2025-02-28 | [N/A](N/A) |
 | [Web Crawler And Scraper For Ai Data Crwl4Ai Overview](development_tools/web_scraping_tools/web-crawler-and-scraper-for-ai-data-crwl4ai-overview) | Development_Tools/Web_Scraping_Tools | 2025-02-28 | [N/A](N/A) |
-| [Sparrow An Open Source Solution For Data Extraction And Processing Using Machine Learning](artificial_intelligence/machine_learning/sparrow-an-open-source-solution-for-data-extraction-and-processing-using-machine-learning) | Artificial_Intelligence/Machine_Learning | 2025-02-28 | [N/A](N/A) |
-| [Sql Joins Guide](data_engineering/data_modeling/sql-joins-guide) | Data_Engineering/Data_Modeling | 2025-02-28 | [N/A](N/A) |
 
 ---
 ## 📋 Categories
 
 ### Artificial Intelligence <a name="artificial-intelligence"></a>
 *Subcategories: machine learning, nlp*
-*Items: 32*
+*Items: 33*
 
 <details><summary>Machine Learning</summary>
 
@@ -97,6 +97,7 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 
 | **Item** | **Description** |
 |----------|-----------------|
+| [Company Insider Ai A Comprehensive Guide](artificial_intelligence/machine_learning/company-insider-ai-a-comprehensive-guide) | #### Technical Content The Company Insider AI is built on top of advanced machine learning algorithms that enable it to scour through vast amounts of data from various sources, including but not li... |
 | [Company Insider Ai An Open Source Tool For Company Research](artificial_intelligence/machine_learning/company-insider-ai-an-open-source-tool-for-company-research) | #### Technical Content The Company Insider AI tool is built using various technologies and is hosted on GitHub at \[https://github.com/exa-labs/company-researcher\](https://github.com/exa-labs/comp... |
 | [Company Insider Ai Uncovering Company Insights With Artificial Intelligence](artificial_intelligence/machine_learning/company-insider-ai-uncovering-company-insights-with-artificial-intelligence) | #### Technical Overview The Company Insider AI is built using cutting-edge technologies, including machine learning algorithms and natural language processing techniques. The tool is designed to sc... |
 | [Company Insider Ai Unveiling The Power Of Open Source Intelligence](artificial_intelligence/machine_learning/company-insider-ai-unveiling-the-power-of-open-source-intelligence) | #### Technical Content The Company Insider AI, hosted on GitHub at \[https://github.com/exa-labs/company-researcher\](https://github.com/exa-labs/company-researcher), is built upon cutting-edge mac... |
@@ -341,7 +342,7 @@ Welcome to our curated technical knowledge base! Dive into a rich collection of 
 | [Automating Online Money Making With Github Repository](development_tools/version_control/automating-online-money-making-with-github-repository) | ## Technical Content ### Overview of MoneyPrinter V2 MoneyPrinter V2 is a web-based application designed to automate the process of creating and selling digital products online. The application pro... |
 | [Online Money Maker Automating Digital Product Creation And Sales](development_tools/version_control/online-money-maker-automating-digital-product-creation-and-sales) | #### Technical Content MoneyPrinter V2 is a web-based application that offers a range of features to help users create and sell digital products. The application's webpage provides an overview of i... |
 | [Online_Money_Maker](development_tools/version_control/online_money_maker) | #### Technical Content MoneyPrinter V2 is a web-based application that offers a range of features to help users create and sell digital products. The application has a user-friendly interface, with... |
-| [Structured Outputs Sample Apps Repository](development_tools/version_control/structured-outputs-sample-apps-repository) | #### Technical Content The repository, hosted on GitHub at \[https://github.com/openai/openai-structured-outputs-samples\](https://github.com/openai/openai-structured-outputs-samples), contains thr... |
+| [Structured Outputs Sample Apps Repository](development_tools/version_control/structured-outputs-sample-apps-repository) | ## Technical Content The repository contains three example apps that showcase the use of LLM outputs in various scenarios. These examples are designed to help developers understand how to work with... |
 | [Structured Outputs Sample Apps Repository.Md](development_tools/version_control/structured-outputs-sample-apps-repository.md) | #### Technical Content The repository, hosted on GitHub at \[https://github.com/openai/openai-structured-outputs-samples\](https://github.com/openai/openai-structured-outputs-samples), contains thr... |
 </details>
 
