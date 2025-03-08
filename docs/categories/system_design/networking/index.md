@@ -1,0 +1,13 @@
+# Networking
+
+The Networking subcategory within System Design provides a collection of resources focused on designing and implementing network architectures for complex systems. This section delves into the principles and best practices for creating efficient, scalable, and secure network infrastructures that support the needs of various applications and services. Users can expect to find detailed information on network topology design, protocol selection, traffic management, and optimization techniques, among other topics.
+
+The four items within this subcategory offer a range of perspectives and insights, from foundational concepts to advanced strategies for networking system design. Whether you're looking to improve the performance of an existing network or build a new one from scratch, the content here will help you make informed decisions about your system's network architecture. Topics covered include designing for high availability, ensuring network security, optimizing data transfer, and more, making this subcategory an essential resource for system designers, architects, and engineers tasked with building robust and efficient network systems.
+
+## Items
+| Item | Description | Last Updated |
+|------|-------------|--------------|
+| [Address Resolution Protocol (Arp) Flow](address-resolution-protocol-(arp)-flow.md) | #### Technical Content The ARP protocol flow involves four primary steps: 1. \*\*Request for MAC Address\*\*: When one computer (Device A) wants to send data to another computer (Device B), it send... | 2025-02-28 |
+| [Dns_Record_Types](dns_record_types.md) | ## Technical Content DNS record types are used to store information about a domain name, such as its IP address, mail server, or other services. The following are some of the most common DNS record... | 2025-02-28 |
+| [Network Address Translation (Nat) Explained](network-address-translation-(nat)-explained.md) | #### Technical Content NAT is a crucial component in modern networking, allowing devices with private IP addresses to communicate with the public internet. The process involves translating private ... | 2025-02-28 |
+| [Network Protocols Overview](network-protocols-overview.md) | ### Description The following eight network protocols are covered in this entry: 1. \*\*HTTP (Hypertext Transfer Protocol)\*\* 2. \*\*HTTP/3 (QUIC)\*\* 3. \*\*HTTPS (Hypertext Transfer Protocol Sec... | 2025-02-28 |

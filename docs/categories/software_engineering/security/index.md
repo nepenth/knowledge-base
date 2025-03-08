@@ -1,0 +1,13 @@
+# Security
+
+The Security subcategory within the Software Engineering category provides essential resources and guidelines for ensuring the integrity and confidentiality of software systems. This subcategory contains four key items that delve into various aspects of security in software development, including secure coding practices, threat modeling, vulnerability assessment, and compliance with industry standards and regulations. Users can expect to find informative articles, tutorials, and best practice guides that will help them design and implement secure software solutions.
+
+The content within this subcategory is designed to support software engineers, developers, and security professionals in their efforts to protect against common web application vulnerabilities, such as SQL injection and cross-site scripting (XSS). By exploring the items within this subcategory, users can gain a deeper understanding of security principles, learn how to identify and mitigate potential threats, and develop the skills needed to create robust and secure software systems. Whether you're looking to enhance your knowledge of security fundamentals or seeking practical advice on implementing secure development practices, this subcategory has something to offer.
+
+## Items
+| Item | Description | Last Updated |
+|------|-------------|--------------|
+| [Api Security Best Practices 12 Essential Tips](api-security-best-practices-12-essential-tips.md) | #### Detailed Technical Content API security is a multifaceted topic that requires attention to various aspects of API design, implementation, and deployment. The following sections provide an in-d... | 2025-02-28 |
+| [Api Security Checklist Best Practices For Protecting Against Silent Exploitation](api-security-checklist-best-practices-for-protecting-against-silent-exploitation.md) | ## Technical Content API security is a critical aspect of software engineering, and neglecting it can lead to severe consequences, including data breaches and financial losses. The following sectio... | 2025-02-28 |
+| [Authelia Open Source Authentication And Single Sign On Server](authelia-open-source-authentication-and-single-sign-on-server.md) | #### Technical Overview Authelia is designed to be highly customizable and scalable, making it suitable for a wide range of applications and environments. Some key technical aspects of Authelia inc... | 2025-02-28 |
+| [Hacker Search Engines](hacker-search-engines.md) | #### Technical Content Hacker search engines utilize various techniques such as web scraping, DNS enumeration, and network scanning to collect and index data. This data can be used for both legitim... | 2025-02-28 |

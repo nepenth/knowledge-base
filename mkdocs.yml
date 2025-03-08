@@ -1,0 +1,89 @@
+site_name: Technical Knowledge Base
+site_description: A curated collection of technical knowledge
+theme:
+  name: material
+  features:
+  - navigation.instant
+  - navigation.tracking
+  - navigation.expand
+  - navigation.indexes
+  - search.highlight
+  - search.share
+  palette:
+    primary: indigo
+    accent: indigo
+  icon:
+    logo: material/library
+plugins:
+- search
+markdown_extensions:
+- pymdownx.highlight
+- pymdownx.superfences
+- pymdownx.tabbed
+- pymdownx.details
+- admonition
+nav:
+- Home: index.md
+- Categories:
+    Artificial Intelligence:
+      Machine Learning: categories/artificial_intelligence/machine_learning/index.md
+      Nlp: categories/artificial_intelligence/nlp/index.md
+    Career Development:
+      Best Practices: categories/career_development/best_practices/index.md
+      Humor In Tech: categories/career_development/humor_in_tech/index.md
+      Job Interview Preparation: categories/career_development/job_interview_preparation/index.md
+    Cloud Computing:
+      Aws, Azure, Gcp: categories/cloud_computing/aws,_azure,_gcp/index.md
+    Communication Skills:
+      Presentation Techniques: categories/communication_skills/presentation_techniques/index.md
+    Data Engineering:
+      Big Data: categories/data_engineering/big_data/index.md
+      Data Integration: categories/data_engineering/data_integration/index.md
+      Data Modeling: categories/data_engineering/data_modeling/index.md
+      Stream Processing: categories/data_engineering/stream_processing/index.md
+    Development Tools:
+      Data Integration: categories/development_tools/data_integration/index.md
+      Debugging Tools: categories/development_tools/debugging_tools/index.md
+      Ide Tools: categories/development_tools/ide_tools/index.md
+      Installation Guides: categories/development_tools/installation_guides/index.md
+      Monitoring Tools: categories/development_tools/monitoring_tools/index.md
+      Shell Scripting: categories/development_tools/shell_scripting/index.md
+      Version Control: categories/development_tools/version_control/index.md
+      Web Scraping Tools: categories/development_tools/web_scraping_tools/index.md
+    Devops:
+      Ci Cd: categories/devops/ci_cd/index.md
+      Ci Cd, Infrastructure As Code, Containerization, Monitoring, Cloud Platforms: categories/devops/ci_cd,_infrastructure_as_code,_containerization,_monitoring,_cloud_platforms/index.md
+      Cloud Platforms: categories/devops/cloud_platforms/index.md
+      Containerization: categories/devops/containerization/index.md
+      Infrastructure As Code: categories/devops/infrastructure_as_code/index.md
+      Logging: categories/devops/logging/index.md
+      Monitoring: categories/devops/monitoring/index.md
+      Orchestration: categories/devops/orchestration/index.md
+    Finance And Accounting:
+      Financial Statement Analysis: categories/finance_and_accounting/financial_statement_analysis/index.md
+    Hardware And Peripherals:
+      Location Tracking Devices: categories/hardware_and_peripherals/location_tracking_devices/index.md
+    Personal Development:
+      Goal Setting And Achievement: categories/personal_development/goal_setting_and_achievement/index.md
+    Programming Languages:
+      Java: categories/programming_languages/java/index.md
+      Shell Scripting: categories/programming_languages/shell_scripting/index.md
+    Software Engineering:
+      Best Practices: categories/software_engineering/best_practices/index.md
+      Code Quality: categories/software_engineering/code_quality/index.md
+      Debugging: categories/software_engineering/debugging/index.md
+      Performance Optimization: categories/software_engineering/performance_optimization/index.md
+      Security: categories/software_engineering/security/index.md
+      Testing: categories/software_engineering/testing/index.md
+    System Design:
+      Api Design: categories/system_design/api_design/index.md
+      Architecture Patterns: categories/system_design/architecture_patterns/index.md
+      Caching: categories/system_design/caching/index.md
+      Distributed Systems: categories/system_design/distributed_systems/index.md
+      Load Balancing: categories/system_design/load_balancing/index.md
+      Message Queues: categories/system_design/message_queues/index.md
+      Microservices: categories/system_design/microservices/index.md
+      Networking: categories/system_design/networking/index.md
+      Scalability: categories/system_design/scalability/index.md
+    Web Development:
+      Apis: categories/web_development/apis/index.md
