@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Pagination Techniques - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">System Design</a></li>
+                <li class="breadcrumb-item"><a href="index.html">Api Design</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Api Pagination Techniques</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p>API pagination techniques are methods used to handle large datasets in APIs, allowing for efficient retrieval of data in smaller chunks. Poor pagination can quickly become a bottleneck, leading to performance issues and scalability problems.
+
+<h2>Introduction to Pagination Methods</h2> There are four common pagination methods:</p>
+
+<p>* **Offset-based pagination**: Relies on limit and offset parameters to paginate. Limit specifies how many items to return and offset defines where to start in the dataset. * **Cursor-based pagination**: Instead of relying on numerical offsets, the server generates a cursor to identify the starting point for the next page. Ideal for datasets where new entries are frequently added or removed. * **Keyset-based pagination**: Uses a stable key (e.g., ID, timestamp) to paginate efficiently in large datasets. This method bypasses row counting, improving speed and scalability. * **Page-based pagination**: Retrieves data using a page parameter (e.g., ?page=3) to specify which subset of data to return. It’s simple and intuitive but less effective in datasets that change frequently.
+
+<h2>Implementing Pagination in Your API</h2> Here are examples of how to implement each pagination method:
+
+<h3>Offset-based Pagination</h3> <pre><code>http GET /items?limit=10&offset=20 </code></pre> This request returns 10 items starting from the 21st record.
+
+<h3>Cursor-based Pagination</h3> <pre><code>http GET /items?cursor=abc123 </code></pre> The server provides a cursor like `abc123` for the next page, allowing precise control over the data flow.
+
+<h3>Keyset-based Pagination</h3> <pre><code>http GET /items?after_id=100 </code></pre> This request retrieves items where the ID is greater than 100, efficiently leveraging indexed fields.
+
+<h3>Page-based Pagination</h3> <pre><code>http GET /items?page=3 </code></pre> Fetches the third page of results, with each page containing a predefined number of items.
+
+<h2>Common Pagination Mistakes to Avoid</h2> The following are common mistakes to avoid when implementing pagination:</p>
+
+<p>1. **Neglecting the last page**: Ensure your API returns a clear response when users reach the final page of data. 2. **Failing to account for real-time data**: Use cursor-based or keyset-based pagination to avoid issues with missing or duplicated records in dynamic datasets. 3. **Ignoring documentation**: Clearly explain your pagination parameters (limit, offset, cursor, page) in your API documentation to avoid confusion.
+
+<h2>Best Practices</h2> To optimize your API's performance and scalability:</p>
+
+<p>1. **Optimize database queries**: Use indexes on fields you paginate (e.g., ID, timestamp). 2. **Set a maximum page size**: Protect your system by capping the number of items per page. 3. **Validate pagination parameters**: Ensure limit and offset values are valid to prevent errors. 4. **Consistency across endpoints**: Keep pagination formats uniform to maintain ease of use and prevent confusion.
+
+<h2>Conclusion</h2> API pagination techniques play a crucial role in handling large datasets efficiently. By understanding the different methods available and implementing them correctly, you can improve your API's performance, scalability, and user experience. Remember to avoid common mistakes and follow best practices to ensure optimal results.
+
+<h2>References</h2> * <a href="https://api-design-guide.github.io/">API Design Guide</a> * <a href="https://example.com/pagination-techniques-infographic">Pagination Techniques Infographic</a></p>
+
+<p>--- **Source**: <a href="https://twitter.com/i/web/status/1880268843869958299">Original Tweet</a></p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1880268843869958299">https://twitter.com/user/status/1880268843869958299</a><br>
+                    Last Updated: 2025-02-28
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

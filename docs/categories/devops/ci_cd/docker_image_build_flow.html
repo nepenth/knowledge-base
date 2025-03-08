@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker_Image_Build_Flow - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">Devops</a></li>
+                <li class="breadcrumb-item"><a href="index.html">Ci Cd</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Docker_Image_Build_Flow</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p>Creating a Docker image is an essential step in the DevOps pipeline, enabling efficient deployment and management of applications. The Docker image build flow involves several stages, from defining the Dockerfile to storing and managing artifacts. This entry provides a comprehensive overview of the Docker image build process, highlighting the role of Continuous Integration and Continuous Deployment (CI/CD) and tools like Jenkins.</p>
+
+<p>#### Technical Content The Docker image build flow can be broadly categorized into four sections: Docker Build, Artifact Repository, CI/CD Pipeline, and Jenkins.</p>
+
+<p>##### Docker Build This stage involves defining the Dockerfile, which contains instructions for building the Docker image. The steps in this section include: * **Define Dockerfile**: Create a Dockerfile that outlines the base image, copies files, sets environment variables, and defines commands to run during the build process. * **Build Docker Image**: Use the `docker build` command to create the Docker image from the Dockerfile. * **Store Image (Optional)**: Store the built image in a registry like Docker Hub for later use. * **Execute Build**: Execute the build process using the defined Dockerfile and store the resulting image. * **Store Image (Optional)**: Optionally, store the final image in an artifact repository or a container registry.</p>
+
+<p>Example of a simple Dockerfile: <pre><code>dockerfile
+<h1>Use an official Python runtime as a parent image</h1> FROM python:3.9-slim
+
+<h1>Set the working directory in the container</h1> WORKDIR /app
+
+<h1>Copy the current directory contents into the container at /app</h1> COPY . /app
+
+<h1>Install any needed packages specified in requirements.txt</h1> RUN pip install --trusted-host pypi.org -r requirements.txt
+
+<h1>Make port 80 available to the world outside this container</h1> EXPOSE 80
+
+<h1>Define environment variable</h1> ENV NAME World
+
+<h1>Run app.py when the container launches</h1> CMD ["python", "app.py"] </code></pre></p>
+
+<p>##### Artifact Repository An artifact repository is used to store and manage artifacts produced during the build process. This can include Docker images, jar files, or other deployable components. The steps in this section include: * **Store Image (Optional)**: Store the built Docker image in an artifact repository for version control and easy retrieval. * **CI/CD Pipeline**: Integrate the artifact repository with a CI/CD pipeline tool like Jenkins to automate the build, test, and deployment process.</p>
+
+<p>##### CI/CD Pipeline The CI/CD pipeline is crucial for automating the build, testing, and deployment of applications. The steps in this section include: * **Jenkins Pipeline (Jenkinsfile)**: Define a Jenkinsfile that outlines the stages of the pipeline, including build, test, and deploy. * **Artifact Repository**: Use an artifact repository to store and manage artifacts produced during the pipeline execution.</p>
+
+<p>Example of a Jenkinsfile for a CI/CD pipeline: <pre><code>groovy pipeline {     agent any</p>
+
+<p>    stages {         stage('Build') {             steps {                 // Build the Docker image                 sh 'docker build -t myapp .'             }         }         stage('Test') {             steps {                 // Test the application                 sh 'docker run myapp python tests.py'             }         }         stage('Deploy') {             steps {                 // Deploy the application to production                 sh 'docker tag myapp:latest myregistry/myapp:latest'                 sh 'docker push myregistry/myapp:latest'             }         }     } } </code></pre></p>
+
+<p>##### Jenkins Jenkins is a popular tool for automating CI/CD pipelines. It provides a flexible framework for defining pipeline stages and integrating with various tools and technologies. The steps in this section include: * **Jenkins Pipeline (Jenkinsfile)**: Define a Jenkinsfile to automate the build, test, and deployment process. * **Artifact Repository**: Integrate Jenkins with an artifact repository to store and manage artifacts produced during the pipeline execution.</p>
+
+<p>#### Key Takeaways and Best Practices
+<ul>
+<li>**Automate the Build Process**: Use CI/CD tools like Jenkins to automate the Docker image build process.</li>
+<li>**Use Artifact Repositories**: Store and manage artifacts in repositories for version control and easy retrieval.</li>
+<li>**Implement Continuous Integration and Deployment**: Regularly integrate code changes into a central repository and automatically deploy to production after testing.</li>
+<li>**Monitor and Log**: Monitor pipeline executions and log events for debugging and auditing purposes.</li> </ul> #### References
+<ul>
+<li><a href="https://docs.docker.com/">Docker Documentation</a></li>
+<li><a href="https://www.jenkins.io/doc/">Jenkins Documentation</a></li>
+<li><a href="https://www.atlassian.com/continuous-delivery/principles/continuous-integration">CI/CD Best Practices</a></li> </ul><h2>Source</h2>
+
+<ul>
+<li>Original Tweet: <a href="https://twitter.com/i/web/status/1884306371631538367">https://twitter.com/i/web/status/1884306371631538367</a></li>
+<li>Date: 2025-02-20 20:58:48</li> </ul>
+
+<h2>Media</h2>
+
+<h3>Media 1</h3> !<a href="./media_0.jpg">media_0</a> **Description:** The image presents a flowchart illustrating the process of Docker Image Build in DevOps. The chart is divided into several sections, each representing a different stage of the build process.</p>
+
+<p>*   **Docker Build**     *   This section outlines the steps involved in building a Docker image.     *   It includes the following sub-steps:         *   Define Dockerfile         *   Build Docker Image         *   Store Image (Optional)         *   Execute Build         *   Store Image (Optional) *   **Artifact Repository**     *   This section describes how to store and manage artifacts during the build process.     *   It includes the following sub-steps:         *   Store Image (Optional)         *   CI/CD Pipeline *   **CI/CD Pipeline**     *   This section explains the role of Continuous Integration and Continuous Deployment in the build process.     *   It includes the following sub-steps:         *   Jenkins Pipeline (Jenkinsfile)         *   Artifact Repository *   **Jenkins**     *   This section highlights the importance of Jenkins in automating the build process.     *   It includes the following sub-steps:         *   Jenkins Pipeline (Jenkinsfile)         *   Artifact Repository</p>
+
+<p>In summary, the flowchart provides a step-by-step guide to building a Docker image using DevOps tools and techniques. It covers various stages, from defining the Dockerfile to storing and managing artifacts, and emphasizes the role of Continuous Integration and Continuous Deployment in automating the build process.</p>
+
+<p>*Last updated: 2025-02-20 20:58:48*</p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1884306371631538367">https://twitter.com/user/status/1884306371631538367</a><br>
+                    Last Updated: 2025-02-28
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

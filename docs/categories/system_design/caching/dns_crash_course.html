@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dns_Crash_Course - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">System Design</a></li>
+                <li class="breadcrumb-item"><a href="index.html">Caching</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Dns_Crash_Course</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p>The Domain Name System (DNS) is a critical component of the internet infrastructure, responsible for translating human-readable domain names into IP addresses that devices can understand. This crash course provides an in-depth look at how DNS works, including the step-by-step process of resolving a website address into an IP address.
+
+<h2>Technical Overview</h2> The DNS resolution process involves several key steps:</p>
+
+<p>1. **User Request**: The user enters a URL in their browser, triggering a request to resolve the domain name into an IP address. 2. **DNS Server Query**: The request is sent to a DNS server, which checks its cache for the IP address associated with the entered domain name. 3. **Cache Miss**: If the cache does not contain the required information, the DNS server sends a request to another DNS server, which may be closer to the user's location or have more recent data. 4. **Authoritative Name Server Query**: The second DNS server checks its cache and, if it does not contain the required information, sends a request to an authoritative name server associated with the domain name. 5. **IP Address Response**: The authoritative name server responds with the IP address of the requested webpage. 6. **Caching**: The DNS server caches the result for future requests. 7. **Webpage Access**: The user's device uses the retrieved IP address to access the requested webpage.</p>
+
+<p>The following infographic illustrates this process: !<a href="media_0.jpg">How DNS works</a>
+
+<h3>Example Walkthrough</h3> Suppose a user enters the URL `http://example.com` in their browser. The request is sent to a DNS server, which checks its cache for the IP address associated with `example.com`. If the cache does not contain the required information, the DNS server sends a request to another DNS server, which may be closer to the user's location or have more recent data. This process continues until the authoritative name server for `example.com` responds with the IP address of the requested webpage.
+
+<h2>Key Takeaways and Best Practices</h2> * **Caching**: Implementing caching at each level of the DNS hierarchy can significantly improve resolution times and reduce latency. * **DNS Server Selection**: Choosing a DNS server that is closer to the user's location or has more recent data can improve resolution times. * **Security**: Ensuring the security and integrity of DNS responses is critical, as DNS spoofing or manipulation can have significant consequences.
+
+<h2>References</h2> * <a href="https://tools.ietf.org/html/rfc1035">RFC 1035: Domain Names - Implementation and Specification</a> * <a href="https://www.icann.org/">ICANN: Internet Corporation for Assigned Names and Numbers</a></p>
+
+<p>Note: The references provided are a selection of relevant resources and are not an exhaustive list.
+<h2>Source</h2>
+
+<ul>
+<li>Original Tweet: <a href="https://twitter.com/i/web/status/1872868881074929896">https://twitter.com/i/web/status/1872868881074929896</a></li>
+<li>Date: 2025-02-20 16:56:02</li> </ul>
+
+<h2>Media</h2>
+
+<h3>Media 1</h3> !<a href="./media_0.jpg">media_0</a> **Description:** The infographic, titled "How DNS works," provides a comprehensive overview of the process through which a user's device resolves a website address into an IP address using a Domain Name System (DNS). The flowchart illustrates the step-by-step process, from entering a URL to accessing the requested webpage.</p>
+
+<p>**Key Steps:**</p>
+
+<p>* **Step 1:** The user enters a URL in their browser. * **Step 2:** The request is sent to a DNS server, which checks its cache for the IP address associated with the entered domain name. * **Step 3:** If the cache does not contain the required information, the DNS server sends a request to another DNS server, which may be closer to the user's location or have more recent data. * **Step 4:** The second DNS server checks its cache and, if it does not contain the required information, sends a request to an authoritative name server associated with the domain name. * **Step 5:** The authoritative name server responds with the IP address of the requested webpage. * **Step 6:** The DNS server caches the result for future requests. * **Step 7:** The user's device uses the retrieved IP address to access the requested webpage.</p>
+
+<p>**Summary:**</p>
+
+<p>The infographic effectively illustrates the process of how a user's device resolves a website address into an IP address using a Domain Name System (DNS). By breaking down the step-by-step process, it provides a clear understanding of how DNS works and why it is essential for accessing webpages.</p>
+
+<p>*Last updated: 2025-02-20 16:56:02*</p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1872868881074929896">https://twitter.com/user/status/1872868881074929896</a><br>
+                    Last Updated: 2025-02-28
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

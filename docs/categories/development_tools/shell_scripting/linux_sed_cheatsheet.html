@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux_Sed_Cheatsheet - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">Development Tools</a></li>
+                <li class="breadcrumb-item"><a href="index.html">Shell Scripting</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Linux_Sed_Cheatsheet</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p>The Linux Sed command is a powerful text processing tool that allows system administrators to manipulate and transform text files. This cheatsheet provides a comprehensive guide to the Sed command, including its various options, flags, and examples.</p>
+
+<p>#### Technical Content ##### Sed Commands The Sed command has several options that can be used to perform different operations. These include:</p>
+
+<p>* `q`: Exit without processing any more commands or input. * `d`: Delete the pattern space immediately after the current cycle. * `p`: Print out the pattern space (to the standard output). * `a`: Append text after a line. * `i`: Insert text before a line. * `c`: Replace the contents of the file with the contents of the pattern space. * `w`: Write the pattern space to the specified file name. * `D`: Delete the first line that matches the pattern.</p>
+
+<p>##### Command Options The Sed command also has several options that can be used to modify its behavior. These include:</p>
+
+<p>* `-n`: Suppress automatic printing of pattern space. * `-1`: Add the contents of script-file to the commands to be executed. * `e`: Execute multiple Sed commands. * `s`: Use extended regular expressions (supports '+', '?', and '*').</p>
+
+<p>##### Command Flags The Sed command has several flags that can be used to modify its behavior. These include:</p>
+
+<p>* `-i`: Edit files in place (make backup if SUFFIX supplied). * `-l`: Suppress automatic printing of pattern space. * `--help`: Display a help message and exit.</p>
+
+<p>##### Basic Examples Here are some basic examples of Sed commands: <pre><code>bash
+<h1>Delete the second input line</h1> sed '2d' file.txt
+
+<h1>Print only the second input line</h1> sed '2p' file.txt
+
+<h1>Replace all occurrences of a string with another string</h1> sed 's/old_string/new_string/g' file.txt </code></pre></p>
+
+<p>##### Replacing Text The Sed command can be used to replace text in a file. Here are some examples: <pre><code>bash
+<h1>Replace all occurrences of a string with another string</h1> sed 's/old_string/new_string/g' file.txt
+
+<h1>Replace the first occurrence of a string with another string</h1> sed 's/old_string/new_string/' file.txt </code></pre></p>
+
+<p>##### Appending and Prepending Text The Sed command can be used to append or prepend text to a file. Here are some examples: <pre><code>bash
+<h1>Append text at the end of each line</h1> sed 's/$/ appended_text/' file.txt
+
+<h1>Prepend text before each line</h1> sed 's/^/prepended_text/' file.txt </code></pre></p>
+
+<p>##### Deleting Lines The Sed command can be used to delete lines from a file. Here are some examples: <pre><code>bash
+<h1>Delete every 4th line starting with line 6</h1> sed '6~4d' file.txt
+
+<h1>Delete all empty lines</h1> sed '/^$/d' file.txt </code></pre></p>
+
+<p>#### Key Takeaways and Best Practices * The Sed command is a powerful text processing tool that can be used to manipulate and transform text files. * The `-i` flag should be used with caution, as it edits files in place and can potentially cause data loss. * The `--help` flag should be used to display a help message and exit if you are unsure of how to use the Sed command. * It's always a good idea to test your Sed commands on a sample file before running them on a production file.</p>
+
+<p>#### References * <a href="https://sysxplore.com">Sysxplore</a>: A website that provides tutorials, guides, and resources for system administrators. * <a href="https://www.gnu.org/software/sed/">Linux Sed Command</a>: The official documentation for the Linux Sed command.
+<h2>Source</h2>
+
+<ul>
+<li>Original Tweet: <a href="https://twitter.com/i/web/status/1881322615945777273">https://twitter.com/i/web/status/1881322615945777273</a></li>
+<li>Date: 2025-02-20 17:16:42</li> </ul>
+
+<h2>Media</h2>
+
+<h3>Media 1</h3> !<a href="./media_0.jpg">media_0</a> **Description:** The infographic, titled "Linux SED Command Cheatsheet," provides a comprehensive overview of the Sed command's functionality. The title is displayed at the top in white text against a black background, accompanied by the website URL "sysxplore.com" and its logo on either side.</p>
+
+<p>**Sed Commands**</p>
+
+<p>*   This section lists various options available for the Sed command, including:     *   `q`: Exit without processing any more commands or input.     *   `d`: Delete the pattern space immediately after the current cycle.     *   `p`: Print out the pattern space (to the standard output).     *   `a`: Append text after a line.     *   `i`: Insert text before a line.     *   `c`: Replace the contents of the file with the contents of the pattern space.     *   `w`: Write the pattern space to the specified file name.     *   `D`: Delete the first line that matches the pattern.</p>
+
+<p>**Command Options**</p>
+
+<p>*   This section explains the different command options available for Sed, including:     *   `-n`: Suppress automatic printing of pattern space.     *   `-1`: Add the contents of script-file to the commands to be executed.     *   `e`: Execute multiple Sed commands.     *   `s`: Use extended regular expressions (supports '+', '?', and '*').</p>
+
+<p>**Command Flags**</p>
+
+<p>*   This section lists various flags that can be used with Sed, including:     *   `-i`: Edit files in place (make backup if SUFFIX supplied).     *   `-l`: Suppress automatic printing of pattern space.     *   `--help`: Display a help message and exit.</p>
+
+<p>**Basic Examples**</p>
+
+<p>*   This section provides examples of basic Sed commands, including:     *   Deleting the second input line.     *   Printing only the second input line.     *   Replacing all occurrences of a string with another string.</p>
+
+<p>**Replacing Text**</p>
+
+<p>*   This section explains how to replace text using Sed, including:     *   Replacing all occurrences of a string with another string.     *   Replacing the first occurrence of a string with another string.</p>
+
+<p>**Appending and Prepending Text**</p>
+
+<p>*   This section describes how to append or prepend text to a file using Sed, including:     *   Appending text at the end of each line.     *   Preferring text before each line.</p>
+
+<p>**Deleting Lines**</p>
+
+<p>*   This section explains how to delete lines from a file using Sed, including:     *   Deleting every 4th line starting with line 6.     *   Deleting all empty lines.</p>
+
+<p>Overall, this infographic provides a comprehensive guide to the Sed command and its various options, flags, and examples. It is an essential resource for anyone looking to learn more about this powerful text processing tool.</p>
+
+<p>*Last updated: 2025-02-20 17:16:42*</p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1881322615945777273">https://twitter.com/user/status/1881322615945777273</a><br>
+                    Last Updated: 2025-02-28
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sql_Joins_Cheat_Sheet - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">Data Engineering</a></li>
+                <li class="breadcrumb-item"><a href="index.html">Data Modeling</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Sql_Joins_Cheat_Sheet</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p>This entry provides a comprehensive guide to SQL joins, including a detailed explanation of eight distinct join types, their syntax, and examples. The information is based on an infographic titled "SQL JOINS Cheat Sheet" and is intended to serve as a valuable resource for individuals looking to improve their understanding of SQL and its applications.</p>
+
+<p>#### Technical Content SQL joins are used to combine rows from two or more tables based on a related column between them. The resulting table contains columns from both tables, allowing for more complex queries and analysis. There are several types of SQL joins, each with its own specific use case:</p>
+
+<p>* **INNER JOIN**: Retrieves rows where there is a match between tables A and B based on a common key. The syntax for an INNER JOIN is: <pre><code>sql SELECT * FROM tableA INNER JOIN tableB ON tableA.common_key = tableB.common_key; </code></pre> Example: Suppose we have two tables, `orders` and `customers`, with a common column `customer_id`. To retrieve all orders with their corresponding customer information, we can use an INNER JOIN: <pre><code>sql SELECT * FROM orders INNER JOIN customers ON orders.customer_id = customers.customer_id; </code></pre></p>
+
+<p>* **FULL JOIN (WITH NULL CHECK)**: Retrieves rows from both tables with no matching records in either table. The syntax for a FULL JOIN is: <pre><code>sql SELECT * FROM tableA FULL OUTER JOIN tableB ON tableA.common_key = tableB.common_key; </code></pre> Example: To retrieve all customers and their corresponding orders, including customers with no orders and orders with no corresponding customer, we can use a FULL JOIN: <pre><code>sql SELECT * FROM customers FULL OUTER JOIN orders ON customers.customer_id = orders.customer_id; </code></pre></p>
+
+<p>* **LEFT JOIN**: Returns all rows from table A along with matched rows from table B, without any matches resulting in NULL values for column(s) specified in the ON clause. The syntax for a LEFT JOIN is: <pre><code>sql SELECT * FROM tableA LEFT JOIN tableB ON tableA.common_key = tableB.common_key; </code></pre> Example: To retrieve all customers and their corresponding orders, including customers with no orders, we can use a LEFT JOIN: <pre><code>sql SELECT * FROM customers LEFT JOIN orders ON customers.customer_id = orders.customer_id; </code></pre></p>
+
+<p>* **RIGHT JOIN (WITH NULL CHECK)**: Selects rows from table B that lack a corresponding match in table A while isolating only unmatched rows. The syntax for a RIGHT JOIN is: <pre><code>sql SELECT * FROM tableA RIGHT JOIN tableB ON tableA.common_key = tableB.common_key; </code></pre> Example: To retrieve all orders with no corresponding customer, we can use a RIGHT JOIN: <pre><code>sql SELECT * FROM customers RIGHT JOIN orders ON customers.customer_id = orders.customer_id WHERE customers.customer_id IS NULL; </code></pre></p>
+
+<p>In addition to these join types, there are four more:</p>
+
+<p>* **CROSS JOIN**: Returns the Cartesian product of both tables. * **SELF JOIN**: Joins a table with itself. * **SEMI JOIN**: Returns rows from one table where there is a match in another table. * **ANTI JOIN**: Returns rows from one table where there is no match in another table.</p>
+
+<p>#### Key Takeaways and Best Practices When working with SQL joins, keep the following best practices in mind:</p>
+
+<p>* Always specify the join type (e.g., INNER JOIN, LEFT JOIN) to avoid ambiguity. * Use meaningful table aliases to improve query readability. * Be cautious when using FULL JOINs, as they can result in large datasets. * Test your queries thoroughly to ensure correct results.</p>
+
+<p>#### References The infographic "SQL JOINS Cheat Sheet" is available on the website <a href="http://sysxplore.com">sysxplore.com</a>. This resource provides a comprehensive guide to SQL joins and is intended for individuals looking to improve their understanding of SQL and its applications.
+<h2>Source</h2>
+
+<ul>
+<li>Original Tweet: <a href="https://twitter.com/i/web/status/1891946149730451954">https://twitter.com/i/web/status/1891946149730451954</a></li>
+<li>Date: 2025-02-20 20:44:43</li> </ul>
+
+<h2>Media</h2>
+
+<h3>Media 1</h3> !<a href="./media_0.jpg">media_0</a> **Description:** The infographic, titled "SQL JOINS Cheat Sheet," presents a comprehensive guide to SQL joins. The title is displayed in white text at the top of the image, with the word "SQL" in blue.</p>
+
+<p>**Key Features:**</p>
+
+<p>* A black background * White text throughout the cheat sheet * Eight distinct SQL join types are illustrated using red and green lines within circles on the left side of the infographic</p>
+
+<p>**SQL Join Types:**</p>
+
+<p>The infographic provides a detailed explanation of each SQL join type, including:</p>
+
+<p>* INNER JOIN: Retrieves rows where there is a match between tables A and B based on a common key * FULL JOIN (WITH NULL CHECK): Retrieves rows from both tables with no matching records in either table * LEFT JOIN: Returns all rows from table A along with matched rows from table B, without any matches resulting in NULL values for column(s) specified in the ON clause * RIGHT JOIN (WITH NULL CHECK): Selects rows from table B that lack a corresponding match in table A while isolating only unmatched rows</p>
+
+<p>**Additional Information:**</p>
+
+<p>At the bottom of the infographic, the website "sysxplore.com" is listed in white text. This suggests that the infographic may be part of a larger resource or tutorial on SQL and database management.</p>
+
+<p>Overall, the infographic provides a clear and concise overview of various SQL join types, making it a valuable resource for individuals looking to improve their understanding of SQL and its applications.</p>
+
+<p>*Last updated: 2025-02-20 20:44:43*</p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1891946149730451954">https://twitter.com/user/status/1891946149730451954</a><br>
+                    Last Updated: 2025-02-28
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
