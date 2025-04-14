@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consistent Hashing A Comprehensive Guide - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">Uncategorized</a></li>
+                <li class="breadcrumb-item"><a href="index.html">General</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Consistent Hashing A Comprehensive Guide</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p><h2>Overview</h2> Consistent hashing is a distributed hashing technique that minimizes the amount of data that needs to be remapped when servers are added or removed from a distributed system. This approach helps maintain stability and efficiency in distributed systems by ensuring that data remains evenly distributed even as nodes join or leave the cluster.
+
+<h2>Main Concepts</h2>
+
+<h3>1. The Hash Ring</h3>
+<ul>
+<li>Consistent hashing uses a circular hash space (a "ring")</li>
+<li>Both keys and server nodes are hashed onto this ring</li>
+<li>The position where a key's hash value lands on the ring determines which node stores it</li> </ul>
+<h3>2. Node Distribution</h3>
+<ul>
+<li>When a new node is added to the system, only the keys that were previously mapped to its predecessor node need to be remapped</li>
+<li>Similarly, when a node is removed, its keys are redistributed to its successor node</li>
+<li>This minimizes data movement compared to traditional hashing methods</li> </ul>
+<h2>Practical Implementation Examples</h2>
+
+<h3>Example 1: Web Caching</h3> <pre><code>python class ConsistentHashing:     def __init__(self, nodes):         self.nodes = nodes              def hash(self, key):         return (hash(key) % len(self.nodes))              def get_node(self, key):         index = self.hash(key)         return self.nodes[index] </code></pre>
+
+<h3>Example 2: Load Balancing</h3>
+<ul>
+<li>Used in distributed systems to route requests to appropriate servers</li>
+<li>Helps maintain session persistence and even distribution of load</li> </ul>
+<h2>Key Points and Takeaways</h2></p>
+
+<p>1. **Data Stability**: Minimizes data movement when nodes are added/removed 2. **Efficient Distribution**: Provides a relatively uniform distribution of keys across nodes 3. **Scalability**: Allows for easy addition or removal of nodes without major system disruption 4. **Fault Tolerance**: System continues to function even if some nodes fail
+
+<h2>Important Considerations</h2>
+
+<h3>Virtual Nodes</h3>
+<ul>
+<li>To improve distribution, systems often use virtual nodes (replicas) for each physical node</li>
+<li>This helps prevent data skew when dealing with unevenly sized nodes</li> </ul>
+<h3>Hash Function Selection</h3>
+<ul>
+<li>Choose a hash function that provides good distribution properties</li>
+<li>Consider using cryptographic hash functions like SHA-256 or non-cryptographic alternatives like xxHash</li> </ul>
+<h2>References and Further Reading</h2></p>
+
+<p>1. <a href="https://systemdesign.one/consistent-hashing-explained/">System Design One - Consistent Hashing Explained</a> 2. <a href="https://en.wikipedia.org/wiki/Consistent_hashing">Wikipedia - Consistent Hashing</a> 3. <a href="https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf">Amazon Dynamo Paper</a>
+
+<h2>Use Cases</h2>
+
+<ul>
+<li>Distributed caching systems</li>
+<li>Load balancing in web services</li>
+<li>Database sharding</li>
+<li>Content delivery networks (CDNs)</li>
+<li>Session management in distributed applications</li> </ul>
+<h2>Common Challenges and Solutions</h2>
+
+<h3>Challenge 1: Uneven Distribution</h3> **Solution**: Implement virtual nodes to improve distribution
+
+<h3>Challenge 2: Hash Function Collisions</h3> **Solution**: Use a combination of hash functions or implement collision resolution strategies</p>
+
+<p>By understanding these concepts and implementations, developers can effectively use consistent hashing in their distributed systems designs.</p>
+
+<p>--- **Source**: <a href="https://twitter.com/i/web/status/1909932998700519513">Original Tweet</a></p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1909932998700519513">https://twitter.com/user/status/1909932998700519513</a><br>
+                    Last Updated: 2025-04-14
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
