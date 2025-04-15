@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kubernetes Persistent Volumes (Pvs) - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">Uncategorized</a></li>
+                <li class="breadcrumb-item"><a href="index.html">General</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Kubernetes Persistent Volumes (Pvs)</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p><h2>Overview</h2> Kubernetes Persistent Volumes (PVs) provide a robust framework for managing durable storage in containerized environments. This knowledge base entry explains the core concepts, implementation details, and best practices for working with PVs.
+
+<h2>Core Concepts</h2>
+
+<h3>What is a Persistent Volume?</h3> A Persistent Volume is a cluster resource that provides an abstraction layer over actual storage devices. It exists independently of Pods and enables data persistence across Pod lifecycles.</p>
+
+<p><pre><code>yaml
+<h1>Example PersistentVolume definition</h1> apiVersion: v1 kind: PersistentVolume metadata:   name: pv-example spec:   capacity:     storage: 10Gi   accessModes:     - ReadWriteOnce   persistentVolumeReclaimPolicy: Retain   storageClassName: standard   hostPath:     path: "/mnt/data" </code></pre>
+
+<h3>Persistent Volume Claims (PVCs)</h3> A PVC represents a request for storage by a user. It specifies the amount of storage needed and access modes required.</p>
+
+<p><pre><code>yaml
+<h1>Example PersistentVolumeClaim definition</h1> apiVersion: v1 kind: PersistentVolumeClaim metadata:   name: pvc-example spec:   accessModes:     - ReadWriteOnce   resources:     requests:       storage: 5Gi </code></pre>
+
+<h2>Access Modes</h2> PVs support three primary access modes:</p>
+
+<p>1. **ReadWriteOnce (RWO)**: The volume can be mounted as read-write by a single node. 2. **ReadOnlyMany (ROX)**: The volume can be mounted as read-only by multiple nodes. 3. **ReadWriteMany (RWX)**: The volume can be mounted as read-write by multiple nodes.
+
+<h2>Storage Classes</h2> StorageClasses define different classes of storage, enabling dynamic provisioning of PVs.</p>
+
+<p><pre><code>yaml
+<h1>Example StorageClass definition</h1> apiVersion: storage.k8s.io/v1 kind: StorageClass metadata:   name: standard provisioner: kubernetes.io/aws-ebs parameters:   type: gp2 reclaimPolicy: Retain mountOptions:   - discard </code></pre>
+
+<h2>Key Points and Takeaways</h2></p>
+
+<p>1. **Decoupling**: PVs decouple storage provisioning from Pod management. 2. **Lifecycle Management**: PV lifecycle is independent of Pods that use them. 3. **Reclaim Policies**:    - Retain: Keeps data for manual reclamation    - Recycle: Performs basic scrubbing    - Delete: Deletes the underlying storage resource</p>
+
+<p>4. **Binding Process**: PVCs are bound to suitable PVs based on requested size and access modes.
+
+<h2>Best Practices</h2></p>
+
+<p>1. Always specify appropriate access modes in PVCs. 2. Use StorageClasses for dynamic provisioning when possible. 3. Implement proper reclaim policies based on your use case. 4. Monitor PV usage and capacity regularly.
+
+<h2>References</h2>
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/">Kubernetes Documentation - Persistent Volumes</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims">Kubernetes Documentation - Persistent Volume Claims</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/storage/storage-classes/">Storage Classes Documentation</a></li> </ul>
+<h2>Example Usage</h2></p>
+
+<p><pre><code>bash
+<h1>Create a PVC</h1> kubectl apply -f pvc.yaml
+
+<h1>Verify PV creation and binding</h1> kubectl get pv,pvc
+
+<h1>Use the PVC in a Pod</h1> apiVersion: v1 kind: Pod metadata:   name: pod-example spec:   containers:   - name: app     image: nginx     volumeMounts:     - name: data-volume       mountPath: /data   volumes:   - name: data-volume     persistentVolumeClaim:       claimName: pvc-example </code></pre></p>
+
+<p>This knowledge base entry provides a comprehensive overview of Kubernetes Persistent Volumes, covering technical concepts, implementation details, and best practices. Understanding these aspects is crucial for effectively managing stateful applications in Kubernetes environments.</p>
+
+<p>--- **Source**: <a href="https://twitter.com/i/web/status/1880285956001132998">Original Tweet</a></p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1880285956001132998">https://twitter.com/user/status/1880285956001132998</a><br>
+                    Last Updated: 2025-04-15
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

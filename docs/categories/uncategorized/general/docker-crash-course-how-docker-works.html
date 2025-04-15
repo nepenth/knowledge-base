@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Crash Course How Docker Works - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">Uncategorized</a></li>
+                <li class="breadcrumb-item"><a href="index.html">General</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Docker Crash Course How Docker Works</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p><h2>Overview</h2> Docker is a platform for developing, shipping, and running applications. It enables you to separate your application from its infrastructure so that you can deliver it quickly.
+
+<h2>Main Concepts</h2>
+
+<h3>1. Containers</h3>
+<ul>
+<li>Lightweight, standalone executable packages</li>
+<li>Include everything needed to run: code, runtime, system tools, libraries</li>
+<li>Run the same way regardless of where they're deployed</li> </ul>
+<h3>2. Images</h3>
+<ul>
+<li>Templates used to create Docker containers</li>
+<li>Read-only and contain application code and dependencies</li>
+<li>Can be based on other images (layered architecture)</li> </ul>
+<h3>3. Docker Engine</h3>
+<ul>
+<li>Runtime that runs and manages containers</li>
+<li>Interfaces with Docker client</li>
+<li>Handles container creation, starting, stopping, and management</li> </ul>
+<h2>Key Components</h2>
+
+<h3>Docker Daemon</h3>
+<ul>
+<li>Background service that manages Docker objects</li>
+<li>Listens for API requests and manages Docker objects</li> </ul>
+<h3>Docker Client</h3>
+<ul>
+<li>Command-line interface (CLI) tool</li>
+<li>Sends commands to the Docker daemon</li> </ul>
+<h3>Registry</h3>
+<ul>
+<li>Repository for Docker images</li>
+<li>Public registry: Docker Hub</li>
+<li>Private registries available for organizations</li> </ul>
+<h2>How It Works</h2></p>
+
+<p>1. **Image Creation**    - Create a Dockerfile defining your application environment    - Build an image using `docker build`</p>
+
+<p>2. **Container Runtime**    - Run containers from images using `docker run`    - Containers share the host OS kernel but have isolated filesystems</p>
+
+<p>3. **Container Management**    - Start, stop, and remove containers as needed    - Monitor container health and performance
+
+<h2>Key Points & Takeaways</h2>
+
+<ul>
+<li>Docker containers are lightweight and portable</li>
+<li>Images serve as templates for creating containers</li>
+<li>Docker Engine manages container lifecycle</li>
+<li>Containerization improves application deployment efficiency</li>
+<li>Isolation provides security benefits</li>
+<li>Scalability is enhanced through container orchestration</li> </ul>
+<h2>Best Practices</h2></p>
+
+<p>1. Use official base images when possible 2. Minimize image layers 3. Remove unnecessary files from images 4. Use .dockerignore to exclude unnecessary files 5. Implement proper logging and monitoring
+
+<h2>Common Commands</h2></p>
+
+<p><pre><code>bash
+<h1>Build an image</h1> docker build -t myapp .
+
+<h1>Run a container</h1> docker run -d --name mycontainer myapp
+
+<h1>List containers</h1> docker ps
+
+<h1>Stop a container</h1> docker stop mycontainer
+
+<h1>Remove a container</h1> docker rm mycontainer </code></pre>
+
+<h2>Resources & References</h2>
+
+<ul>
+<li><a href="https://docs.docker.com/">Docker Official Documentation</a></li>
+<li><a href="https://hub.docker.com/">Docker Hub</a></li>
+<li><a href="https://docs.docker.com/develop/best-practices/">Docker Best Practices</a></li> </ul>
+<h2>Conclusion</h2> Understanding how Docker works is crucial for modern application development and deployment. Its containerization approach provides flexibility, scalability, and reliability in managing applications across different environments.</p>
+
+<p>---</p>
+
+<p>Note: This knowledge base entry is based on the provided content but has been expanded with additional relevant information to provide a comprehensive overview of Docker's core concepts and functionality.</p>
+
+<p>--- **Source**: <a href="https://twitter.com/i/web/status/1869076561431032065">Original Tweet</a></p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1869076561431032065">https://twitter.com/user/status/1869076561431032065</a><br>
+                    Last Updated: 2025-04-15
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

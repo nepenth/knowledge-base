@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oauth 2.0 Explained Simply - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">Uncategorized</a></li>
+                <li class="breadcrumb-item"><a href="index.html">General</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Oauth 2.0 Explained Simply</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p><h2>Overview</h2></p>
+
+<p>OAuth 2.0 is an authorization framework that allows applications to obtain limited access to user accounts on HTTP services. It works by delegating user authentication to the service that hosts the user account, and authorizing third-party applications to access that account.
+
+<h2>Core Concepts</h2>
+
+<h3>Authorization Flow</h3> 1. **User Authentication**: The user logs into their account with a trusted provider (e.g., Google) 2. **Application Access Request**: An application requests permission to access specific resources 3. **Consent Granting**: The user grants or denies the request for access 4. **Access Token Issuance**: If granted, an authorization server issues an access token
+
+<h3>Key Components</h3>
+<ul>
+<li>**Resource Server**: Hosts the protected resources</li>
+<li>**Authorization Server**: Issues access tokens to applications after authentication and consent</li>
+<li>**Client Application**: The application requesting access</li>
+<li>**User/Resource Owner**: The person who owns the resources being accessed</li> </ul>
+<h2>Common Use Cases</h2></p>
+
+<p>1. **Social Media Login**    - Users logging into a website using their Facebook or Google account    - Example: "Login with Facebook"</p>
+
+<p>2. **API Access**    - Applications accessing APIs on behalf of users    - Example: A weather app accessing your location through an OS API</p>
+
+<p>3. **Mobile Apps**    - Mobile apps requiring authentication for various services    - Example: Spotify connecting to Facebook for user profile data
+
+<h2>Key Benefits</h2></p>
+
+<p>1. **Security**: Users don't share their credentials with third-party applications 2. **Limited Access**: Applications can only access specific resources with defined permissions 3. **Revocability**: Users can revoke access at any time 4. **Standardization**: Provides a standardized way for authorization across different platforms
+
+<h2>Key Points and Takeaways</h2></p>
+
+<p>1. OAuth 2.0 is not authentication - it's about authorization 2. Access tokens are temporary credentials used to access resources 3. Different grant types exist for various scenarios (Authorization Code, Implicit, Client Credentials, etc.) 4. Always implement secure practices when handling tokens
+
+<h2>Best Practices</h2></p>
+
+<p>1. Use HTTPS for all communications 2. Implement proper token storage and security measures 3. Use the most appropriate authorization grant type for your use case 4. Regularly rotate access tokens to minimize exposure in case of compromise
+
+<h2>References</h2>
+<ul>
+<li><a href="https://oauth.net/2/">OAuth 2.0 Specification</a></li>
+<li><a href="https://tools.ietf.org/html/rfc6749">RFC 6749 - The OAuth 2.0 Authorization Framework</a></li>
+<li><a href="https://openid.net/specs/openid-connect-core-1_0.html">OpenID Connect Documentation</a></li> </ul>
+<h2>Related Topics</h2>
+<ul>
+<li>OpenID Connect (OIDC) for authentication</li>
+<li>JSON Web Tokens (JWT)</li>
+<li>Security Best Practices for OAuth Implementation</li> </ul> This explanation provides a foundation for understanding OAuth 2.0 and its practical applications in modern web development and API access control.</p>
+
+<p>--- **Source**: <a href="https://twitter.com/i/web/status/1882465831441035492">Original Tweet</a></p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1882465831441035492">https://twitter.com/user/status/1882465831441035492</a><br>
+                    Last Updated: 2025-04-15
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

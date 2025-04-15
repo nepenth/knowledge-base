@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kubernetes Autoscaling Hpa, Vpa, And Keda - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">Uncategorized</a></li>
+                <li class="breadcrumb-item"><a href="index.html">General</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Kubernetes Autoscaling Hpa, Vpa, And Keda</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p><h2>Overview</h2> Kubernetes autoscaling is a crucial feature that helps optimize resource usage by automatically adjusting the number of replicas based on demand. Understanding the differences between Horizontal Pod Autoscaler (HPA), Vertical Pod Autoscaler (VPA), and Kubernetes Event-Driven Autoscaling (KEDA) is essential for effective container orchestration.
+
+<h2>Main Concepts</h2>
+
+<h3>Horizontal Pod Autoscaler (HPA)</h3>
+<ul>
+<li>Scales pods horizontally by adjusting the number of replicas</li>
+<li>Typically based on CPU utilization or memory usage metrics</li>
+<li>Reacts to changes in resource demands across multiple pods</li> </ul>
+<h3>Vertical Pod Autoscaler (VPA)</h3>
+<ul>
+<li>Adjusts pod resources vertically by modifying container requests/limits</li>
+<li>Helps optimize individual pod resource allocation</li>
+<li>Can be used alongside HPA for comprehensive scaling strategies</li> </ul>
+<h3>Kubernetes Event-Driven Autoscaling (KEDA)</h3>
+<ul>
+<li>Scales based on external metrics and events, not just CPU/memory</li>
+<li>Supports a wide range of scalers (e.g., Kafka, RabbitMQ, Redis)</li>
+<li>Provides more flexible and event-driven scaling capabilities</li> </ul>
+<h2>Key Points and Takeaways</h2></p>
+
+<p>1. **Scaling Strategies**    - HPA is ideal for horizontal scaling based on standard metrics    - VPA helps optimize individual pod resources    - KEDA provides event-driven scaling based on custom metrics</p>
+
+<p>2. **Use Cases**    - Use HPA when application load varies horizontally    - Implement VPA to improve resource utilization per pod    - Choose KEDA for applications with external dependencies or metrics</p>
+
+<p>3. **Best Practices**    - Monitor and adjust scaling parameters regularly    - Test autoscaling configurations under various conditions    - Consider combining different scaling approaches based on requirements
+
+<h2>References</h2>
+<ul>
+<li><a href="https://techopsexamples.com/subscribe">TechOps Examples Newsletter</a></li>
+<li>Kubernetes Documentation: <a href="https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/">Horizontal Pod Autoscaler</a></li>
+<li>Kubernetes Documentation: <a href="https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler/vertical-pod-autoscaler">Vertical Pod Autoscaler</a></li>
+<li>KEDA Documentation: <a href="https://keda.sh/">Kubernetes Event-driven Autoscaling</a></li> </ul>
+<h2>Additional Resources</h2> For more information on DevOps, Cloud, Kubernetes, IaC, GitOps, and MLOps, consider subscribing to the TechOps Examples newsletter for detailed guides and examples.</p>
+
+<p>*Note: This knowledge base entry is based on a tweet highlighting the importance of understanding Kubernetes autoscaling mechanisms. For practical implementation details and examples, refer to the official documentation links provided.*</p>
+
+<p>--- **Source**: <a href="https://twitter.com/i/web/status/1911797592901754957">Original Tweet</a></p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1911797592901754957">https://twitter.com/user/status/1911797592901754957</a><br>
+                    Last Updated: 2025-04-15
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

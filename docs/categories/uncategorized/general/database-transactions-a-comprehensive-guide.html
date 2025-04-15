@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Transactions A Comprehensive Guide - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">Uncategorized</a></li>
+                <li class="breadcrumb-item"><a href="index.html">General</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Database Transactions A Comprehensive Guide</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p><h2>Introduction</h2> Database transactions are fundamental operations that ensure data integrity and consistency in database systems. This guide provides a comprehensive overview of database transactions, their properties, and practical applications.
+
+<h2>What is a Transaction?</h2> A transaction is a sequence of operations performed as a single logical unit of work. It represents a change to the state of your database and has specific characteristics known as ACID properties.
+
+<h3>ACID Properties</h3>
+<ul>
+<li>**Atomicity**: All operations in a transaction are treated as one unit. Either all succeed or all fail.</li>
+<li>**Consistency**: Transactions maintain database consistency by transforming it from one valid state to another.</li>
+<li>**Isolation**: Concurrent transactions don't interfere with each other's operations.</li>
+<li>**Durability**: Once a transaction is committed, its changes persist permanently in the database.</li> </ul>
+<h2>Transaction States</h2> 1. **Active**: The initial state where transactions begin executing SQL statements 2. **Partially Committed**: After the last operation completes but before the commit is acknowledged 3. **Committed**: Transaction is successfully completed and changes are saved to the database 4. **Failed**: When a transaction cannot be completed normally and must be rolled back 5. **Aborted**: Transaction is canceled (rolled back) and database returns to its previous state
+
+<h2>Common Transaction Operations</h2>
+<ul>
+<li>**BEGIN TRANSACTION**: Marks the start of a new transaction</li>
+<li>**COMMIT**: Confirms all changes made in the transaction and makes them permanent</li>
+<li>**ROLLBACK**: Cancels all operations in the current transaction and restores the database to its prior state</li> </ul>
+<h2>Example Transaction Scenarios</h2>
+
+<h3>Bank Transfer Example</h3> <pre><code>sql BEGIN TRANSACTION;     UPDATE accounts SET balance = balance - 100 WHERE account_id = 1;     UPDATE accounts SET balance = balance + 100 WHERE account_id = 2; COMMIT; </code></pre>
+
+<h3>Shopping Cart Example</h3> <pre><code>sql BEGIN TRANSACTION;     INSERT INTO orders (customer_id, order_date) VALUES (123, NOW());     UPDATE inventory SET quantity = quantity - 1 WHERE product_id = 456; COMMIT; </code></pre>
+
+<h2>Best Practices</h2></p>
+
+<p>1. **Keep Transactions Short**: Minimize the time between BEGIN and COMMIT to reduce lock contention 2. **Use Appropriate Isolation Levels**: Choose isolation levels based on application requirements 3. **Handle Errors Properly**: Implement proper error handling with TRY-CATCH blocks 4. **Avoid User Interaction**: Don't pause transactions waiting for user input 5. **Test Thoroughly**: Test transaction behavior under various scenarios
+
+<h2>Common Issues and Solutions</h2></p>
+
+<p>1. **Deadlocks**    - Solution: Implement retry logic, use deadlock detection algorithms</p>
+
+<p>2. **Long-running Transactions**    - Solution: Break into smaller sub-transactions, optimize queries</p>
+
+<p>3. **Concurrency Problems**    - Solution: Use appropriate isolation levels, implement optimistic concurrency control
+
+<h2>Key Takeaways</h2>
+<ul>
+<li>Transactions are essential for maintaining data integrity</li>
+<li>ACID properties ensure reliable database operations</li>
+<li>Proper transaction handling is crucial for application reliability</li>
+<li>Always test transactions thoroughly before deployment</li> </ul>
+<h2>References</h2>
+<ul>
+<li>Database Management Systems (DBMS) documentation</li>
+<li>SQL standards and specifications</li>
+<li>Transaction processing best practices guides</li> </ul> --- **Source**: <a href="https://twitter.com/i/web/status/1885699330553643249">Original Tweet</a></p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1885699330553643249">https://twitter.com/user/status/1885699330553643249</a><br>
+                    Last Updated: 2025-04-15
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
