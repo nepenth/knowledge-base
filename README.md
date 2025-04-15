@@ -1,19 +1,19 @@
 # 📚 Technical Knowledge Base
 ### Welcome to Our Technical Knowledge Base
-We are excited to welcome you to our comprehensive technical knowledge base, featuring 137 carefully curated items across 16 categories. This repository is designed to provide you with a wealth of technical insights and information, all sourced from tweets by industry experts and thought leaders.
+We are excited to welcome you to our comprehensive technical knowledge base, where you'll find a wealth of curated content to enhance your understanding and skills in various technical areas. This platform is designed to be your go-to resource for insightful information, expert opinions, and practical solutions, all carefully gathered from tweets by industry professionals and thought leaders.
 
 ### Curated Content for Your Benefit
-The content within this knowledge base has been meticulously selected and organized to ensure that you can easily find the information you need. Our goal is to create a valuable resource that helps you stay up-to-date with the latest technical trends, solutions, and best practices. Whether you're looking for in-depth explanations of complex concepts or concise tips and tricks, our knowledge base has got you covered.
+The knowledge base is populated with **86 items** of high-quality content, meticulously selected and organized across **15 categories**. These categories cover a broad spectrum of technical topics, ensuring that whether you're a beginner looking to learn the basics or an advanced professional seeking to deepen your knowledge, there's something here for everyone. Each item has been carefully chosen for its relevance, accuracy, and usefulness, providing you with reliable information at your fingertips.
 
 ### Explore and Discover
-We invite you to explore the different categories and subcategories within our knowledge base. Items are organized in a logical and intuitive manner, making it easy for you to navigate and discover new content. From **[Category A](link-to-category-a)** to **[Category P](link-to-category-p)**, each section is packed with relevant and useful information. Take your time to browse through our collection, and we're confident that you'll find the technical knowledge and insights you're looking for to enhance your skills and knowledge. Happy exploring!
+We invite you to explore our categories and subcategories, where you'll discover a treasure trove of technical insights and expertise. The items are meticulously organized by **category** and **subcategory**, making it easy for you to navigate and find the specific information you need. Whether you're looking for solutions to common problems, best practices, or simply want to stay updated on the latest trends and technologies, our knowledge base is here to support your journey. So, dive in, explore the different sections, and make the most out of the collective wisdom shared within this platform.
 ---
 ## 📊 Overview
-- **Total Items**: 137
-- **Main Categories**: 16
-- **Subcategories**: 50
-- **Media Files**: 154
-- **Last Updated**: 2025-04-15 14:19:28
+- **Total Items**: 86
+- **Main Categories**: 15
+- **Subcategories**: 49
+- **Media Files**: 107
+- **Last Updated**: 2025-04-15 14:46:25
 
 ---
 ## 🧭 Quick Navigation
@@ -79,8 +79,6 @@ We invite you to explore the different categories and subcategories within our k
   - [Microservices](#system-design-microservices)
   - [Networking](#system-design-networking)
   - [Scalability](#system-design-scalability)
-- **[Uncategorized](#uncategorized)**
-  - [General](#uncategorized-general)
 - **[Web Development](#web-development)**
   - [Apis](#web-development-apis)
 
@@ -88,17 +86,17 @@ We invite you to explore the different categories and subcategories within our k
 ## 🔔 Recent Updates
 | **Item** | **Category** | **Last Updated** | **Source** |
 |----------|--------------|------------------|------------|
+| [Capacity Planning A Key Aspect Of System Design](software_engineering/best_practices/capacity-planning-a-key-aspect-of-system-design) | Software_Engineering/Best_Practices | 2025-04-15 | [https://twitter.com/user/status/1909933043386626447](https://twitter.com/user/status/1909933043386626447) |
 | [Introduction To Managing Docker Compose Files In A Gui](software_engineering/best_practices/introduction-to-managing-docker-compose-files-in-a-gui) | Software_Engineering/Best_Practices | 2025-04-15 | [https://twitter.com/user/status/1879473911869346092](https://twitter.com/user/status/1879473911869346092) |
 | [Introduction To Postgresql Architecture](databases/query_processing/introduction-to-postgresql-architecture) | Databases/Query_Processing | 2025-04-15 | [https://twitter.com/user/status/1911995656820105278](https://twitter.com/user/status/1911995656820105278) |
-| [Data Engineering Roadmap Knowledge Base Entry](uncategorized/general/data-engineering-roadmap-knowledge-base-entry) | Uncategorized/General | 2025-04-15 | [https://twitter.com/user/status/1911804150356254867](https://twitter.com/user/status/1911804150356254867) |
-| [Api Security 101 A Comprehensive Guide](uncategorized/general/api-security-101-a-comprehensive-guide) | Uncategorized/General | 2025-04-15 | [https://twitter.com/user/status/1873959778680267143](https://twitter.com/user/status/1873959778680267143) |
-| [Devops Project Deploying A Java Application To Aws Ecs Using Github Actions](uncategorized/general/devops-project-deploying-a-java-application-to-aws-ecs-using-github-actions) | Uncategorized/General | 2025-04-15 | [https://twitter.com/user/status/1911810799200281070](https://twitter.com/user/status/1911810799200281070) |
+| [Realtime Web Patterns Building Scalable And Efficient Applications](web_development/apis/realtime-web-patterns-building-scalable-and-efficient-applications) | Web_Development/Apis | 2025-02-28 | [https://twitter.com/user/status/1890769143940468888](https://twitter.com/user/status/1890769143940468888) |
+| [Http Request Methods A Comprehensive Guide](web_development/apis/http-request-methods-a-comprehensive-guide) | Web_Development/Apis | 2025-02-28 | [https://twitter.com/user/status/1876192002963829042](https://twitter.com/user/status/1876192002963829042) |
 
 ---
 ## 📋 Categories
 
 ### Artificial Intelligence <a name="artificial-intelligence"></a>
-The Artificial Intelligence category provides information on technologies that enable machines to perform tasks that typically require human intelligence, including machine learning and natural language processing. This category includes 9 articles across two subcategories: Machine Learning and Natural Language Processing (NLP), covering key concepts and techniques in AI development.
+The Artificial Intelligence category provides resources and guides on AI technologies, including machine learning and natural language processing (NLP), to help you develop and implement intelligent systems. This category contains 9 articles and tutorials across two subcategories, covering key concepts and techniques in machine learning and NLP.
 *Subcategories: Machine Learning, Nlp*
 *Items: 9*
 
@@ -129,7 +127,7 @@ The Artificial Intelligence category provides information on technologies that e
 
 
 ### Career Development <a name="career-development"></a>
-The Career Development category provides resources to help technical professionals grow in their careers, including best practices, unique perspectives on the industry, and guidance for navigating the job market. This category features articles and tips on interview preparation, humor in tech, and professional development strategies to support career advancement.
+The Career Development category provides resources to help technical professionals advance their careers, including best practices, unique perspectives on the industry, and preparation tips for job interviews. This category encompasses three subcategories: Best Practices, Humor In Tech, and Job Interview Preparation, offering a range of guidance and advice for career growth and success.
 *Subcategories: Best Practices, Humor In Tech, Job Interview Preparation*
 *Items: 3*
 
@@ -162,7 +160,7 @@ The Career Development category provides resources to help technical professiona
 
 
 ### Cloud Computing <a name="cloud-computing"></a>
-The Cloud Computing category provides information on leading cloud platforms, including Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). This category offers technical insights and resources to help users navigate the features, services, and best practices of these prominent cloud computing providers.
+The Cloud Computing category provides information and resources on leading cloud platforms, including Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). This category offers guidance and technical knowledge on deploying, managing, and optimizing cloud-based infrastructure and applications across these major providers.
 *Subcategories: Aws, Azure, Gcp*
 *Items: 1*
 
@@ -177,7 +175,7 @@ The Cloud Computing category provides information on leading cloud platforms, in
 
 
 ### Communication Skills <a name="communication-skills"></a>
-The Communication Skills category provides resources to help you effectively convey technical information, covering essential techniques for clear and persuasive communication. This category includes topics such as presentation techniques to improve your ability to share complex ideas with various audiences.
+The Communication Skills category provides resources on effective communication strategies, including verbal and non-verbal techniques to convey technical information clearly. This category currently includes guidance on Presentation Techniques, offering tips and best practices for delivering engaging and informative presentations.
 *Subcategories: Presentation Techniques*
 *Items: 1*
 
@@ -192,7 +190,7 @@ The Communication Skills category provides resources to help you effectively con
 
 
 ### Data Engineering <a name="data-engineering"></a>
-The Data Engineering category provides guidance on designing, building, and maintaining large-scale data systems, covering topics such as big data processing, data integration, data modeling, and stream processing. This category offers resources across four subcategories to help engineers develop scalable and efficient data architectures.
+The Data Engineering category provides resources on designing, building, and maintaining large-scale data systems, covering topics such as big data processing, data integration, data modeling, and stream processing. This category includes guides and tutorials across four subcategories: Big Data, Data Integration, Data Modeling, and Stream Processing, to help engineers develop and optimize their data pipelines.
 *Subcategories: Big Data, Data Integration, Data Modeling, Stream Processing*
 *Items: 5*
 
@@ -235,7 +233,7 @@ The Data Engineering category provides guidance on designing, building, and main
 
 
 ### Databases <a name="databases"></a>
-The Databases category provides information on database management and optimization, covering topics such as query processing and data storage. This category includes articles and guides related to database performance, including the subcategory of Query Processing, which offers insights into efficient query execution and optimization techniques.
+The Databases category provides information on managing and optimizing database systems, including query processing techniques and best practices. This category currently includes resources on Query Processing, covering topics related to efficient data retrieval and manipulation.
 *Subcategories: Query Processing*
 *Items: 1*
 
@@ -250,7 +248,7 @@ The Databases category provides information on database management and optimizat
 
 
 ### Development Tools <a name="development-tools"></a>
-The Development Tools category provides resources for streamlining development workflows, including guides and tutorials on data integration, debugging, version control, and other essential tools. This category encompasses 8 subcategories, offering a range of technical information to support software development and maintenance tasks.
+The Development Tools category provides resources and guides for various software development tools and technologies, including data integration, debugging, and version control. This category covers 8 subcategories, offering a range of technical information to support developers in their work, from installation and monitoring to scripting and web scraping.
 *Subcategories: Data Integration, Debugging Tools, Ide Tools, Installation Guides, Monitoring Tools, Shell Scripting, Version Control, Web Scraping Tools*
 *Items: 14*
 
@@ -334,7 +332,7 @@ The Development Tools category provides resources for streamlining development w
 
 
 ### Devops <a name="devops"></a>
-The Devops category provides guidance on streamlining software development and deployment through various techniques, including continuous integration and delivery, infrastructure as code, containerization, and monitoring. This category covers a range of topics and tools to help teams improve collaboration, automation, and efficiency in their software development and operations processes.
+The Devops category provides guidance on streamlining development and operations processes through topics such as continuous integration and delivery, infrastructure as code, containerization, and monitoring. This category covers a range of subtopics, including cloud platforms, logging, and orchestration, to help teams optimize their software development lifecycle.
 *Subcategories: Ci Cd, Ci Cd, Infrastructure As Code, Containerization, Monitoring, Cloud Platforms, Cloud Platforms, Containerization, Infrastructure As Code, Logging, Monitoring, Orchestration*
 *Items: 10*
 
@@ -414,7 +412,7 @@ The Devops category provides guidance on streamlining software development and d
 
 
 ### Finance And Accounting <a name="finance-and-accounting"></a>
-The Finance And Accounting category provides information on financial management topics, including analysis and interpretation of financial data. This category currently includes resources on Financial Statement Analysis, covering techniques for examining and understanding financial statements to inform business decisions.
+The Finance and Accounting category provides resources and guidance on financial management topics, including analysis of financial statements to support informed business decisions. This category currently includes information on Financial Statement Analysis, a key skill for evaluating an organization's performance and position.
 *Subcategories: Financial Statement Analysis*
 *Items: 1*
 
@@ -429,7 +427,7 @@ The Finance And Accounting category provides information on financial management
 
 
 ### Hardware And Peripherals <a name="hardware-and-peripherals"></a>
-The "Hardware And Peripherals" category provides information on external devices and equipment that can be used to enhance or support various systems, including location tracking devices. This category currently includes resources on Location Tracking Devices, offering guidance on their setup, configuration, and usage.
+The "Hardware And Peripherals" category provides information on external devices and equipment that can be used to support and enhance various technical systems, including location tracking devices. This category currently includes resources on Location Tracking Devices, offering guidance on their setup, configuration, and usage.
 *Subcategories: Location Tracking Devices*
 *Items: 1*
 
@@ -444,7 +442,7 @@ The "Hardware And Peripherals" category provides information on external devices
 
 
 ### Personal Development <a name="personal-development"></a>
-The Personal Development category provides resources and guidance on improving individual skills and abilities, with a focus on achieving personal and professional goals. This category currently includes information on goal setting and achievement, helping individuals to plan, pursue, and attain their objectives.
+The Personal Development category provides resources and guidance on improving individual skills and habits, with a focus on setting and achieving personal goals. This category currently includes information on goal setting and achievement, helping individuals to enhance their productivity and success.
 *Subcategories: Goal Setting And Achievement*
 *Items: 1*
 
@@ -459,7 +457,7 @@ The Personal Development category provides resources and guidance on improving i
 
 
 ### Programming Languages <a name="programming-languages"></a>
-The Programming Languages category provides information and resources on various programming languages, including Java and Shell Scripting, to help developers improve their coding skills and solve technical problems. This category includes guides, tutorials, and reference materials for two key subcategories: Java and Shell Scripting.
+The "Programming Languages" category provides information and resources on various programming languages, including Java and shell scripting, to help developers improve their coding skills and solve technical problems. This category currently covers two subcategories, offering guidance on Java development and shell scripting techniques.
 *Subcategories: Java, Shell Scripting*
 *Items: 4*
 
@@ -485,9 +483,9 @@ The Programming Languages category provides information and resources on various
 
 
 ### Software Engineering <a name="software-engineering"></a>
-The Software Engineering category provides guidance on designing, developing, and maintaining high-quality software systems, covering topics such as best practices, code quality, debugging, performance optimization, security, and testing. This category offers 15 articles across six subcategories to help developers improve their skills and build robust, efficient, and secure software applications.
+The Software Engineering category provides guidance on designing, developing, and maintaining high-quality software systems, covering topics such as best practices, code quality, and performance optimization. This category includes 16 articles across six subcategories, offering expert advice on debugging, security, testing, and other essential software engineering disciplines.
 *Subcategories: Best Practices, Code Quality, Debugging, Performance Optimization, Security, Testing*
-*Items: 15*
+*Items: 16*
 
 <details><summary>Best Practices</summary>
 
@@ -495,6 +493,7 @@ The Software Engineering category provides guidance on designing, developing, an
 
 | **Item** | **Description** |
 |----------|-----------------|
+| [Capacity Planning A Key Aspect Of System Design](software_engineering/best_practices/capacity-planning-a-key-aspect-of-system-design) | #### Key Concepts in Capacity Planning - \*\*Scalability\*\*: The ability of a system to handle increased load without compromising performance. - \*\*Performance Metrics\*\*: These include through... |
 | [Data Structures In Everyday Software A Comprehensive Overview](software_engineering/best_practices/data-structures-in-everyday-software-a-comprehensive-overview) | #### Technical Content Data structures are not just theoretical concepts; they are widely used in various software applications that we interact with daily. Here are some common data structures and... |
 | [Introduction To Managing Docker Compose Files In A Gui](software_engineering/best_practices/introduction-to-managing-docker-compose-files-in-a-gui) | ### Practical Insights Managing Docker Compose files in a GUI can significantly simplify the process of: - \*\*Visualizing Complex Configurations\*\*: A GUI allows users to see the relationships an... |
 | [Rest Api Best Practices Designing Scalable And Robust Apis](software_engineering/best_practices/rest-api-best-practices-designing-scalable-and-robust-apis) | ## Introduction to REST API Best Practices REST (Representational State of Resource) APIs have become the de facto standard for building web services. A well-designed REST API should be intuitive, ... |
@@ -554,7 +553,7 @@ The Software Engineering category provides guidance on designing, developing, an
 
 
 ### System Design <a name="system-design"></a>
-The System Design category provides guidance on designing and implementing scalable, efficient, and reliable systems, covering topics such as architecture patterns, distributed systems, and microservices. This category includes 17 articles across 9 subcategories, offering insights and best practices for building robust and performant systems.
+The System Design category provides guidance on designing and implementing scalable, efficient, and reliable systems, covering topics such as architecture patterns, distributed systems, and networking. This category includes 17 items across 9 subcategories, offering insights and best practices for building robust and performant systems.
 *Subcategories: Api Design, Architecture Patterns, Caching, Distributed Systems, Load Balancing, Message Queues, Microservices, Networking, Scalability*
 *Items: 17*
 
@@ -648,74 +647,8 @@ The System Design category provides guidance on designing and implementing scala
 </details>
 
 
-### Uncategorized <a name="uncategorized"></a>
-The "Uncategorized" category is a temporary holding place for technical articles and resources that have not yet been assigned to a specific topic or category, with 52 items currently awaiting categorization. These items are further organized into a single subcategory, "General", until they can be properly classified and moved to their respective categories.
-*Subcategories: General*
-*Items: 52*
-
-<details><summary>General</summary>
-
-#### General <a name="uncategorized-general"></a>
-
-| **Item** | **Description** |
-|----------|-----------------|
-| [Agentic Cursor Rules Knowledge Base Entry](uncategorized/general/agentic-cursor-rules-knowledge-base-entry) | ## Main Concepts |
-| [Ai Powered Bookmark And Knowledge Manager](uncategorized/general/ai-powered-bookmark-and-knowledge-manager) | An AI-powered bookmark and knowledge manager is a digital tool that combines traditional bookmarking functionality with artificial intelligence capabilities to enhance information organization, ret... |
-| [Api Security 101 A Comprehensive Guide](uncategorized/general/api-security-101-a-comprehensive-guide) | ## Core Concepts |
-| [Becoming A Backend Architect Key Knowledge Areas](uncategorized/general/becoming-a-backend-architect-key-knowledge-areas) | ## Core Concepts |
-| [Building A Containerized And Scalable Web Application On Aws](uncategorized/general/building-a-containerized-and-scalable-web-application-on-aws) | ## Main Concepts |
-| [Building A Slack Clone Using Ai Tools A Comprehensive Guide](uncategorized/general/building-a-slack-clone-using-ai-tools-a-comprehensive-guide) | ## Main Concepts |
-| [Caching Patterns](uncategorized/general/caching-patterns) | ### Main Concepts |
-| [Capacity Planning](uncategorized/general/capacity-planning) | ## Key Concepts |
-| [Cloudflare Ai Agent Framework Technical Overview](uncategorized/general/cloudflare-ai-agent-framework-technical-overview) | ## Core Concepts |
-| [Consistent Hashing A Comprehensive Guide](uncategorized/general/consistent-hashing-a-comprehensive-guide) | ## Main Concepts |
-| [Creating And Selling Custom Gpt Models A Business Opportunity](uncategorized/general/creating-and-selling-custom-gpt-models-a-business-opportunity) | ## Main Concepts |
-| [Data Engineering Roadmap Knowledge Base Entry](uncategorized/general/data-engineering-roadmap-knowledge-base-entry) | ## Main Concepts Data engineering involves designing, building, and maintaining systems that collect, store, transform, and retrieve data. Key aspects include: |
-| [Database Transactions A Comprehensive Guide](uncategorized/general/database-transactions-a-comprehensive-guide) | ## What is a Transaction? A transaction is a sequence of operations performed as a single logical unit of work. It represents a change to the state of your database and has specific characteristics... |
-| [Deadlocks Understanding And Preventing System Stalls](uncategorized/general/deadlocks-understanding-and-preventing-system-stalls) | ## Key Characteristics of Deadlocks - \*\*Mutual Exclusion\*\*: Resources cannot be shared simultaneously. - \*\*Hold and Wait\*\*: Processes hold resources while waiting for additional ones. - \*\... |
-| [Developer Technical Growth Checklist](uncategorized/general/developer-technical-growth-checklist) | ## Key Areas of Technical Growth |
-| [Development Tools And Best Practices A Comprehensive Guide](uncategorized/general/development-tools-and-best-practices-a-comprehensive-guide) | ## Development Environment ### IDEs and Code Editors Popular options include: - VSCode (open-source, extensible) - IntelliJ IDEA (powerful Java IDE) - PyCharm (Python-focused IDE) |
-| [Devops Project Deploying A Java Application To Aws Ecs Using Github Actions](uncategorized/general/devops-project-deploying-a-java-application-to-aws-ecs-using-github-actions) | ## Main Concepts |
-| [Devops Roadmap For 2025 Key Insights And Practical Guide](uncategorized/general/devops-roadmap-for-2025-key-insights-and-practical-guide) | ## Main Concepts |
-| [Docker Crash Course How Docker Works](uncategorized/general/docker-crash-course-how-docker-works) | ## Main Concepts |
-| [Firebase Studio A New Low Code Development Platform](uncategorized/general/firebase-studio-a-new-low-code-development-platform) | ## Key Features |
-| [Frontend Performance Optimization Guide](uncategorized/general/frontend-performance-optimization-guide) | ## Key Concepts |
-| [Grok Api Reverse Engineering & Memory Implementation](uncategorized/general/grok-api-reverse-engineering-&-memory-implementation) | ## Technical Concepts |
-| [How Databases Keep Passwords Securely](uncategorized/general/how-databases-keep-passwords-securely) | ## Main Concepts |
-| [Json Crack Data Format Visualization Tool](uncategorized/general/json-crack-data-format-visualization-tool) | ## Key Concepts |
-| [Knowledge Base Entry Financial Opportunities And Market Sentiment Analysis](uncategorized/general/knowledge-base-entry-financial-opportunities-and-market-sentiment-analysis) | ## Main Concepts |
-| [Knowledge Base Entry Prompt Engineering For Deepseek R1](uncategorized/general/knowledge-base-entry-prompt-engineering-for-deepseek-r1) | ## Main Concepts ### Prompt Engineering Fundamentals - \*\*Prompt Quality\*\*: Well-crafted prompts can dramatically improve AI model outputs - \*\*Model-Specific Optimization\*\*: Different models... |
-| [Kubernetes Autoscaling Hpa, Vpa, And Keda](uncategorized/general/kubernetes-autoscaling-hpa,-vpa,-and-keda) | ## Main Concepts |
-| [Kubernetes Cluster Design & Setup Best Practices](uncategorized/general/kubernetes-cluster-design-&-setup-best-practices) | ## Main Concepts |
-| [Kubernetes Persistent Volumes (Pvs)](uncategorized/general/kubernetes-persistent-volumes-(pvs)) | ## Core Concepts |
-| [Linux Cron Jobs 101 A Comprehensive Guide](uncategorized/general/linux-cron-jobs-101-a-comprehensive-guide) | ## Main Concepts |
-| [Migrating Tests At Scale Using Llms Airbnbs Approach](uncategorized/general/migrating-tests-at-scale-using-llms-airbnbs-approach) | ## Key Concepts |
-| [Modular Monolith Architecture](uncategorized/general/modular-monolith-architecture) | The Modular Monolith is an architectural pattern that combines the benefits of a monolithic architecture with modular design principles, offering a balanced approach between simplicity and maintain... |
-| [Monolith Vs Microservice Architecture A Comprehensive Overview](uncategorized/general/monolith-vs-microservice-architecture-a-comprehensive-overview) | ## What is a Monolith? A monolithic architecture is a traditional approach where all components of an application are tightly integrated into a single unit. The entire system is built as one interc... |
-| [Monolith Vs Microservices A Comprehensive Guide](uncategorized/general/monolith-vs-microservices-a-comprehensive-guide) | This knowledge base entry explores the comparison between monolithic architecture and microservices, two distinct approaches to building software systems. |
-| [Multi Agent Orchestration Library For Real World Automation](uncategorized/general/multi-agent-orchestration-library-for-real-world-automation) | ## Key Concepts |
-| [Netflix Ci Cd Pipeline A Technical Deep Dive](uncategorized/general/netflix-ci-cd-pipeline-a-technical-deep-dive) | ## Key Components |
-| [Netflix Microservices Architecture Lessons And Insights](uncategorized/general/netflix-microservices-architecture-lessons-and-insights) | ## Key Concepts |
-| [Oauth 2.0 Explained Simply](uncategorized/general/oauth-2.0-explained-simply) | OAuth 2.0 is an authorization framework that allows applications to obtain limited access to user accounts on HTTP services. It works by delegating user authentication to the service that hosts the... |
-| [Oauth 2.0 Technical Guide](uncategorized/general/oauth-2.0-technical-guide) | ## Key Components |
-| [Open Source Text Editor With Ai Features A Knowledge Base Entry](uncategorized/general/open-source-text-editor-with-ai-features-a-knowledge-base-entry) | ## Main Concepts |
-| [Protocol Buffers Vs Json A Comparison Guide](uncategorized/general/protocol-buffers-vs-json-a-comparison-guide) | Protocol Buffers (protobuf) and JSON are two popular data serialization formats used for storing and exchanging data between systems. While both serve similar purposes, they have distinct character... |
-| [Redis Use Cases A Comprehensive Guide](uncategorized/general/redis-use-cases-a-comprehensive-guide) | ## Main Concepts |
-| [Saga Design Pattern Knowledge Base Entry](uncategorized/general/saga-design-pattern-knowledge-base-entry) | ## Main Concepts |
-| [Scalable System Design A Comprehensive Framework](uncategorized/general/scalable-system-design-a-comprehensive-framework) | This knowledge base entry breaks down the critical layers of scalable system design, providing a structured approach to building systems that can handle increasing loads while maintaining performance. |
-| [Scaling An App To 10 Million Users On Aws](uncategorized/general/scaling-an-app-to-10-million-users-on-aws) | ## Key Concepts |
-| [Service Discovery A Comprehensive Guide](uncategorized/general/service-discovery-a-comprehensive-guide) | ## What is Service Discovery? |
-| [Solving Common System Design Challenges](uncategorized/general/solving-common-system-design-challenges) | ## Main Concepts |
-| [System Design Cheat Sheet Knowledge Base](uncategorized/general/system-design-cheat-sheet-knowledge-base) | ## Key Concepts |
-| [The Dangers Of Prolonged Sitting And Solutions For A Healthier Workspace](uncategorized/general/the-dangers-of-prolonged-sitting-and-solutions-for-a-healthier-workspace) | The phrase "sitting is the new smoking" has become a popular health warning, highlighting the serious risks associated with prolonged sedentary behavior. Research shows that sitting for more than 6... |
-| [Training Reasoning Models On Limited Vram A Breakthrough For Open Source](uncategorized/general/training-reasoning-models-on-limited-vram-a-breakthrough-for-open-source) | ## Main Concepts |
-| [Understanding Terraform Files A Comprehensive Guide](uncategorized/general/understanding-terraform-files-a-comprehensive-guide) | ## Main Concepts |
-| [Vpn Tunneling For Soc Teams A Comprehensive Guide](uncategorized/general/vpn-tunneling-for-soc-teams-a-comprehensive-guide) | ## What is VPN Tunneling? VPN tunneling creates a secure, encrypted connection between two endpoints over the internet. For SOC teams, this technology is crucial for: |
-</details>
-
-
 ### Web Development <a name="web-development"></a>
-The Web Development category provides information and resources on building and maintaining web applications, including guides on working with APIs. This category currently includes topics related to APIs, covering the fundamentals of API design, implementation, and integration.
+The Web Development category provides resources and guides on building and maintaining web applications, including integration with external services through APIs. This category currently includes information on APIs, with more topics to be added in the future.
 *Subcategories: Apis*
 *Items: 2*
 
