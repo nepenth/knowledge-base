@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Security 101 - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">Cybersecurity</a></li>
+                <li class="breadcrumb-item"><a href="index.html">Api Security</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Api Security 101</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p>API security is a critical aspect of protecting sensitive data and preventing unauthorized access to web applications. In this knowledge base entry, we will delve into the main concepts, ideas, and technical aspects of API security, providing code examples and relevant references.
+
+<h3>What is API Security?</h3> API security refers to the practices, protocols, and technologies used to protect Application Programming Interfaces (APIs) from cyber threats, data breaches, and other malicious activities. APIs are the backbone of modern web applications, allowing different systems to communicate with each other and exchange data.
+
+<h2>Main Concepts and Ideas</h2> The following are key concepts and ideas in API security:</p>
+
+<p>* **Authentication**: Verifying the identity of users or systems accessing the API. * **Authorization**: Controlling access to API resources based on user roles, permissions, or privileges. * **Encryption**: Protecting data transmitted between clients and servers using secure protocols such as HTTPS (Hypertext Transfer Protocol Secure). * **Input Validation**: Validating user input to prevent SQL injection, cross-site scripting (XSS), and other types of attacks.
+
+<h3>Authentication Examples</h3> Here are some examples of authentication mechanisms used in API security:</p>
+
+<p>#### Basic Auth <pre><code>http GET /api/endpoint HTTP/1.1 Host: example.com Authorization: Basic QWxhZGprOkFscGhh </code></pre> In this example, the `Basic` auth scheme is used to send a base64 encoded username and password in the `Authorization` header.</p>
+
+<p>#### JSON Web Tokens (JWT) <pre><code>http GET /api/endpoint HTTP/1.1 Host: example.com Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaGFuIjoiMjMwfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c </code></pre> In this example, a JSON Web Token (JWT) is used to authenticate the user. The token contains the user's ID and name, which are verified by the server.
+
+<h2>Key Points and Takeaways</h2></p>
+
+<p>* **Use HTTPS**: Always use secure communication protocols such as HTTPS to encrypt data transmitted between clients and servers. * **Implement Authentication and Authorization**: Use robust authentication and authorization mechanisms to control access to API resources. * **Validate User Input**: Validate user input to prevent common web application vulnerabilities such as SQL injection and XSS. * **Monitor and Log API Activity**: Monitor and log API activity to detect and respond to potential security threats.
+
+<h2>Relevant Details and References</h2> For more information on API security, refer to the following resources:</p>
+
+<p>* <a href="https://owasp.org/www-project-api-security-guide/">OWASP API Security Guide</a> * <a href="https://www.apigee.com/about/api-security-best-practices">API Security Best Practices</a> * <a href="https://tools.ietf.org/html/rfc7519">JSON Web Token (JWT) Specification</a></p>
+
+<p>By following these guidelines and best practices, developers can ensure the security and integrity of their APIs, protecting sensitive data and preventing unauthorized access to web applications.</p>
+
+<p>--- **Source**: <a href="https://twitter.com/i/web/status/1873959778680267143">Original Tweet</a></p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1873959778680267143">https://twitter.com/user/status/1873959778680267143</a><br>
+                    Last Updated: 2025-04-16
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
