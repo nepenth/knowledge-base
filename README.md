@@ -1,19 +1,19 @@
 # 📚 Technical Knowledge Base
 ### Welcome to Our Technical Knowledge Base
-We are excited to welcome you to our comprehensive technical knowledge base, featuring 137 expertly curated items across 18 distinct categories. This repository is designed to provide you with a wealth of information on various technical topics, all derived from insightful tweets by industry experts and thought leaders.
+We are excited to welcome you to our comprehensive technical knowledge base, featuring a curated collection of 167 technical content items across 21 categories. This extensive repository is designed to provide you with insightful information and practical solutions to enhance your understanding and skills in various technical areas.
 
-### Curated Content for Enhanced Learning
-The content within this knowledge base has been carefully selected and organized to offer a structured approach to learning and reference. Each item has been chosen for its relevance, accuracy, and usefulness, ensuring that you have access to high-quality technical information at your fingertips. Whether you are looking to deepen your understanding of specific technologies, solve complex problems, or simply stay updated with the latest trends and innovations, our knowledge base is here to support your journey.
+### Curated from Tweets for Your Benefit
+The content within this knowledge base has been carefully selected and organized from tweets, ensuring that you have access to concise, relevant, and up-to-date technical knowledge. Our goal is to make complex concepts easily accessible, helping you to stay informed about the latest developments and best practices in your field of interest.
 
 ### Explore and Discover
-We invite you to explore the diverse categories and subcategories that make up our knowledge base. With items meticulously organized by category and subcategory, navigating and finding relevant information is straightforward and efficient. From foundational concepts to advanced techniques, every piece of content is intended to enrich your technical knowledge and skills. Take your time to browse through our categories, and we are confident that you will find valuable insights and practical advice to enhance your professional and personal projects.
+We invite you to explore our categories and subcategories, where items are meticulously organized for easy navigation. From foundational principles to advanced techniques, our knowledge base covers a wide spectrum of technical topics. Whether you're looking for a quick reference or an in-depth exploration, we encourage you to dive in, discover new insights, and make the most out of the rich technical content available here.
 ---
 ## 📊 Overview
-- **Total Items**: 137
-- **Main Categories**: 18
-- **Subcategories**: 88
-- **Media Files**: 197
-- **Last Updated**: 2025-04-16 14:31:49
+- **Total Items**: 167
+- **Main Categories**: 21
+- **Subcategories**: 112
+- **Media Files**: 256
+- **Last Updated**: 2025-04-16 17:23:19
 
 ---
 ## 🧭 Quick Navigation
@@ -26,21 +26,34 @@ We invite you to explore the diverse categories and subcategories that make up o
   - [Job Interview Preparation](#career-development-job-interview-preparation)
 - **[Cloud Computing](#cloud-computing)**
   - [Aws, Azure, Gcp](#cloud-computing-aws,-azure,-gcp)
+  - [Aws Route53](#cloud-computing-aws-route53)
   - [Aws Scalability](#cloud-computing-aws-scalability)
   - [Kubernetes Autoscaling](#cloud-computing-kubernetes-autoscaling)
+  - [Kubernetes For Ml](#cloud-computing-kubernetes-for-ml)
+  - [Kubernetes Management](#cloud-computing-kubernetes-management)
   - [Kubernetes Storage](#cloud-computing-kubernetes-storage)
 - **[Communication Skills](#communication-skills)**
   - [Presentation Techniques](#communication-skills-presentation-techniques)
 - **[Cybersecurity](#cybersecurity)**
   - [Api Security](#cybersecurity-api-security)
+  - [Authentication](#cybersecurity-authentication)
+  - [Authentication Mechanisms](#cybersecurity-authentication-mechanisms)
+  - [Linux Server Hardening](#cybersecurity-linux-server-hardening)
   - [Network Security](#cybersecurity-network-security)
   - [Password Storage](#cybersecurity-password-storage)
 - **[Data Engineering](#data-engineering)**
   - [Big Data](#data-engineering-big-data)
   - [Data Integration](#data-engineering-data-integration)
   - [Data Modeling](#data-engineering-data-modeling)
+  - [Data Pipeline Architecture](#data-engineering-data-pipeline-architecture)
+  - [Data Pipeline Design](#data-engineering-data-pipeline-design)
   - [Data Storage Systems](#data-engineering-data-storage-systems)
   - [Stream Processing](#data-engineering-stream-processing)
+- **[Data Science](#data-science)**
+  - [Data Lifecycle Management](#data-science-data-lifecycle-management)
+- **[Database Management](#database-management)**
+  - [Data Scaling Strategies](#database-management-data-scaling-strategies)
+  - [Sql Fundamentals](#database-management-sql-fundamentals)
 - **[Databases](#databases)**
   - [Query Processing](#databases-query-processing)
 - **[Development Tools](#development-tools)**
@@ -58,6 +71,7 @@ We invite you to explore the diverse categories and subcategories that make up o
   - [Ci Cd Pipeline](#devops-ci-cd-pipeline)
   - [Cloud Platforms](#devops-cloud-platforms)
   - [Containerization](#devops-containerization)
+  - [Helm Chart Deployment](#devops-helm-chart-deployment)
   - [Infrastructure As Code](#devops-infrastructure-as-code)
   - [Kubernetes Deployment](#devops-kubernetes-deployment)
   - [Logging](#devops-logging)
@@ -71,7 +85,10 @@ We invite you to explore the diverse categories and subcategories that make up o
   - [Location Tracking Devices](#hardware-and-peripherals-location-tracking-devices)
 - **[Machine Learning](#machine-learning)**
   - [Custom Language Models](#machine-learning-custom-language-models)
+  - [Data Preprocessing](#machine-learning-data-preprocessing)
   - [Models](#machine-learning-models)
+- **[Network Engineering](#network-engineering)**
+  - [Nat Protocol](#network-engineering-nat-protocol)
 - **[Personal Development](#personal-development)**
   - [Goal Setting And Achievement](#personal-development-goal-setting-and-achievement)
 - **[Programming Languages](#programming-languages)**
@@ -92,23 +109,33 @@ We invite you to explore the diverse categories and subcategories that make up o
   - [Coding Best Practices](#software-engineering-coding-best-practices)
   - [Concurrency](#software-engineering-concurrency)
   - [Containerization](#software-engineering-containerization)
+  - [Data Processing](#software-engineering-data-processing)
   - [Data Serialization](#software-engineering-data-serialization)
   - [Data Visualization Tools](#software-engineering-data-visualization-tools)
   - [Database Systems](#software-engineering-database-systems)
   - [Debugging](#software-engineering-debugging)
   - [Development Tools](#software-engineering-development-tools)
   - [Distributed Systems](#software-engineering-distributed-systems)
+  - [Document Conversion Tools](#software-engineering-document-conversion-tools)
+  - [Documentation Automation](#software-engineering-documentation-automation)
+  - [Domain Driven Design](#software-engineering-domain-driven-design)
   - [Knowledge Management Systems](#software-engineering-knowledge-management-systems)
+  - [Kubernetes Interview Prep](#software-engineering-kubernetes-interview-prep)
+  - [Linux Command Line](#software-engineering-linux-command-line)
   - [Linux System Administration](#software-engineering-linux-system-administration)
   - [Microservices Architecture](#software-engineering-microservices-architecture)
   - [Multi Agent Systems](#software-engineering-multi-agent-systems)
   - [Performance Optimization](#software-engineering-performance-optimization)
+  - [Platform Engineering](#software-engineering-platform-engineering)
+  - [Scripting Languages](#software-engineering-scripting-languages)
   - [Security](#software-engineering-security)
   - [System Architecture](#software-engineering-system-architecture)
   - [System Design](#software-engineering-system-design)
   - [System Design Patterns](#software-engineering-system-design-patterns)
   - [Testing](#software-engineering-testing)
   - [Text Editor Design](#software-engineering-text-editor-design)
+  - [Twitter Api Integration](#software-engineering-twitter-api-integration)
+  - [Version Control](#software-engineering-version-control)
   - [Web Development](#software-engineering-web-development)
 - **[System Design](#system-design)**
   - [Api Design](#system-design-api-design)
@@ -128,17 +155,17 @@ We invite you to explore the diverse categories and subcategories that make up o
 ## 🔔 Recent Updates
 | **Item** | **Category** | **Last Updated** | **Source** |
 |----------|--------------|------------------|------------|
-| [Introduction To Vpn Tunneling For Soc Teams](cybersecurity/network_security/introduction-to-vpn-tunneling-for-soc-teams) | Cybersecurity/Network_Security | 2025-04-16 | [https://twitter.com/user/status/1880555755348144617](https://twitter.com/user/status/1880555755348144617) |
-| [Knowledge Base Entry](cloud_computing/kubernetes_storage/knowledge-base-entry) | Cloud_Computing/Kubernetes_Storage | 2025-04-16 | [https://twitter.com/user/status/1880285956001132998](https://twitter.com/user/status/1880285956001132998) |
-| [Devops Project Deploying A Java Application To Aws Ecs Using Github Actions](devops/ci_cd_pipeline/devops-project-deploying-a-java-application-to-aws-ecs-using-github-actions) | Devops/Ci_Cd_Pipeline | 2025-04-16 | [https://twitter.com/user/status/1911810799200281070](https://twitter.com/user/status/1911810799200281070) |
-| [Introduction To Becoming A Backend Architect](software_engineering/system_design/introduction-to-becoming-a-backend-architect) | Software_Engineering/System_Design | 2025-04-16 | [https://twitter.com/user/status/1885379904188866994](https://twitter.com/user/status/1885379904188866994) |
-| [Introduction To Data Engineering Roadmap](data_engineering/data_storage_systems/introduction-to-data-engineering-roadmap) | Data_Engineering/Data_Storage_Systems | 2025-04-16 | [https://twitter.com/user/status/1911804150356254867](https://twitter.com/user/status/1911804150356254867) |
+| [Introduction To Bash Scripting Basics](software_engineering/scripting_languages/introduction-to-bash-scripting-basics) | Software_Engineering/Scripting_Languages | 2025-04-16 | [https://twitter.com/user/status/1874845414874325469](https://twitter.com/user/status/1874845414874325469) |
+| [Introduction To Platform Engineering](software_engineering/platform_engineering/introduction-to-platform-engineering) | Software_Engineering/Platform_Engineering | 2025-04-16 | [https://twitter.com/user/status/1912161388882952652](https://twitter.com/user/status/1912161388882952652) |
+| [Introduction To Software Architecture Patterns](software_engineering/system_design_patterns/introduction-to-software-architecture-patterns) | Software_Engineering/System_Design_Patterns | 2025-04-16 | [https://twitter.com/user/status/1867562953266147369](https://twitter.com/user/status/1867562953266147369) |
+| [Introduction To Tweet A Twitter Client For Elizaos Agents](software_engineering/twitter_api_integration/introduction-to-tweet-a-twitter-client-for-elizaos-agents) | Software_Engineering/Twitter_Api_Integration | 2025-04-16 | [https://twitter.com/user/status/1875945721054065075](https://twitter.com/user/status/1875945721054065075) |
+| [Knowledge Base Entry](database_management/sql_fundamentals/knowledge-base-entry) | Database_Management/Sql_Fundamentals | 2025-04-16 | [https://twitter.com/user/status/1868522704263106632](https://twitter.com/user/status/1868522704263106632) |
 
 ---
 ## 📋 Categories
 
 ### Artificial Intelligence <a name="artificial-intelligence"></a>
-The Artificial Intelligence category provides information on the development and application of intelligent systems, including machine learning algorithms and natural language processing techniques. This category encompasses 9 articles across two subcategories: Machine Learning and NLP, offering insights into the concepts, tools, and methodologies that underpin AI technologies.
+The Artificial Intelligence (AI) category provides information on various AI technologies, including machine learning and natural language processing (NLP), to help users understand and implement intelligent systems. This category comprises 9 articles across two subcategories, offering insights into Machine Learning and NLP concepts, techniques, and applications.
 *Subcategories: Machine Learning, Nlp*
 *Items: 9*
 
@@ -169,7 +196,7 @@ The Artificial Intelligence category provides information on the development and
 
 
 ### Career Development <a name="career-development"></a>
-The Career Development category provides resources to help technology professionals advance their careers, including best practices, unique perspectives on the industry, and preparation tips for job interviews. This category encompasses three subcategories: Best Practices, Humor In Tech, and Job Interview Preparation, offering a range of guidance and insights for career growth and success.
+The Career Development category provides resources to support professionals in advancing their technical careers, including best practices, unique perspectives on humor in tech, and guidance for job interview preparation. This category offers a mix of practical advice, industry insights, and lighthearted commentary to help individuals navigate their career paths.
 *Subcategories: Best Practices, Humor In Tech, Job Interview Preparation*
 *Items: 3*
 
@@ -202,9 +229,9 @@ The Career Development category provides resources to help technology profession
 
 
 ### Cloud Computing <a name="cloud-computing"></a>
-The Cloud Computing category provides resources and guidance on leading cloud platforms, including AWS, Azure, and GCP, as well as scalability and management topics such as Kubernetes autoscaling and storage. This category covers a range of subtopics to help users navigate the complexities of cloud infrastructure and optimization.
-*Subcategories: Aws, Azure, Gcp, Aws Scalability, Kubernetes Autoscaling, Kubernetes Storage*
-*Items: 4*
+The Cloud Computing category provides information and resources on various cloud platforms, including AWS, Azure, and GCP, as well as topics related to Kubernetes management, scalability, and storage. This category covers a range of subtopics, from route optimization and autoscaling to machine learning and cloud infrastructure management.
+*Subcategories: Aws, Azure, Gcp, Aws Route53, Aws Scalability, Kubernetes Autoscaling, Kubernetes For Ml, Kubernetes Management, Kubernetes Storage*
+*Items: 7*
 
 <details><summary>Aws, Azure, Gcp</summary>
 
@@ -213,6 +240,15 @@ The Cloud Computing category provides resources and guidance on leading cloud pl
 | **Item** | **Description** |
 |----------|-----------------|
 | [Cloud_Data_Pipelines](cloud_computing/aws,_azure,_gcp/cloud_data_pipelines) | ## Technical Content The data processing pipeline for each cloud provider can be broken down into four main stages: ingestion, data lake, computation, and data warehouse. |
+</details>
+
+<details><summary>Aws Route53</summary>
+
+#### Aws Route53 <a name="cloud-computing-aws-route53"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Aws Route 53](cloud_computing/aws_route53/introduction-to-aws-route-53) | ### Practical Insights and Examples For practical application, consider the following example: - A company has users in both North America and Europe. They can use Route 53's geolocation routing po... |
 </details>
 
 <details><summary>Aws Scalability</summary>
@@ -231,6 +267,24 @@ The Cloud Computing category provides resources and guidance on leading cloud pl
 | **Item** | **Description** |
 |----------|-----------------|
 | [Introduction To Kubernetes Autoscaling](cloud_computing/kubernetes_autoscaling/introduction-to-kubernetes-autoscaling) | ### Vertical Pod Autoscaling (VPA) VPA, on the other hand, is a type of autoscaling that adjusts the resources (such as CPU and memory) allocated to a pod. It is a vertical scaling approach, meanin... |
+</details>
+
+<details><summary>Kubernetes For Ml</summary>
+
+#### Kubernetes For Ml <a name="cloud-computing-kubernetes-for-ml"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Kubernetes For Ml Engineers](cloud_computing/kubernetes_for_ml/introduction-to-kubernetes-for-ml-engineers) | ### Key Features of Kubernetes \* \*\*Container Orchestration\*\*: Kubernetes manages the lifecycle of containers, including deployment, scaling, and termination. \* \*\*Declarative Configuration\*... |
+</details>
+
+<details><summary>Kubernetes Management</summary>
+
+#### Kubernetes Management <a name="cloud-computing-kubernetes-management"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Kubernetes Command Cheatsheet](cloud_computing/kubernetes_management/introduction-to-kubernetes-command-cheatsheet) | ## Practical Insights and Examples To get the most out of the Ultimate Kubernetes Command Cheatsheet, it's essential to understand the basic syntax and structure of Kubernetes commands. Here are a ... |
 </details>
 
 <details><summary>Kubernetes Storage</summary>
@@ -259,9 +313,9 @@ The Communication Skills category provides resources on effective communication 
 
 
 ### Cybersecurity <a name="cybersecurity"></a>
-The Cybersecurity category provides guidance on protecting digital assets from threats, covering topics such as secure API design, network vulnerability mitigation, and password storage best practices. This category includes resources on Api Security, Network Security, and Password Storage to help ensure the confidentiality, integrity, and availability of sensitive information.
-*Subcategories: Api Security, Network Security, Password Storage*
-*Items: 3*
+The Cybersecurity category provides guidance on protecting digital assets from threats, covering topics such as secure API design, authentication methods, and system hardening. This category includes subcategories on API security, authentication, network security, password storage, and Linux server hardening, offering a comprehensive overview of cybersecurity best practices.
+*Subcategories: Api Security, Authentication, Authentication Mechanisms, Linux Server Hardening, Network Security, Password Storage*
+*Items: 6*
 
 <details><summary>Api Security</summary>
 
@@ -270,6 +324,33 @@ The Cybersecurity category provides guidance on protecting digital assets from t
 | **Item** | **Description** |
 |----------|-----------------|
 | [Api Security 101](cybersecurity/api_security/api-security-101) | ### What is API Security? API security refers to the practices, protocols, and technologies used to protect Application Programming Interfaces (APIs) from cyber threats, data breaches, and other ma... |
+</details>
+
+<details><summary>Authentication</summary>
+
+#### Authentication <a name="cybersecurity-authentication"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To App Login Protection](cybersecurity/authentication/introduction-to-app-login-protection) | #### Benefits of Login Screens Implementing a login screen offers several benefits: - \*\*Data Protection\*\*: By requiring users to log in, you protect your app's data from unauthorized access. - ... |
+</details>
+
+<details><summary>Authentication Mechanisms</summary>
+
+#### Authentication Mechanisms <a name="cybersecurity-authentication-mechanisms"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Authentication Mechanisms](cybersecurity/authentication_mechanisms/introduction-to-authentication-mechanisms) | ### Examples of Authentication Mechanisms Various authentication mechanisms are in use today, including: - \*\*Single-Factor Authentication (SFA)\*\*: Uses only one factor to authenticate, such as ... |
+</details>
+
+<details><summary>Linux Server Hardening</summary>
+
+#### Linux Server Hardening <a name="cybersecurity-linux-server-hardening"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Linux Server Hardening](cybersecurity/linux_server_hardening/introduction-to-linux-server-hardening) | ### Practical Examples For example, consider a web server running on a Linux distribution. To harden this server: - You might start by removing any pre-installed packages not needed for web serving... |
 </details>
 
 <details><summary>Network Security</summary>
@@ -292,9 +373,9 @@ The Cybersecurity category provides guidance on protecting digital assets from t
 
 
 ### Data Engineering <a name="data-engineering"></a>
-The Data Engineering category covers the design, implementation, and management of systems that store, process, and retrieve large datasets, including big data, data integration, modeling, storage, and stream processing. This category provides resources on various technologies and techniques used to build scalable and efficient data pipelines, with 6 items across 5 subcategories: Big Data, Data Integration, Data Modeling, Data Storage Systems, and Stream Processing.
-*Subcategories: Big Data, Data Integration, Data Modeling, Data Storage Systems, Stream Processing*
-*Items: 6*
+The Data Engineering category provides guidance on designing, building, and maintaining large-scale data systems, covering topics such as big data, data integration, and storage systems. This category includes subcategories that delve into specific aspects of data engineering, including data modeling, pipeline architecture and design, and stream processing.
+*Subcategories: Big Data, Data Integration, Data Modeling, Data Pipeline Architecture, Data Pipeline Design, Data Storage Systems, Stream Processing*
+*Items: 8*
 
 <details><summary>Big Data</summary>
 
@@ -324,6 +405,24 @@ The Data Engineering category covers the design, implementation, and management 
 | [Sql_Joins_Cheat_Sheet](data_engineering/data_modeling/sql_joins_cheat_sheet) | #### Technical Content SQL joins are used to combine rows from two or more tables based on a related column between them. The resulting table contains columns from both tables, allowing for more co... |
 </details>
 
+<details><summary>Data Pipeline Architecture</summary>
+
+#### Data Pipeline Architecture <a name="data-engineering-data-pipeline-architecture"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Technical Overview Of Slacks Data Pipeline](data_engineering/data_pipeline_architecture/technical-overview-of-slacks-data-pipeline) | ## Main Concepts The main concepts in Slack's data pipeline are: \* \*\*Change-Data-Capture (CDC)\*\*: a process that captures changes made to a database in real-time. \* \*\*Apache Kafka\*\*: a di... |
+</details>
+
+<details><summary>Data Pipeline Design</summary>
+
+#### Data Pipeline Design <a name="data-engineering-data-pipeline-design"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Knowledge Base Entry](data_engineering/data_pipeline_design/knowledge-base-entry) | Data Pipeline Design Framework ============================== ### Introduction |
+</details>
+
 <details><summary>Data Storage Systems</summary>
 
 #### Data Storage Systems <a name="data-engineering-data-storage-systems"></a>
@@ -343,8 +442,47 @@ The Data Engineering category covers the design, implementation, and management 
 </details>
 
 
+### Data Science <a name="data-science"></a>
+The Data Science category provides information on managing and analyzing data, with a focus on data lifecycle management to support informed decision-making. This category currently includes resources on Data Lifecycle Management, covering the processes and techniques for handling data throughout its entire lifecycle.
+*Subcategories: Data Lifecycle Management*
+*Items: 1*
+
+<details><summary>Data Lifecycle Management</summary>
+
+#### Data Lifecycle Management <a name="data-science-data-lifecycle-management"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Media Rich Tweets](data_science/data_lifecycle_management/introduction-to-media-rich-tweets) | ### Main Concepts Explained #### Media Types in Tweets - \*\*Images\*\*: Static visuals that can convey complex information quickly. They are commonly used for sharing photographs, infographics, or... |
+</details>
+
+
+### Database Management <a name="database-management"></a>
+The Database Management category provides resources on designing, implementing, and optimizing database systems, covering essential topics such as data scaling strategies and SQL fundamentals. This category includes guides and tutorials to help users effectively manage and interact with databases.
+*Subcategories: Data Scaling Strategies, Sql Fundamentals*
+*Items: 2*
+
+<details><summary>Data Scaling Strategies</summary>
+
+#### Data Scaling Strategies <a name="database-management-data-scaling-strategies"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Partitioning Vs Sharding](database_management/data_scaling_strategies/introduction-to-partitioning-vs-sharding) | #### Types of Partitioning There are several types of partitioning strategies: - \*\*Range-Based Partitioning\*\*: Data is divided based on a range of values in a specific column. - \*\*List-Based ... |
+</details>
+
+<details><summary>Sql Fundamentals</summary>
+
+#### Sql Fundamentals <a name="database-management-sql-fundamentals"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Knowledge Base Entry](database_management/sql_fundamentals/knowledge-base-entry) | # SQL Learning Roadmap The SQL Learning Roadmap provides a structured approach to learning SQL, a fundamental skill for working with databases. This roadmap outlines the key concepts, practical ins... |
+</details>
+
+
 ### Databases <a name="databases"></a>
-The Databases category provides information on managing and optimizing data storage, with topics ranging from query processing to database administration. This category currently includes resources on Query Processing, aiming to help users improve their database performance and efficiency.
+The Databases category provides information on managing and optimizing data storage systems, covering topics such as query processing and database management. This category includes resources on query processing, with one item available for reference.
 *Subcategories: Query Processing*
 *Items: 1*
 
@@ -359,7 +497,7 @@ The Databases category provides information on managing and optimizing data stor
 
 
 ### Development Tools <a name="development-tools"></a>
-The Development Tools category provides resources and guides for various software development tools and techniques, including data integration, debugging, version control, and more. This category encompasses 8 subcategories, offering a range of technical information to support developers in their work.
+The Development Tools category provides resources and guides for various software development tools and techniques, including data integration, debugging, version control, and more. This category covers 8 subcategories with 14 items, offering a range of solutions to support developers in their work.
 *Subcategories: Data Integration, Debugging Tools, Ide Tools, Installation Guides, Monitoring Tools, Shell Scripting, Version Control, Web Scraping Tools*
 *Items: 14*
 
@@ -443,9 +581,9 @@ The Development Tools category provides resources and guides for various softwar
 
 
 ### Devops <a name="devops"></a>
-The Devops category provides resources on streamlining software development and deployment processes, covering topics such as continuous integration and delivery, infrastructure as code, containerization, and monitoring. This category includes guides and tutorials on tools like Kubernetes, cloud platforms, and orchestration, to help teams optimize their development and operations workflows.
-*Subcategories: Ci Cd, Ci Cd, Infrastructure As Code, Containerization, Monitoring, Cloud Platforms, Ci Cd Pipeline, Cloud Platforms, Containerization, Infrastructure As Code, Kubernetes Deployment, Logging, Monitoring, Orchestration*
-*Items: 15*
+The Devops category provides guidance on streamlining software development and deployment through topics such as continuous integration and delivery, infrastructure as code, containerization, and monitoring. This category covers a range of subtopics, including cloud platforms, orchestration, and logging, to help teams optimize their devops practices and tools.
+*Subcategories: Ci Cd, Ci Cd, Infrastructure As Code, Containerization, Monitoring, Cloud Platforms, Ci Cd Pipeline, Cloud Platforms, Containerization, Helm Chart Deployment, Infrastructure As Code, Kubernetes Deployment, Logging, Monitoring, Orchestration*
+*Items: 16*
 
 <details><summary>Ci Cd</summary>
 
@@ -493,6 +631,15 @@ The Devops category provides resources on streamlining software development and 
 |----------|-----------------|
 | [Better Dockerfiles Overcoming The Challenges Of Container Image Creation](devops/containerization/better-dockerfiles-overcoming-the-challenges-of-container-image-creation) | ## Technical Content Containerization has become a crucial aspect of modern software development, allowing for efficient deployment and management of applications. However, the process of creating ... |
 | [Understanding Dockerfile Anatomy](devops/containerization/understanding-dockerfile-anatomy) | #### Technical Content The Dockerfile anatomy can be broken down into several sections, each serving a specific purpose. The following is a detailed explanation of these sections: |
+</details>
+
+<details><summary>Helm Chart Deployment</summary>
+
+#### Helm Chart Deployment <a name="devops-helm-chart-deployment"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Testing And Releasing Helm Charts With Dagger](devops/helm_chart_deployment/introduction-to-testing-and-releasing-helm-charts-with-dagger) | ### Practical Insights: Testing and Releasing with Dagger Testing Helm charts involves verifying that they correctly deploy all necessary components to a Kubernetes cluster without errors. The proc... |
 </details>
 
 <details><summary>Infrastructure As Code</summary>
@@ -544,7 +691,7 @@ The Devops category provides resources on streamlining software development and 
 
 
 ### Ergonomics <a name="ergonomics"></a>
-The Ergonomics category provides guidance on designing and optimizing workspaces to reduce discomfort, fatigue, and injury, promoting overall well-being and productivity. This category includes resources on workspace setup, covering topics such as furniture configuration, equipment placement, and best practices for creating a comfortable working environment.
+The Ergonomics category provides guidance on designing and optimizing workspaces to promote comfort, efficiency, and safety. This includes resources on workspace setup to help reduce the risk of injury and improve overall worker well-being.
 *Subcategories: Workspace Setup*
 *Items: 1*
 
@@ -559,7 +706,7 @@ The Ergonomics category provides guidance on designing and optimizing workspaces
 
 
 ### Finance And Accounting <a name="finance-and-accounting"></a>
-The Finance And Accounting category provides resources and guidance on financial management topics, including analysis and interpretation of financial statements. This category currently includes information on Financial Statement Analysis, offering insights into evaluating and understanding financial performance.
+The Finance And Accounting category provides technical information on financial management, including analysis and interpretation of financial data. Specifically, this category covers Financial Statement Analysis, offering guidance on evaluating and understanding financial statements to inform business decisions.
 *Subcategories: Financial Statement Analysis*
 *Items: 1*
 
@@ -574,7 +721,7 @@ The Finance And Accounting category provides resources and guidance on financial
 
 
 ### Hardware And Peripherals <a name="hardware-and-peripherals"></a>
-The "Hardware And Peripherals" category provides information on external devices and equipment that can be used to enhance or support various systems, including location tracking devices. This section currently covers Location Tracking Devices, offering guidance on their setup, usage, and troubleshooting.
+The "Hardware And Peripherals" category provides information on external devices and equipment that can be used to enhance or support various systems, including location tracking devices. This category currently includes resources on Location Tracking Devices, which offer guidance on selecting and utilizing these specialized peripherals.
 *Subcategories: Location Tracking Devices*
 *Items: 1*
 
@@ -589,9 +736,9 @@ The "Hardware And Peripherals" category provides information on external devices
 
 
 ### Machine Learning <a name="machine-learning"></a>
-The Machine Learning category provides resources and guides on leveraging machine learning technologies, including custom language models and pre-trained models, to build intelligent applications. This category currently includes two key areas of focus: Custom Language Models and general Models, offering insights into implementation and optimization techniques.
-*Subcategories: Custom Language Models, Models*
-*Items: 2*
+The Machine Learning category provides resources on building and optimizing AI models, including custom language models, data preprocessing techniques, and model implementation. This section offers guidance on key aspects of machine learning, covering data preparation, model development, and deployment to support various applications.
+*Subcategories: Custom Language Models, Data Preprocessing, Models*
+*Items: 3*
 
 <details><summary>Custom Language Models</summary>
 
@@ -600,6 +747,15 @@ The Machine Learning category provides resources and guides on leveraging machin
 | **Item** | **Description** |
 |----------|-----------------|
 | [Introduction To Custom Gpts For Printing Cash](machine_learning/custom_language_models/introduction-to-custom-gpts-for-printing-cash) | ### Practical Insights and Examples While specific examples of custom GPTs are not provided, one can imagine scenarios where businesses or individuals might seek tailored AI solutions for content g... |
+</details>
+
+<details><summary>Data Preprocessing</summary>
+
+#### Data Preprocessing <a name="machine-learning-data-preprocessing"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Machine Learning Process](machine_learning/data_preprocessing/introduction-to-machine-learning-process) | ### Practical Examples A practical example of the machine learning process is developing a spam filter. The steps would involve: 1. Collecting emails labeled as spam or not spam. 2. Preprocessing t... |
 </details>
 
 <details><summary>Models</summary>
@@ -612,8 +768,23 @@ The Machine Learning category provides resources and guides on leveraging machin
 </details>
 
 
+### Network Engineering <a name="network-engineering"></a>
+The Network Engineering category provides information on designing, implementing, and managing network systems, including protocols and technologies that enable communication between devices. This category currently covers NAT Protocol, with more topics to be added in the future.
+*Subcategories: Nat Protocol*
+*Items: 1*
+
+<details><summary>Nat Protocol</summary>
+
+#### Nat Protocol <a name="network-engineering-nat-protocol"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Knowledge Base Entry](network_engineering/nat_protocol/knowledge-base-entry) | ### Introduction to NAT The tweet "How NAT works?" sparks an interesting discussion about Network Address Translation (NAT), a fundamental concept in computer networking. In this knowledge base ent... |
+</details>
+
+
 ### Personal Development <a name="personal-development"></a>
-The Personal Development category provides resources and guidance on improving individual skills and abilities, with a focus on achieving personal and professional goals. This category includes topics such as goal setting and achievement, helping individuals to enhance their productivity and success.
+The Personal Development category provides resources and guidance on improving individual skills and performance, with a focus on achieving personal and professional goals. This category includes topics such as goal setting and achievement, helping individuals to enhance their productivity and success.
 *Subcategories: Goal Setting And Achievement*
 *Items: 1*
 
@@ -628,7 +799,7 @@ The Personal Development category provides resources and guidance on improving i
 
 
 ### Programming Languages <a name="programming-languages"></a>
-The Programming Languages category provides resources and guides on various programming languages, including Java and Shell Scripting, to help developers improve their coding skills and troubleshoot common issues. This category currently covers two subcategories, offering a total of four items to support language-specific development and scripting needs.
+The "Programming Languages" category provides documentation and resources on various programming languages, including Java and shell scripting, to help developers improve their coding skills and troubleshoot common issues. This category currently includes guides and tutorials for Java and Shell Scripting, with more topics to be added in the future.
 *Subcategories: Java, Shell Scripting*
 *Items: 4*
 
@@ -654,9 +825,9 @@ The Programming Languages category provides resources and guides on various prog
 
 
 ### Software Engineering <a name="software-engineering"></a>
-The Software Engineering category provides comprehensive resources on designing, developing, and maintaining software systems, covering topics such as architecture, testing, security, and best practices. With 51 items across 32 subcategories, this category offers a wide range of technical knowledge to support software engineers in their work.
-*Subcategories: Ai Agent Management, Ai Agents Architecture, Ai Coding Tools, Api Design, Authentication Authorization, Authentication Protocols, Automated Testing, Best Practices, Career Development, Ci Cd Pipeline, Code Quality, Coding Best Practices, Concurrency, Containerization, Data Serialization, Data Visualization Tools, Database Systems, Debugging, Development Tools, Distributed Systems, Knowledge Management Systems, Linux System Administration, Microservices Architecture, Multi Agent Systems, Performance Optimization, Security, System Architecture, System Design, System Design Patterns, Testing, Text Editor Design, Web Development*
-*Items: 51*
+The Software Engineering category provides a comprehensive collection of technical knowledge and best practices for designing, developing, and deploying software systems, covering topics such as programming, testing, and system architecture. With 67 items across 42 subcategories, this category offers a wide range of resources for software engineers to improve their skills and stay up-to-date with industry trends and technologies.
+*Subcategories: Ai Agent Management, Ai Agents Architecture, Ai Coding Tools, Api Design, Authentication Authorization, Authentication Protocols, Automated Testing, Best Practices, Career Development, Ci Cd Pipeline, Code Quality, Coding Best Practices, Concurrency, Containerization, Data Processing, Data Serialization, Data Visualization Tools, Database Systems, Debugging, Development Tools, Distributed Systems, Document Conversion Tools, Documentation Automation, Domain Driven Design, Knowledge Management Systems, Kubernetes Interview Prep, Linux Command Line, Linux System Administration, Microservices Architecture, Multi Agent Systems, Performance Optimization, Platform Engineering, Scripting Languages, Security, System Architecture, System Design, System Design Patterns, Testing, Text Editor Design, Twitter Api Integration, Version Control, Web Development*
+*Items: 67*
 
 <details><summary>Ai Agent Management</summary>
 
@@ -692,6 +863,8 @@ The Software Engineering category provides comprehensive resources on designing,
 | **Item** | **Description** |
 |----------|-----------------|
 | [Introduction To Grok Api With Memory Support](software_engineering/api_design/introduction-to-grok-api-with-memory-support) | ### Main Concepts and Ideas #### Reverse Engineering and API Development |
+| [Introduction To Restful Api Guidelines By Zalando](software_engineering/api_design/introduction-to-restful-api-guidelines-by-zalando) | \* \*\*Resource-Based Architecture\*\*: Organizing API endpoints around resources rather than actions. \* \*\*HTTP Methods\*\*: Utilizing HTTP methods (GET, POST, PUT, DELETE) to define the action ... |
+| [Knowledge Base Entry](software_engineering/api_design/knowledge-base-entry) | APIs: Understanding the Basics ========================== |
 </details>
 
 <details><summary>Authentication Authorization</summary>
@@ -719,6 +892,7 @@ The Software Engineering category provides comprehensive resources on designing,
 | **Item** | **Description** |
 |----------|-----------------|
 | [Introduction To Large Language Models (Llms) For Test Migration](software_engineering/automated_testing/introduction-to-large-language-models-(llms)-for-test-migration) | ### Practical Insights: Applying LLMs for Test Migration The application of LLMs in test migration involves several steps: 1. \*\*Analysis\*\*: The first step is analyzing the current state of the ... |
+| [Introduction To Open Source Ai Agents For Ui Testing](software_engineering/automated_testing/introduction-to-open-source-ai-agents-for-ui-testing) | - \*\*Visual Recognition\*\*: The ability to "see" the UI, understanding its layout, components, and how they change based on user interactions. - \*\*Reasoning Capabilities\*\*: They can navigate ... |
 </details>
 
 <details><summary>Best Practices</summary>
@@ -794,6 +968,15 @@ The Software Engineering category provides comprehensive resources on designing,
 | [Introduction To Docker A Crash Course](software_engineering/containerization/introduction-to-docker-a-crash-course) | ### Key Concepts The following are key concepts in Docker: \* \*\*Images\*\*: A Docker image is a template that contains the application code, dependencies, and configurations. Images are used to c... |
 </details>
 
+<details><summary>Data Processing</summary>
+
+#### Data Processing <a name="software-engineering-data-processing"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Llm Ready Data Conversion](software_engineering/data_processing/introduction-to-llm-ready-data-conversion) | #### Key Concepts - \*\*Document Parsing\*\*: The initial step where the document (which could be in various formats such as PDF, Word documents, or plain text) is parsed to extract its content. - ... |
+</details>
+
 <details><summary>Data Serialization</summary>
 
 #### Data Serialization <a name="software-engineering-data-serialization"></a>
@@ -837,6 +1020,7 @@ The Software Engineering category provides comprehensive resources on designing,
 
 | **Item** | **Description** |
 |----------|-----------------|
+| [Introduction To Githubs Official Mcp Server](software_engineering/development_tools/introduction-to-githubs-official-mcp-server) | ### Practical Examples For a deeper understanding of how GitHub's Official MCP Server can be applied, consider the following examples: - \*\*Automating Code Reviews\*\*: Developers can set up autom... |
 | [Knowledge Base Entry](software_engineering/development_tools/knowledge-base-entry) | \*\*Dev Tools for Efficient Development\*\* ===================================== |
 </details>
 
@@ -849,6 +1033,33 @@ The Software Engineering category provides comprehensive resources on designing,
 | [Consistent Hashing A Comprehensive Overview](software_engineering/distributed_systems/consistent-hashing-a-comprehensive-overview) | ## Main Concepts and Ideas Consistent hashing is based on the idea of using a hash function to map keys to a circular space, often represented as a ring or a circle. Each node in the system is assi... |
 </details>
 
+<details><summary>Document Conversion Tools</summary>
+
+#### Document Conversion Tools <a name="software-engineering-document-conversion-tools"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Markitdown](software_engineering/document_conversion_tools/introduction-to-markitdown) | ### Key Components \* \*\*Document Parsing\*\*: Markitdown uses a parsing engine to read and understand the structure and content of the input document. \* \*\*Markdown Generation\*\*: The parsed c... |
+</details>
+
+<details><summary>Documentation Automation</summary>
+
+#### Documentation Automation <a name="software-engineering-documentation-automation"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Crewai Flow For Documentation](software_engineering/documentation_automation/introduction-to-crewai-flow-for-documentation) | ### Key Technologies Involved - \*\*Llama 3.3\*\*: An AI model that powers the CrewAI Flow, enabling advanced language processing and generation capabilities. - \*\*Chroma\*\*: A technology that co... |
+</details>
+
+<details><summary>Domain Driven Design</summary>
+
+#### Domain Driven Design <a name="software-engineering-domain-driven-design"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Domain Driven Design (Ddd)](software_engineering/domain_driven_design/introduction-to-domain-driven-design-(ddd)) | \* \*\*Domain\*\*: The subject area or business domain that the software is intended to support. \* \*\*Model\*\*: A conceptual representation of the domain, including the concepts, rules, and proc... |
+</details>
+
 <details><summary>Knowledge Management Systems</summary>
 
 #### Knowledge Management Systems <a name="software-engineering-knowledge-management-systems"></a>
@@ -858,13 +1069,32 @@ The Software Engineering category provides comprehensive resources on designing,
 | [Introduction To Ai Powered Bookmark And Knowledge Management](software_engineering/knowledge_management_systems/introduction-to-ai-powered-bookmark-and-knowledge-management) | ### Practical Insights and Examples For individuals looking to optimize their information workflow, AI-powered bookmark managers can be particularly useful. For instance: - \*\*Researchers\*\* can ... |
 </details>
 
+<details><summary>Kubernetes Interview Prep</summary>
+
+#### Kubernetes Interview Prep <a name="software-engineering-kubernetes-interview-prep"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Kubernetes Interview Questions & Answers](software_engineering/kubernetes_interview_prep/kubernetes-interview-questions-&-answers) | ## Key Concepts in Kubernetes Understanding key concepts in Kubernetes is essential for mastering its functionality. Some of the main concepts include: |
+</details>
+
+<details><summary>Linux Command Line</summary>
+
+#### Linux Command Line <a name="software-engineering-linux-command-line"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Linux Grep Command Basics](software_engineering/linux_command_line/introduction-to-linux-grep-command-basics) | ## Basic Syntax The basic syntax of the `grep` command is as follows: ```bash grep \[options\] pattern file ``` \* `\[options\]`: Optional flags that modify the behavior of the `grep` command. \* `... |
+</details>
+
 <details><summary>Linux System Administration</summary>
 
 #### Linux System Administration <a name="software-engineering-linux-system-administration"></a>
 
 | **Item** | **Description** |
 |----------|-----------------|
-| [Introduction To Linux Cron Jobs](software_engineering/linux_system_administration/introduction-to-linux-cron-jobs) | These tasks are executed by the cron daemon, which is a system service that runs continuously in the background. |
+| [Introduction To Linux Cron Jobs](software_engineering/linux_system_administration/introduction-to-linux-cron-jobs) | \* Automating backups \* Running maintenance scripts \* Sending reports or notifications \* Updating system software |
+| [Introduction To Linux Cron Jobs](software_engineering/linux_system_administration/introduction-to-linux-cron-jobs) | \* Automating backups \* Running maintenance scripts \* Sending reports or notifications \* Updating system software |
 </details>
 
 <details><summary>Microservices Architecture</summary>
@@ -892,6 +1122,24 @@ The Software Engineering category provides comprehensive resources on designing,
 | **Item** | **Description** |
 |----------|-----------------|
 | [Concurrency_Vs_Parallelism](software_engineering/performance_optimization/concurrency_vs_parallelism) | ## Technical Content ### Concurrency Concurrency refers to the ability of multiple tasks or processes to be executed simultaneously, sharing resources such as CPU time, memory, or I/O devices. This... |
+</details>
+
+<details><summary>Platform Engineering</summary>
+
+#### Platform Engineering <a name="software-engineering-platform-engineering"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Platform Engineering](software_engineering/platform_engineering/introduction-to-platform-engineering) | ### Practical Examples Several examples illustrate the concept and benefits of platform engineering: - \*\*Cloud Providers\*\*: Companies like Amazon (AWS), Microsoft (Azure), and Google (GCP) offe... |
+</details>
+
+<details><summary>Scripting Languages</summary>
+
+#### Scripting Languages <a name="software-engineering-scripting-languages"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Bash Scripting Basics](software_engineering/scripting_languages/introduction-to-bash-scripting-basics) | ### Examples and Use Cases For example, a simple bash script can be used to automate the process of backing up important files. The script might look like this: ```bash #!/bin/bash |
 </details>
 
 <details><summary>Security</summary>
@@ -934,6 +1182,7 @@ The Software Engineering category provides comprehensive resources on designing,
 
 | **Item** | **Description** |
 |----------|-----------------|
+| [Introduction To Software Architecture Patterns](software_engineering/system_design_patterns/introduction-to-software-architecture-patterns) | 1. \*\*Client-Server Architecture\*\*: This pattern involves a client application requesting services or resources from a server application. The client and server can be on the same machine or dif... |
 | [Saga Design Pattern](software_engineering/system_design_patterns/saga-design-pattern) | The key idea is to ensure that the entire process is atomic, meaning that either all steps are completed successfully, or none are, and the system is left in a consistent state. |
 </details>
 
@@ -955,6 +1204,24 @@ The Software Engineering category provides comprehensive resources on designing,
 | [Introduction To Open Source Text Editors With Ai Features](software_engineering/text_editor_design/introduction-to-open-source-text-editors-with-ai-features) | #### Examples of AI Features in Text Editors - \*\*Predictive Coding:\*\* AI-driven code completion tools that predict the next line of code based on the context and coding patterns. - \*\*Smart Su... |
 </details>
 
+<details><summary>Twitter Api Integration</summary>
+
+#### Twitter Api Integration <a name="software-engineering-twitter-api-integration"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Tweet A Twitter Client For Elizaos Agents](software_engineering/twitter_api_integration/introduction-to-tweet-a-twitter-client-for-elizaos-agents) | #### Example: Authenticating with Cookies To illustrate this concept, consider how a typical web request to Twitter might include a cookie header that identifies the user: ```http GET /home HTTP/1.... |
+</details>
+
+<details><summary>Version Control</summary>
+
+#### Version Control <a name="software-engineering-version-control"></a>
+
+| **Item** | **Description** |
+|----------|-----------------|
+| [Introduction To Git Commands](software_engineering/version_control/introduction-to-git-commands) | ### Essential Git Commands Here are 12 essential Git commands that every developer should know: 1. \*\*`git init`\*\*: Initializes a new Git repository in the current directory. 2. \*\*`git clone \... |
+</details>
+
 <details><summary>Web Development</summary>
 
 #### Web Development <a name="software-engineering-web-development"></a>
@@ -967,7 +1234,7 @@ The Software Engineering category provides comprehensive resources on designing,
 
 
 ### System Design <a name="system-design"></a>
-The 'System Design' category provides guidance on designing and building scalable, efficient, and reliable systems, covering topics such as architecture patterns, distributed systems, and microservices. This category includes 18 items across 10 subcategories, offering best practices and technical insights for system designers and architects.
+The 'System Design' category provides guidance on designing and architecting large-scale systems, covering topics such as API design, distributed systems, scalability, and microservices. This category includes 18 items across 10 subcategories, offering a comprehensive resource for engineers and developers to build robust and efficient systems.
 *Subcategories: Api Design, Architecture Patterns, Caching, Distributed Systems, Load Balancing, Message Queues, Microservices, Networking, Scalability, Service Discovery*
 *Items: 18*
 
@@ -1071,7 +1338,7 @@ The 'System Design' category provides guidance on designing and building scalabl
 
 
 ### Web Development <a name="web-development"></a>
-The Web Development category provides resources and guidance on building and maintaining web applications, including APIs and other related technologies. This category includes articles on API development, covering topics such as design, implementation, and integration with web services.
+The Web Development category provides resources and guidance on building and maintaining web applications, including APIs and other related technologies. This category currently includes information on APIs, with more topics to be added in the future.
 *Subcategories: Apis*
 *Items: 2*
 

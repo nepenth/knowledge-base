@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Overview Of Slacks Data Pipeline - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">Data Engineering</a></li>
+                <li class="breadcrumb-item"><a href="index.html">Data Pipeline Architecture</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Technical Overview Of Slacks Data Pipeline</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p>Slack's data pipeline is a complex system that handles over 600,000 writes per second and stores more than 1 petabyte (PB) of data. The pipeline consists of multiple components, including Debezium, Apache Kafka, Apicurio, the Kafka Iceberg Connector, Hive Metastore, S3, and AWS EMR.
+
+<h2>Main Concepts</h2> The main concepts in Slack's data pipeline are: * **Change-Data-Capture (CDC)**: a process that captures changes made to a database in real-time. * **Apache Kafka**: a distributed streaming platform used for building real-time data pipelines and event-driven architectures. * **Iceberg**: an open table format for storing large analytical datasets in a scalable and efficient manner. * **Debezium**: a framework for capturing CDC data from various databases, including MySQL.
+
+<h2>Technical Components</h2> The technical components of Slack's data pipeline are:
+<h3>Debezium Connector</h3> The Debezium connector is used to capture CDC data from the MySQL Vitess database cluster. The connector consumes the MySQL binlog and produces records in Avro format, which are then sent to Kafka. <pre><code>bash
+<h1>Example Debezium configuration</h1> connector.class=io.debezium.connector.mysql.MySqlConnector database.history.kafka.bootstrap.servers=kafka-broker:9092 database.history.kafka.topic=dbhistory </code></pre>
+<h3>Apache Kafka</h3> Apache Kafka is used as the messaging queue for the data pipeline. The Kafka Iceberg Connector consumes records from Kafka and persists them into an Iceberg table. <pre><code>scala // Example Kafka producer configuration import org.apache.kafka.clients.producer.{KafkaProducer, ProducerConfig, ProducerRecord}</p>
+
+<p>val kafkaProps = new Properties() kafkaProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "kafka-broker:9092") kafkaProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer") kafkaProps.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "io.confluent.kafka.serializers.KafkaAvroSerializer")</p>
+
+<p>val producer = new KafkaProducer<a href="kafkaProps">String, String</a></p>
+
+<p>// Send a record to Kafka producer.send(new ProducerRecord("my_topic", "key", "value")) </code></pre>
+<h3>Apicurio</h3> Apicurio is used as the schema registry for the data pipeline. The schema registry stores the Avro schemas used by the Debezium connector and the Kafka Iceberg Connector. <pre><code>bash
+<h1>Example Apicurio configuration</h1> apicurio:   url: http://apicurio-server:8080 </code></pre>
+<h3>Kafka Iceberg Connector</h3> The Kafka Iceberg Connector consumes records from Kafka and persists them into an Iceberg table. The connector uses the Avro schema stored in Apicurio to deserialize the records. <pre><code>scala // Example Kafka Iceberg Connector configuration import org.apache.iceberg.{Iceberg, Table}</p>
+
+<p>val iceberg = new Iceberg() val table = iceberg.tables().newBuilder("my_table")   .schema(AvroSchema.fromFile("path/to/schema.avsc"))   .build()</p>
+
+<p>// Consume records from Kafka and persist them into the Iceberg table table.append(producerRecord.value()) </code></pre>
+<h3>Hive Metastore</h3> Hive Metastore is used as the catalog for the data pipeline. The catalog stores metadata about the Iceberg tables, including their schema and location. <pre><code>bash
+<h1>Example Hive Metastore configuration</h1> hive:   metastore:     uri: thrift://metastore-server:9083 </code></pre>
+<h3>S3</h3> S3 is used as the storage layer for the data pipeline. The Iceberg tables are stored in S3, and the Kafka Iceberg Connector persists records into S3. <pre><code>bash
+<h1>Example S3 configuration</h1> s3:   endpoint: s3.amazonaws.com   accessKeyId: my_access_key_id   secretAccessKey: my_secret_access_key </code></pre>
+<h3>AWS EMR</h3> AWS EMR is used as the compute layer for the data pipeline. The Spark jobs are run on AWS EMR, and the results are stored in S3. <pre><code>bash
+<h1>Example AWS EMR configuration</h1> emr:   clusterId: my_cluster_id   region: us-west-2 </code></pre>
+<h2>Key Points and Takeaways</h2> The key points and takeaways from Slack's data pipeline are: * **CDC is a powerful tool for capturing changes in real-time**: Debezium provides a framework for capturing CDC data from various databases. * **Apache Kafka is a scalable messaging queue**: Kafka can handle high-throughput and provide low-latency guarantees. * **Iceberg is an efficient table format for storing large datasets**: Iceberg provides a scalable and efficient way to store large analytical datasets. * **Apicurio provides a centralized schema registry**: Apicurio stores Avro schemas used by the Debezium connector and the Kafka Iceberg Connector. * **The Kafka Iceberg Connector provides a seamless integration between Kafka and Iceberg**: The connector consumes records from Kafka and persists them into an Iceberg table.
+
+<h2>Challenges and Lessons Learned</h2> The challenges and lessons learned from Slack's data pipeline are: * **Write amplification can be a significant issue**: Write amplification occurs when small pieces of input trigger a lot of work. To mitigate this, the team implemented merge-on-read mode and bucket merge for tables above 1T rows. * **Debezium bottleneck can occur**: The Debezium connector can become a bottleneck if not properly configured. To mitigate this, the team increased the number of partitions and batch size. * **Kafka Iceberg Connector can be finicky**: The Kafka Iceberg Connector requires careful configuration to work correctly. The team had to tweak the configuration multiple times to get it working correctly.
+
+<h2>Conclusion</h2> Slack's data pipeline is a complex system that integrates multiple technologies, including Debezium, Apache Kafka, Iceberg, Apicurio, Hive Metastore, S3, and AWS EMR. The pipeline provides a scalable and efficient way to capture changes in real-time and store them in a centralized location. The team faced several challenges while building the pipeline, including write amplification, Debezium bottleneck, and Kafka Iceberg Connector issues. However, with careful configuration and optimization, the pipeline is now able to handle high-throughput and provide low-latency guarantees.</p>
+
+<p>--- **Source**: <a href="https://twitter.com/i/web/status/1908523999467892865">Original Tweet</a></p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1908523999467892865">https://twitter.com/user/status/1908523999467892865</a><br>
+                    Last Updated: 2025-04-16
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

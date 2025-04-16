@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction To Linux Grep Command Basics - Technical Knowledge Base</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 1000px; }
+        pre { background-color: #f8f9fa; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../index.html">Software Engineering</a></li>
+                <li class="breadcrumb-item"><a href="index.html">Linux Command Line</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Introduction To Linux Grep Command Basics</li>
+            </ol>
+        </nav>
+        
+        <div class="content">
+            <p>
+<h2>What is grep?</h2> `grep` stands for "Global Regular Expression Print". It is a powerful command-line utility that allows users to search for patterns in one or more files, using regular expressions (regex). The `grep` command can be used to find specific strings, words, or phrases within text files, making it an indispensable tool for system administrators, developers, and power users.
+
+<h2>Basic Syntax</h2> The basic syntax of the `grep` command is as follows: <pre><code>bash grep [options] pattern file </code></pre> * `[options]`: Optional flags that modify the behavior of the `grep` command. * `pattern`: The search pattern or regex to be matched. * `file`: The file(s) to be searched.
+
+<h2>Examples</h2> Here are a few examples to demonstrate the usage of the `grep` command:</p>
+
+<p>* Search for the word "linux" in the file `/etc/os-release`: <pre><code>bash grep linux /etc/os-release </code></pre> * Search for all occurrences of the string "error" in the log file `/var/log/syslog`: <pre><code>bash grep error /var/log/syslog </code></pre> * Use regex to search for lines containing numbers in the file `/etc/hosts`: <pre><code>bash grep -E '[0-9]+' /etc/hosts </code></pre>
+
+<h2>Key Points and Takeaways</h2> Here are some key points to keep in mind when using the `grep` command:</p>
+
+<p>1. **Pattern matching**: The `grep` command uses regex for pattern matching, allowing for complex searches. 2. **Case sensitivity**: By default, `grep` is case-sensitive. Use the `-i` flag to perform case-insensitive searches. 3. **Recursive search**: Use the `-r` flag to recursively search directories and subdirectories. 4. **Invert match**: Use the `-v` flag to invert the match, i.e., print lines that do not contain the specified pattern.
+
+<h2>Options and Flags</h2> Some commonly used options and flags with `grep` include:</p>
+
+<p>* `-i`: Perform case-insensitive searches. * `-r`: Recursively search directories and subdirectories. * `-v`: Invert the match (print non-matching lines). * `-E`: Enable extended regex support. * `-l`: Print only the names of files containing matches.
+
+<h2>Conclusion</h2> The `grep` command is a powerful tool for searching and filtering text in Linux. By mastering its basic syntax, options, and flags, users can efficiently locate specific information within files and output streams. Whether you're a system administrator, developer, or power user, understanding `grep` will help you work more effectively with Linux systems.
+
+<h2>References</h2> For more detailed information on the `grep` command, refer to the official <a href="https://www.gnu.org/software/grep/manual/">GNU grep documentation</a> or the <a href="https://man7.org/linux/man-pages/man1/grep.1.html">Linux man page for grep</a>.</p>
+
+<p>--- **Source**: <a href="https://twitter.com/i/web/status/1876272085712142460">Original Tweet</a></p>
+        </div>
+        
+        <hr>
+        <div class="metadata">
+            <p>
+                <small>
+                    Source: <a href="https://twitter.com/user/status/1876272085712142460">https://twitter.com/user/status/1876272085712142460</a><br>
+                    Last Updated: 2025-04-16
+                </small>
+            </p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
