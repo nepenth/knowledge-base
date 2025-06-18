@@ -1,0 +1,15 @@
+# Ignore large media files to prevent oversized uploads
+# Videos - excluded due to size
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.flv
+*.webm
+# Audio files - excluded
+*.mp3
+*.wav
+*.ogg
+*.flac
+# Images are included for GitHub sync

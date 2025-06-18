@@ -1,0 +1,63 @@
+# Advanced Kubernetes Autoscaling Patterns and Strategies
+
+## Executive Summary
+
+Kubernetes autoscaling encompasses various strategies and patterns that enable dynamic resource management in containerized environments. This synthesis explores core scaling mechanisms including HPA, VPA, CAS, and predictive autoscaling, highlighting their integration with observability tools like OTel for data-driven decisions. Understanding these patterns is crucial for building resilient, cost-effective cloud-native systems.
+
+## Core Concepts
+
+### Horizontal Pod Autoscaling (HPA)
+- **Description**: Automatically scales the number of pod replicas based on observed metrics
+- **Examples**:
+  - CPU and memory utilization as scaling triggers
+
+### Vertical Pod Autoscaling (VPA)
+- **Description**: Adjusts container resource requests/limits without changing replica count
+- **Examples**:
+  - Automated optimization of CPU/memory resources
+
+## Technical Patterns
+
+### Observability-Driven Scaling
+- **Description**: Leverages distributed tracing and metrics for intelligent scaling decisions
+- **Implementation Notes**: Integrate OpenTelemetry with KEDA for custom scaling triggers
+- **Related Items**: keda-otel-scaler-integration
+
+## Key Insights
+
+1. Modern autoscaling requires a combination of horizontal, vertical, and predictive approaches
+2. Integration with observability tools enables more accurate scaling decisions
+
+## Implementation Considerations
+
+### Performance
+- Minimize scaling latency
+- Account for cold start times
+
+### Cost Optimization
+- Balance resource utilization with scaling frequency
+
+## Advanced Topics
+
+- Predictive autoscaling using machine learning models
+- Multi-dimensional scaling across different resource types
+
+## Knowledge Gaps & Future Exploration
+
+- Integration patterns for custom metrics sources
+- Long-term performance impact of automated scaling
+
+## Related Resources
+
+1. **[kubernetes-scaling-strategies-a-comprehensive-guide-to-hpa,-vpa,-cas,-and-predictive-autoscaling](#)**
+   - Comprehensive overview of core autoscaling mechanisms and strategies
+
+2. **[keda-otel-scaler-integration-observability-driven-autoscaling](#)**
+   - Demonstrates integration between observability tools and scaling decisions
+
+---
+
+**Metadata:**
+- Source Items: 2
+- Last Updated: [Current Date]
+- Category: system_design/kubernetes_autoscaling
